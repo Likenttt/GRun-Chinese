@@ -29,7 +29,7 @@ fenix5
 
 ## Description
 Highly configurable datafield where you can select up to 10 fields to display. If less fields are configured, the field area on each line will automatically expand.
-The second and third row display a header field with the value. The Header fields can be positioned Top/Top, Top/Bottom or Bottom/Top.
+The second and third row display a header field with the value.
 
 The first, fourth and fifth row display values without header.
 
@@ -91,106 +91,79 @@ High-Memory devices also supports the following fields:
 - Required Pace Lap Distance
 - Required Speed Lap Distance
 
-Training Effect is supported on the following devices:
-- Descent Mk1
-- Edge 1030
-- Edge 1030 Bontrager
-- Edge 520 Plus
-- Edge 530
-- Edge 830
-- Fenix 5
-- Fenix 5S
-- Fenix 5X
-- Fenix 5X Plus
-- Fenix 6
-- Fenix 6 Pro
-- Fenix 6S
-- Fenix 6S Pro
-- Fenix 6X Pro
-- Fenix Chronos
-- Forerunner 245
-- Forerunner 245 Music
-- Forerunner 645
-- Forerunner 645 Music
-- Forerunner 935
-- Forerunner 945
-- MARQ Adventurer
-- MARQ Athlete
-- MARQ Aviator
-- MARQ Captain
-- MARQ Commander
-- MARQ Driver
-- MARQ Expedition
+### Supported Features/Devices
 
-Power is supported on the following devices:
-- D2 Charlie
-- D2 Delta
-- D2 Delta PX
-- D2 Delta S
-- Descent Mk1
-- Edge 130
-- Edge 1030
-- Edge 1030 Bontrager
-- Edge 520 Plus
-- Edge 530
-- Edge 820
-- Edge 830
-- Fenix 5
-- Fenix 5s
-- Fenix 5 Plus
-- Fenix 5S Plus
-- Fenix 5X
-- Fenix 5X Plus
-- Fenix 6
-- Fenix 6s
-- Fenix 6 Pro
-- Fenix 6S Pro
-- Fenix 6X Pro
-- Fenix Chronos
-- Forerunner 935
-- Forerunner 945
-- MARQ Adventurer
-- MARQ Athlete
-- MARQ Aviator
-- MARQ Captain
-- MARQ Commander
-- MARQ Driver
-- MARQ Expedition
+| Device Qualifier        | Device Name                           | Available Memory | Low Memory | High Memory | Training Effect | Power*  |
+| ----------------------- | ------------------------------------- |:----------------:|:----------:|:-----------:|:---------------:|:-------:|
+| approachs62             | Approach S62                          | 124.7 KB         |            | &check;     |                 |         |
+| d2air                   | D2 Air                                | 28.7 KB          | &check;    |             |                 |         |
+| d2charlie               | D2 Charlie                            | 124.7 KB         |            | &check;     |                 | &check; |
+| d2delta                 | D2 Delta                              | 124.7 KB         |            | &check;     |                 | &check; |
+| d2deltapx               | D2 Delta PX                           | 124.7 KB         |            | &check;     |                 | &check; |
+| d2deltas                | D2 Delta S                            | 124.7 KB         |            | &check;     |                 | &check; |
+| descentmk1              | Descent Mk1                           | 124.7 KB         |            | &check;     | &check;         | &check; |
+| descentmk2              | Descent Mk2                           | 124.7 KB         |            | &check;     | &check;         | &check; |
+| descentmk2s             | Descent Mk2 S                         | 124.7 KB         |            | &check;     | &check;         | &check; |
+| edge1030                | Edge 1030                             | 124.7 KB         |            | &check;     | &check;         | &check; |
+| edge1030plus            | Edge 1030 Plus                        | 124.7 KB         |            | &check;     | &check;         | &check; |
+| edge1030bontrager       | Edge 1030 Bontrager                   | 124.7 KB         |            | &check;     | &check;         | &check; |
+| edge130                 | Edge 130                              | 28.7 KB          | &check;    |             |                 | &check; |
+| edge130plus             | Edge 130 Plus                         | 28.7 KB          | &check;    |             |                 | &check; |
+| edge520plus             | Edge 520 Plus                         | 124.7 KB         |            | &check;     | &check;         | &check; |
+| edge530                 | Edge 530                              | 124.7 KB         |            | &check;     | &check;         | &check; |
+| edge820                 | Edge 820                              | 124.7 KB         |            | &check;     |                 | &check; |
+| edge830                 | Edge 830                              | 124.7 KB         |            | &check;     | &check;         | &check; |
+| edgeexplore             | Edge Explore                          | 124.7 KB         |            | &check;     |                 |         |
+| enduro                  | Enduro                                | 28.7 KB          | &check;    |             | &check;         | &check; |
+| fenix5                  | fēnix 5                               | 28.7 KB          | &check;    |             | &check;         | &check; |
+| fenix5plus              | fēnix 5 Plus                          | 124.7 KB         |            | &check;     |                 | &check; |
+| fenix5s                 | fēnix 5S                              | 28.7 KB          | &check;    |             | &check;         | &check; |
+| fenix5splus             | fēnix 5S Plus                         | 124.7 KB         |            | &check;     |                 | &check; |
+| fenix5x                 | fēnix 5X                              | 124.7 KB         |            | &check;     | &check;         | &check; |
+| fenix5xplus             | fēnix 5X Plus                         | 124.7 KB         |            | &check;     | &check;         | &check; |
+| fenix6                  | fēnix 6                               | 28.7 KB          | &check;    |             | &check;         | &check; |
+| fenix6pro               | fēnix 6 Pro                           | 124.7 KB         |            | &check;     | &check;         | &check; |
+| fenix6s                 | fēnix 6S                              | 28.7 KB          | &check;    |             | &check;         | &check; |
+| fenix6spro              | fēnix 6S Pro                          | 124.7 KB         |            | &check;     | &check;         | &check; |
+| fenix6xpro              | fēnix 6X Pro                          | 124.7 KB         |            | &check;     | &check;         | &check; |
+| fenixchronos            | fēnix Chronos                         | 28.7 KB          | &check;    |             | &check;         | &check; |
+| fr55                    | Forerunner 55                         | 28.7 KB          | &check;    |             |                 |         |
+| fr245                   | Forerunner 245                        | 28.7 KB          | &check;    |             | &check;         |         |
+| fr245m                  | Forerunner 245 Music                  | 28.7 KB          | &check;    |             | &check;         |         |
+| fr645                   | Forerunner 645                        | 28.7 KB          | &check;    |             | &check;         |         |
+| fr645m                  | Forerunner 645 Music                  | 60.7 KB          |            | &check;     | &check;         |         |
+| fr745                   | Forerunner 745                        | 124.7 KB         |            | &check;     | &check;         | &check; |
+| fr935                   | Forerunner 935                        | 28.7 KB          | &check;    |             | &check;         | &check; |
+| fr945                   | Forerunner 945                        | 124.7 KB         |            | &check;     | &check;         | &check; |
+| fr945lte                | Forerunner 945 LTE                    | 124.7 KB         |            | &check;     | &check;         | &check; |
+| legacyherocaptainmarvel | Captain Marvel                        | 28.7 KB          | &check;    |             |                 |         |
+| legacyherofirstavenger  | First Avenger                         | 28.7 KB          | &check;    |             |                 |         |
+| legacysagadarthvader    | Darth Vader                           | 28.7 KB          | &check;    |             |                 |         |
+| legacysagarey           | Rey                                   | 28.7 KB          | &check;    |             |                 |         |
+| marqadventurer          | MARQ Adventurer                       | 124.7 KB         |            | &check;     | &check;         | &check; |
+| marqathlete             | MARQ Athlete                          | 124.7 KB         |            | &check;     | &check;         | &check; |
+| marqaviator             | MARQ Aviator                          | 124.7 KB         |            | &check;     | &check;         | &check; |
+| marqcaptain             | MARQ Captain                          | 124.7 KB         |            | &check;     | &check;         | &check; |
+| marqcommander           | MARQ Commander                        | 124.7 KB         |            | &check;     | &check;         | &check; |
+| marqdriver              | MARQ Driver                           | 124.7 KB         |            | &check;     | &check;         | &check; |
+| marqexpedition          | MARQ Expedition                       | 124.7 KB         |            | &check;     | &check;         | &check; |
+| marqgolfer              | MARQ Golfer                           | 124.7 KB         |            | &check;     | &check;         | &check; |
+| oregon7xx               | Oregon 7xx                            | 124.7 KB         |            | &check;     |                 |         |
+| rino7xx                 | Rino 7xx                              | 124.7 KB         |            | &check;     |                 |         |
+| venu                    | Venu                                  | 28.7 KB          | &check;    |             |                 |         |
+| venu2                   | Venu 2                                | 28.7 KB          | &check;    |             |                 |         |
+| venu2s                  | Venu 2S                               | 28.7 KB          | &check;    |             |                 |         |
+| venu2d                  | Venu Mercedes-Benz Collection         | 28.7 KB          | &check;    |             |                 |         |
+| vivoactive3             | vívoactive 3                          | 28.7 KB          | &check;    |             |                 |         |
+| vivoactive3d            | vívoactive 3 Mercedes-Benz Collection | 28.7 KB          | &check;    |             |                 |         |
+| vivoactive3m            | vívoactive 3 Music                    | 28.7 KB          | &check;    |             |                 |         |
+| vivoactive3mlte         | vívoactive 3 Music LTE                | 28.7 KB          | &check;    |             |                 |         |
+| vivoactive4             | vívoactive 4                          | 28.7 KB          | &check;    |             |                 |         |
+| vivoactive4s            | vívoactive 4S                         | 28.7 KB          | &check;    |             |                 |         |
 
-List of High-Memory devices:
-- Approach S62
-- D2 Charlie
-- D2 Delta
-- D2 Delta PX
-- D2 Delta S
-- Descent Mk1
-- Edge 1030
-- Edge 1030 Bontrager
-- Edge 520 Plus
-- Edge 530
-- Edge 820
-- Edge 830
-- Edge Explore
-- fenix 5 Plus
-- fenix 5S Plus
-- fenix 5X
-- fenix 5X Plus
-- fenix 6 Pro
-- fenix 6S Pro
-- fenix 6X Pro
-- Forerunner 645 Music
-- Forerunner 945
-- MARQ Adventurer
-- MARQ Athlete
-- MARQ Aviator
-- MARQ Captain
-- MARQ Commander
-- MARQ Driver
-- MARQ Expedition
-- Oregon 7xx
-- Rino 7xx
+* Power has limited support. The datafield simply display the value of `Toybox.Activity.Info.currentPower`
 
-## Notes
+### Notes
 - Fields related to distance are displayed in km or mile depending on the user profile.
 - Fields related to speed are displayed in km/h or mile/h depending on the user profile.
 - Fields related to pace are displayed in min/km or min/mile depending on the user profile.
@@ -218,15 +191,6 @@ Pace Range is used to determine if your pace/speed is too slow or too fast. For 
 Lap Distance is useful for people running in competition. It allows to readjust distance. For example, if you set the value to 1000 (meters), it allows you to press the lap button at each kilometer. If Garmin had calculated a value of 1.01 km at km #1, it will readjust to 1.00 km when you press the lap button. Average Speed, Pace, ETA, etc. will be readjusted using the updated distance. To determine what the new distance should be, the distance is divided by "Lap Distance" and is adjusted to the closest value. For example, if "Lap Distance" is set to 400 meters and you press the lap button at 1195 meters, the distance will be corrected to 1200 meters. If the distance was 1225 meters, it would also be corrected to 1200 meters. It is important to note that you do not have to press lap button on every lap since the value is always corrected using the closest lap distance.
 
 __*** Note__ : Lap Distance must always be set in meters regarless of the watch settings. If you'd like to set the "Lap Distance" to 1 mile, you have to configure it to 1609 (1609 meters = 1 mile).
-
-### Header Position
-Header Position can have 3 positions.
-#### 1) Top / Top
-![GRun TopTop](/doc/GRunWatch2.png)
-#### 2) Top / Bottom
-![GRun TopBottom](/doc/GRunWatch3.png)
-#### 3) Bottom / Top
-![GRun BottomTop](/doc/GRunWatch4.png)
 
 ### Header Height
 On row #2 and #3, header height can be configured using a percentage of the area.
@@ -323,6 +287,30 @@ Calculate the vertical speed in meter/min or feet/min depending on the watch set
 
 
 ## Release Notes
+### Version 1.28
+ - Code improvement to optimize memory utilization
+ - Remove Header Position parameter (to save memory usage). Header Position is now forced to "Top / Top"
+ - Added support for new watches (D2 Air, Descent Mk2, Descent Mk2 S, Edge 1030 Plus, Edge 130 Plus, Enduro, Forerunner 55, Forerunner 745, Forerunner 945 LTE, MARQ Golfer, Venu 2, Venu 2S, Venu Mercedes-Benz Collection)
+
+| Memory Usage on va3 (28.6 KB)     | Current | Peak    |
+| --------------------------------- |:-------:|:-------:|
+| At startup                        | 25.2 kB | 26.9 kB |
+| 10 sec running                    | 25.2 kB | 27.2 kB |
+| After setting change              | 25.2 kB | 28.2 kB |
+
+| Memory Usage on fenix5 (28.6 KB)  | Current | Peak    |
+| --------------------------------- |:-------:|:-------:|
+| At startup                        | 25.2 kB | 27.1 kB |
+| 10 sec running                    | 25.2 kB | 27.5 kB |
+| After setting change              | 25.2 kB | 28.1 kB |
+
+
+| Memory Usage on fr945 (124.6 KB)  | Current | Peak    |
+| --------------------------------- |:-------:|:-------:|
+| At startup                        | 29.4 kB | 31.4 kB |
+| 10 sec running                    | 29.4 kB | 31.8 kB |
+| After setting change              | 29.4 kB | 32.3 kB |
+
 ### Version 1.27
  - Added option to control row height
  - Added "Required Pace to meet Target Pace" 50K on all devices.
@@ -330,20 +318,24 @@ Calculate the vertical speed in meter/min or feet/min depending on the watch set
  - Current Time now use standard format hh:mm (Example: 13:00) instead of 13h00¸
  - Code modification to maximize font size
 
-Memory Usage on va3    (Current | Peak) : 
-   * At startup:           25.5 kB | 27.2 kB
-   * 10 sec running:       25.5 kB | 27.6 kB
-   * After setting change: 25.5 kB | 28.5 kB
+| Memory Usage on va3 (28.6 KB)     | Current | Peak    |
+| --------------------------------- |:-------:|:-------:|
+| At startup                        | 25.5 kB | 27.2 kB |
+| 10 sec running                    | 25.5 kB | 27.6 kB |
+| After setting change              | 25.5 kB | 28.5 kB |
 
-Memory Usage on fenix5 (Current | Peak) : 
-   * At startup:           25.4 kB | 27.3 kB
-   * 10 sec running:       25.4 kB | 27.7 kB
-   * After setting change: 25.4 kB | 28.4 kB
+| Memory Usage on fenix5 (28.6 KB)  | Current | Peak    |
+| --------------------------------- |:-------:|:-------:|
+| At startup                        | 25.4 kB | 27.3 kB |
+| 10 sec running                    | 25.4 kB | 27.7 kB |
+| After setting change              | 25.4 kB | 28.4 kB |
 
-Memory Usage on fr945  (Current | Peak) : 
-   * At startup:           29.6 kB | 31.6 kB
-   * 10 sec running:       29.6 kB | 32.0 kB
-   * After setting change: 29.6 kB | 32.6 kB
+
+| Memory Usage on fr945 (124.6 KB)  | Current | Peak    |
+| --------------------------------- |:-------:|:-------:|
+| At startup                        | 29.6 kB | 31.6 kB |
+| 10 sec running                    | 29.6 kB | 32.0 kB |
+| After setting change              | 29.6 kB | 32.6 kB |
 
 ### Version 1.26
  - Updated background/foreground colors for better readability
