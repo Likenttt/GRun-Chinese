@@ -4,6 +4,8 @@ using Toybox.System;
 using Toybox.Time;
 using Toybox.Time.Gregorian;
 using Toybox.UserProfile;
+using Toybox.Sensor;
+
 
 
 // In order to use less memory, numbers have been hardcoded instead of using const..
@@ -481,7 +483,8 @@ class GRunView extends WatchUi.DataField
       // Current cadence in revolutions per minute (rpm)
       if ( (value == 14 /* OPTION_CURRENT_CADENCE */) && (info.currentCadence != null) )
       {
-        return info.currentCadence;
+        // return info.currentCadence;
+        return Sensor.getInfo().cadence;
       }
       
       // Current altitude in meters (m)
