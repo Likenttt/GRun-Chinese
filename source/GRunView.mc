@@ -4,7 +4,7 @@ using Toybox.System;
 using Toybox.Time;
 using Toybox.Time.Gregorian;
 using Toybox.UserProfile;
-using Toybox.Sensor;
+// using Toybox.Sensor;
 
 
 
@@ -483,8 +483,15 @@ class GRunView extends WatchUi.DataField
       // Current cadence in revolutions per minute (rpm)
       if ( (value == 14 /* OPTION_CURRENT_CADENCE */) && (info.currentCadence != null) )
       {
-        // return info.currentCadence;
-        return Sensor.getInfo().cadence;
+        var mySettings = System.getDeviceSettings();
+        var version = mySettings.monkeyVersion;
+        var firmwareVersion =  mySettings.firmwareVersion;
+        if (firmwareVersion[0] == 19 && firmwareVersion[1] == 20) {
+          if (version[0] == 3 && version[1] == 2 && version[2] == 6) {
+              return info.currentCadence * 2;
+          }
+        }
+        return info.currentCadence;
       }
       
       // Current altitude in meters (m)
