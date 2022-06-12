@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ddcd012-9856-425e-8a66-d6117b83d2c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GRun Beta/manifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRun Beta/prepareBuild.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRun More/manifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GRun More/prepareBuild.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source-highmem-fr245m/GRunApp.mc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source-lowmem-venu2/GRunApp.mc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monkey.jungle" beforeDir="false" afterPath="$PROJECT_DIR$/monkey.jungle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/settings/properties.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/settings/properties.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source-highmem-venu2/GRunApp.mc" beforeDir="false" afterPath="$PROJECT_DIR$/source-highmem-venu2plus/GRunApp.mc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source-lowmem-fr245/GRunApp.mc" beforeDir="false" afterPath="$PROJECT_DIR$/source-lowmem-fr245/GRunApp.mc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/GRunView.mc" beforeDir="false" afterPath="$PROJECT_DIR$/source/GRunView.mc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/strings/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/strings/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +36,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652459528645</updated>
       <workItem from="1652459531260" duration="59000" />
+      <workItem from="1652459596870" duration="704000" />
     </task>
     <servers />
   </component>
