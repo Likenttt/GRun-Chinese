@@ -1,28 +1,28 @@
 <strings>
-  <string id="Field121">Max Power</string>
-  <string id="Field137">Pace (Last X sec)</string>
-  <string id="Field138">Speed (Last X sec)</string>
-  <string id="Field139">Vertical Speed (/min) (Last X sec)</string>
-  <string id="Field140">Vertical Speed (/hour) (Last X sec)</string>
+  <string id="Field121">最大功率</string>
+  <string id="Field137">配速 (最近 X 秒)</string>
+  <string id="Field138">速度 (最近 X 秒)</string>
+  <string id="Field139">垂直速度(每分钟) (最近 X 秒)</string>
+  <string id="Field140">垂直速度(每小时) (最近 X 秒)</string>
 
-  <string id="Field147">Required Speed 5K</string>
-  <string id="Field148">Required Speed 10K</string>
-  <string id="Field149">Required Speed Half Marathon (21.0975 km)</string>
-  <string id="Field150">Required Speed Marathon (42.195 km)</string>
-  <string id="Field151">Required Speed 100K</string>
+  <string id="Field147">5K 目标所需速度</string>
+  <string id="Field148">10K 目标所需速度</string>
+  <string id="Field149">半马目标所需速度(21.0975 km)</string>
+  <string id="Field150">全马目标所需速度(42.195 km)</string>
+  <string id="Field151">100K 目标所需速度</string>
 
-  <string id="Field152">Required Pace Lap Distance</string>
-  <string id="Field153">Required Speed Lap Distance</string>
+  <string id="Field152">完成目标所需配速自适应圈距离</string>
+  <string id="Field153">完成目标所需速度自适应圈距离</string>
   
-  <string id="Field170">Lap Average Heart Rate</string>
+  <string id="Field170">圈平均心率</string>
     
-  <string id="PARAM_AVG_SPEED_TIME">Speed/Pace (Last X sec)</string>
-  <string id="PARAM_DESC_AVG_SPEED_TIME">Number of seconds to calculate Speed/Pace (Last X sec)</string>
-  <string id="PARAM_AVG_VERTICAL_SPEED_TIME">Vertical Speed (Last X sec)</string>
-  <string id="PARAM_DESC_AVG_VERTICAL_SPEED_TIME">Number of seconds to calculate Vertical Speed (Last X sec)</string>
+  <string id="PARAM_AVG_SPEED_TIME">速度/配速 (最近 X 秒)</string>
+  <string id="PARAM_DESC_AVG_SPEED_TIME">计算速度/配速的周期秒数(最近 X 秒)</string>
+  <string id="PARAM_AVG_VERTICAL_SPEED_TIME">平均垂直速度 (最近 X 秒)</string>
+  <string id="PARAM_DESC_AVG_VERTICAL_SPEED_TIME">计算垂直速度的周期秒数 (最近 X 秒)</string>
   
-  <string id="PARAM_TARGET_CADENCE">Target Cadence (in revolutions per minute)</string>
-  <string id="PARAM_CADENCE_RANGE">Cadence Range (in revolutions per minute)</string>
-  <string id="PARAM_DESC_CADENCE_RANGE">Use to display cadence in color if outside the range</string>
+  <string id="PARAM_TARGET_CADENCE">目标步频 (转数每分钟)</string>
+  <string id="PARAM_CADENCE_RANGE">步频区间 (转数每分钟)</string>
+  <string id="PARAM_DESC_CADENCE_RANGE">用于当步频超出限制范围时高亮显示</string>
 
 </strings>

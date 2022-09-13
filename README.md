@@ -279,7 +279,7 @@ Except for "ETA Lap Distance", each ETA field will automatically changed once di
 
 ##### Required Pace/Speed (5K, 10K, Half Marathon, Marathon, 50K, 100K, Lap Distance)
 This field is helpful to determine the pace/speed required to finish your race at "Target Pace". For example, if your "Target Pace" is configured to 360 (6:00 minutes/km) and you have run 3 km in 15 minutes, "Required Pace 5K" will display "7:30" since you still have 15 minutes to run 2 km.
-Except for "Required Pace/Speed Lap Distance", each Required Pace/Speed field will automatically changed once distance has been reached. For example, if you use "Required Pace/Speed 5K", the field will automatically changed to "Required Pace/Speed 10K" once you have run 5 kilometers.
+Except for "Required Pace/Speed Lap Distance", each Required Pace/Speed field will automatically changed once distance has been reached. For example, if you use "Required Pace/Speed 5K", the field will be automatically changed to "Required Pace/Speed 10K" once you have run 5 kilometers.
 
 ##### Time Ahead/Behind
 Use this field to determine how far you are from your "Target Pace". For example, if your "Target Pace" is configured to 360 (6:00 minutes/km) and you have run 3 km in 28 minutes and 30 seconds, the field will display "-1:30" since you are 1 min and 30 seconds faster than planned.
