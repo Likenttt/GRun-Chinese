@@ -9,7 +9,7 @@
 
   <string id="PARAM_LAP_DISTANCE">圈距（单位：米）</string>
   <string id="PARAM_DESC_LAP_DISTANCE">当Lap键按下时自动修正距离 (0-禁用, 1000-1千米, 1609-1英里)</string>
-  
+
   <string id="PARAM_HEADER_POSITION">标题头位置</string>
   <string id="PARAM_HEADER_POSITION_1">顶部/顶部</string>
   <string id="PARAM_HEADER_POSITION_2">顶部/底部</string>
@@ -49,7 +49,7 @@
   <string id="PARAM_AREA7">字段 3C</string>
   <string id="PARAM_AREA8">字段 4A</string>
   <string id="PARAM_AREA9">字段 4B</string>
-  <string id="PARAM_AREA10">字段 5</string>    
+  <string id="PARAM_AREA10">字段 5</string>
 
   <string id="Field00">空白</string>
   <string id="Field01">时间</string>
@@ -95,7 +95,7 @@
   <string id="Field59">全马所需配速</string>
   <string id="Field60">50K所需配速</string>
   <string id="Field61">100K所需配速</string>
- 
+
   <string id="OPTION_CURRENT_TIME">时间</string>
   <string id="OPTION_TIMER_TIME">计时</string>
   <string id="OPTION_ELAPSED_DISTANCE">距离</string>
