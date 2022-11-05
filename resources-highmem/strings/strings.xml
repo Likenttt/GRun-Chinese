@@ -1,20 +1,20 @@
 <strings>
-  <string id="Field121">最大功率</string>
-  <string id="Field137">配速 (最近 X 秒)</string>
-  <string id="Field138">速度 (最近 X 秒)</string>
-  <string id="Field139">垂直速度(每分钟) (最近 X 秒)</string>
-  <string id="Field140">垂直速度(每小时) (最近 X 秒)</string>
+  <string id="F121">最大功率</string>
+  <string id="F137">配速 (最近 X 秒)</string>
+  <string id="F138">速度 (最近 X 秒)</string>
+  <string id="F139">垂直速度(每分钟) (最近 X 秒)</string>
+  <string id="F140">垂直速度(每小时) (最近 X 秒)</string>
 
-  <string id="Field147">5K 目标所需速度</string>
-  <string id="Field148">10K 目标所需速度</string>
-  <string id="Field149">半马目标所需速度(21.0975 km)</string>
-  <string id="Field150">全马目标所需速度(42.195 km)</string>
-  <string id="Field151">100K 目标所需速度</string>
+  <string id="F147">5K 目标所需速度</string>
+  <string id="F148">10K 目标所需速度</string>
+  <string id="F149">半马目标所需速度(21.0975 km)</string>
+  <string id="F150">全马目标所需速度(42.195 km)</string>
+  <string id="F151">100K 目标所需速度</string>
 
-  <string id="Field152">完成目标所需配速自适应圈距离</string>
-  <string id="Field153">完成目标所需速度自适应圈距离</string>
+  <string id="F152">完成目标所需配速自适应圈距离</string>
+  <string id="F153">完成目标所需速度自适应圈距离</string>
   
-  <string id="Field170">圈平均心率</string>
+  <string id="F170">圈平均心率</string>
     
   <string id="PARAM_AVG_SPEED_TIME">速度/配速 (最近 X 秒)</string>
   <string id="PARAM_DESC_AVG_SPEED_TIME">计算速度/配速的周期秒数(最近 X 秒)</string>
