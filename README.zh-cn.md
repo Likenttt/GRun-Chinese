@@ -2,6 +2,14 @@
 
 可配置的 Garmin 手表 数据字段
 
+<p align="center">
+    <a href="https://apps.garmin.cn/zh-CN/apps/02d16e10-84dc-46aa-8edb-c42834c9b907">GRrun中文版</a> <br>
+    <img src="https://img.shields.io/badge/dynamic/json?color=red&logo=china&label=中国大陆下载量&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D02d16e10-84dc-46aa-8edb-c42834c9b907%26domain%3Dcn"/>
+    <img src="https://img.shields.io/badge/dynamic/json?color=green&label=世界其他地区下载量&query=downloads&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D02d16e10-84dc-46aa-8edb-c42834c9b907%26domain%3Dcom"/>
+    <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Reviews&query=reviews&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D02d16e10-84dc-46aa-8edb-c42834c9b907%26domain%3Dall"/>
+    <img src="https://img.shields.io/badge/dynamic/json?&color=orange&label=Rating&query=ratings&url=https%3A%2F%2Fciqstats.li2niu.com%2Fapi%2Fstats%3Fappid%3D02d16e10-84dc-46aa-8edb-c42834c9b907%26domain%3Dall"/>
+</p>
+
 阅读此文档的其他语言版本: [English](./README.md)
 
 ![GRun Cover Image](/doc/i18n/zh-cn/GRunCover.png)
