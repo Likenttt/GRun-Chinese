@@ -366,6 +366,10 @@ ETA（预计完成时间） 字段有助于根据你的平均速度/配速确定
 
 ## 更新日志
 
+### Version 1.37
+
+增加了 MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer/ Aviator 几款机型的支持
+
 ### Version 1.36.1
 
 修复 GPS 图片被拉伸的 bug。
