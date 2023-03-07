@@ -1553,28 +1553,28 @@ class GRunView extends WatchUi.DataField {
   // drawBattery (Light version)
   function drawBattery(dc, id, x, y) {
     var batteryPercentage = System.getSystemStats().battery;
-    var batteryText = round(batteryPercentage) + "%";
+    var batteryText = round(batteryPercentage);
     var grayColor =
       id >= 8 && singleBackgroundColor == false
         ? headerBackgroundColor
         : ~headerBackgroundColor & 0xffffff;
 
-    var batteryTextDimensions = dc.getTextDimensions("100%", 0);
+    var batteryTextDimensions = dc.getTextDimensions("100", 0);
 
     // Render battery
     dc.setColor(grayColor, -1 /* Gfx.COLOR_TRANSPARENT */);
     dc.fillRoundedRectangle(
-      x - batteryTextDimensions[0] * 1 * 0.5,
+      x - batteryTextDimensions[0] * 1.2 * 0.5,
       y - batteryTextDimensions[1] * 0.35,
-      batteryTextDimensions[0] * 1,
-      batteryTextDimensions[1] * 0.7,
+      batteryTextDimensions[0] * 1.2,
+      batteryTextDimensions[1] * 0.8,
       2
     );
     dc.fillRoundedRectangle(
-      x + batteryTextDimensions[0] * 0.5,
-      y - batteryTextDimensions[1] * 0.175,
+      x + batteryTextDimensions[0] * 0.6,
+      y - batteryTextDimensions[1] * 0.2,
       batteryTextDimensions[0] * 0.1,
-      batteryTextDimensions[1] * 0.35,
+      batteryTextDimensions[1] * 0.4,
       2
     );
     dc.setColor(Graphics.COLOR_BLACK, -1 /* Gfx.COLOR_TRANSPARENT */);
