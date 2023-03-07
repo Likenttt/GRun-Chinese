@@ -550,7 +550,7 @@ class GRunView extends WatchUi.DataField {
       // Current GPS accuracy & Battery Usage
       if (
         (value == 19 /* OPTION_CURRENT_LOCATION_ACCURACY */ ||
-          value == 20 /* OPTION_CURRENT_LOCATION_ACCURACY_AND_BATTERY */) &&
+          value == 20) /* OPTION_CURRENT_LOCATION_ACCURACY_AND_BATTERY */ &&
         info.currentLocationAccuracy != null
       ) {
         if (valueData != info.currentLocationAccuracy) {
@@ -700,7 +700,7 @@ class GRunView extends WatchUi.DataField {
       value <= 61 /* OPTION_REQUIRED_PACE_100K */
     ) {
       var etaGoalTable = [5, 10, 21.0975, 42.195, 50, 100];
-      var baseKey = (value - 50 /* OPTION_ETA_5K */) % 6;
+      var baseKey = (value - 50) /* OPTION_ETA_5K */ % 6;
       var etaDistance = convertUnitIfRequired(
         etaGoalTable[baseKey],
         0.62137119 /* CONVERSION_KM_TO_MILE */,
@@ -1101,12 +1101,7 @@ class GRunView extends WatchUi.DataField {
           type == 20 /* OPTION_CURRENT_LOCATION_ACCURACY_AND_BATTERY */
         ) {
           dc.drawBitmap(areaXcenter - 43, areaYcenter - 11, imgGPS);
-          drawBattery(
-            dc,
-            id,
-            areaXcenter + 17 /*(gpsLength / 2)*/,
-            areaYcenter
-          );
+          drawBattery(dc, id, areaXcenter + 34 /*(gpsLength)*/, areaYcenter);
         }
       }
     } else {
@@ -1116,7 +1111,7 @@ class GRunView extends WatchUi.DataField {
       if (
         (type == 6 /* OPTION_CURRENT_HEART_RATE */ ||
           type == 9 /* OPTION_AVERAGE_HEART_RATE */ ||
-          type == 170 /* OPTION_LAP_AVERAGE_HEART_RATE */) &&
+          type == 170) /* OPTION_LAP_AVERAGE_HEART_RATE */ &&
         hasHeader == false
       ) {
         displayIcon = true;
@@ -1363,7 +1358,7 @@ class GRunView extends WatchUi.DataField {
       type == 24 /* OPTION_PREVIOUS_LAP_PACE */ ||
       type == 27 /* OPTION_CURRENT_LAP_PACE */ ||
       (type >= 56 /* OPTION_REQUIRED_PACE_5K */ &&
-        type <= 61 /* OPTION_REQUIRED_PACE_100K */)
+        type <= 61) /* OPTION_REQUIRED_PACE_100K */
     ) {
       return formatDuration(value, false);
     }
@@ -1373,7 +1368,7 @@ class GRunView extends WatchUi.DataField {
       type == 25 /* OPTION_CURRENT_LAP_TIME */ ||
       type == 30 /* OPTION_PREVIOUS_LAP_TIME */ ||
       type == 31 /* OPTION_ETA_LAP */ ||
-      (type >= 50 /* OPTION_ETA_5K */ && type <= 55 /* OPTION_ETA_100K */)
+      (type >= 50 /* OPTION_ETA_5K */ && type <= 55) /* OPTION_ETA_100K */
     ) {
       return formatDuration(value, true);
     }
@@ -1558,33 +1553,37 @@ class GRunView extends WatchUi.DataField {
   // drawBattery (Light version)
   function drawBattery(dc, id, x, y) {
     var batteryPercentage = System.getSystemStats().battery;
+    var batteryText = round(batteryPercentage) + "%";
     var grayColor =
       id >= 8 && singleBackgroundColor == false
         ? headerBackgroundColor
         : ~headerBackgroundColor & 0xffffff;
 
-    dc.setClip(x + 26, y - 10, 2, 20);
-    dc.setColor(grayColor, Graphics.COLOR_TRANSPARENT);
-    dc.fillCircle(x + 25, y, 3);
-    dc.clearClip();
+    var batteryTextDimensions = dc.getTextDimensions("100%", 0);
 
-    dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-    dc.fillRectangle(x - 24, y - 9, 48, 18);
-    dc.drawRoundedRectangle(x - 24, y - 9, 48, 18, 3);
-
-    dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-    dc.fillRoundedRectangle(x - 23, y - 8, 46, 16, 3);
-
-    dc.setColor(grayColor, Graphics.COLOR_TRANSPARENT);
-    dc.drawRoundedRectangle(x - 25, y - 10, 50, 20, 3);
-
-    dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+    // Render battery
+    dc.setColor(grayColor, -1 /* Gfx.COLOR_TRANSPARENT */);
+    dc.fillRoundedRectangle(
+      x - batteryTextDimensions[0] * 1 * 0.5,
+      y - batteryTextDimensions[1] * 0.35,
+      batteryTextDimensions[0] * 1,
+      batteryTextDimensions[1] * 0.7,
+      2
+    );
+    dc.fillRoundedRectangle(
+      x + batteryTextDimensions[0] * 0.5,
+      y - batteryTextDimensions[1] * 0.175,
+      batteryTextDimensions[0] * 0.08,
+      batteryTextDimensions[1] * 0.35,
+      2
+    );
+    dc.setColor(Graphics.COLOR_BLACK, -1 /* Gfx.COLOR_TRANSPARENT */);
     dc.drawText(
       x,
-      y - 1,
+      y,
       0,
-      round(batteryPercentage) + "%",
-      5 /* Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER */
+      batteryText,
+      1 /* Gfx.TEXT_JUSTIFY_CENTER */ | 4 /* Gfx.TEXT_JUSTIFY_VCENTER */
     );
   }
 
