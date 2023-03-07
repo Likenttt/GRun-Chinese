@@ -25,6 +25,10 @@ fr255m.sourcePath = source;source-highmem;source-highmem-fenix7
 fr255s.sourcePath = source;source-highmem;source-highmem-fr255s
 fr255sm.sourcePath = source;source-highmem;source-highmem-fr255s
 fr955.sourcePath = source;source-highmem;source-highmem-fenix7
+
+fr965.sourcePath = source;source-highmem;source-highmem-fr965
+fr265.sourcePath = source;source-highmem;source-highmem-epix2
+fr265s.sourcePath = source;source-highmem;source-highmem-fr265s
 venu2plus.sourcePath = source;source-highmem;source-highmem-venu2plus
 
 marq2.sourcePath = source;source-highmem;source-highmem-marq2
@@ -112,7 +116,7 @@ base.resourcePath = resources
 
 # High Memory (252.6 KB) with "Power" and "Training Effect" support
 d2airx10.resourcePath = resources;resources-highmem;resources-highmem-power-te
-epix2.resourcePath = resources;resources-highmem;resources-highmem-power-te
+epix2.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-hricon-50x50
 fenix7.resourcePath = resources;resources-highmem;resources-highmem-power-te
 fenix7s.resourcePath = resources;resources-highmem;resources-highmem-power-te
 
@@ -121,13 +125,16 @@ fr255s.resourcePath = resources;resources-highmem;resources-highmem-power-te
 fr255m.resourcePath = resources;resources-highmem;resources-highmem-power-te
 fr255sm.resourcePath = resources;resources-highmem;resources-highmem-power-te
 fr955.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fr965.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-hricon-50x50
+fr265.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-hricon-50x50
+fr265s.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-hricon-50x50
 
 
 
 fenix7x.resourcePath = resources;resources-highmem;resources-highmem-power-te
-venu2plus.resourcePath = resources;resources-highmem;resources-highmem-power-te
-marq2.resourcePath = resources;resources-highmem;resources-highmem-power-te
-marq2aviator.resourcePath = resources;resources-highmem;resources-highmem-power-te
+venu2plus.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-hricon-50x50
+marq2.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-hricon-50x50
+marq2aviator.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-hricon-50x50
 
 # High Memory (124.7 KB) with no specific feature
 approachs62.resourcePath = resources;resources-highmem;resources-highmem-basic
