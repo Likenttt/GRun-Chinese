@@ -2,7 +2,7 @@
   <string id="AppName">GRun中文版</string>
   <string id="PARAM_APP_VERSION">GRun版本</string>
 
-  <string id="PARAM_TARGET_PACE">目标配速 (秒每千米或者秒每英里)</string>
+  <string id="PARAM_TARGET_PACE">目标配速 (当系统使用公制，秒每千米；当系统使用英制，秒每英里)</string>
   <string id="PARAM_DESC_TARGET_PACE">例如: 330（5*60+30）代表五分三十秒(单位千米/英里根据手表设置确定）</string>
   <string id="PARAM_PACE_RANGE">配速上下浮动时间 (单位：秒)</string>
   <string id="PARAM_DESC_PACE_RANGE">当配速不在区间内用颜色警示</string>
@@ -36,20 +36,20 @@
   <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">仅第一、四、五行的前景色</string>
   <string id="PARAM_MIDDLE_FOREGROUND_COLOR">仅第二、三行的前景颜色</string>
       
-  <string id="PARAM_HEADER_BACKGROUND_COLOR">动态头部背景色</string>
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">动态标题背景色</string>
   <string id="PARAM_DATA_BACKGROUND_COLOR">动态数据背景色</string>
   <string id="PARAM_DATA_FOREGROUND_COLOR">动态数据前景色</string>
 
-  <string id="PARAM_AREA1">字段 1</string>
-  <string id="PARAM_AREA2">字段 2A</string>
-  <string id="PARAM_AREA3">字段 2B</string>
-  <string id="PARAM_AREA4">字段 2C</string>
-  <string id="PARAM_AREA5">字段 3A</string>
-  <string id="PARAM_AREA6">字段 3B</string>
-  <string id="PARAM_AREA7">字段 3C</string>
-  <string id="PARAM_AREA8">字段 4A</string>
-  <string id="PARAM_AREA9">字段 4B</string>
-  <string id="PARAM_AREA10">字段 5</string>
+  <string id="PARAM_AREA1">字段 1（顶部）</string>
+  <string id="PARAM_AREA2">字段 2A（第二行最左列）</string>
+  <string id="PARAM_AREA3">字段 2B（第二行中间列）</string>
+  <string id="PARAM_AREA4">字段 2C（第二行最右列）</string>
+  <string id="PARAM_AREA5">字段 3A（第三行最左列）</string>
+  <string id="PARAM_AREA6">字段 3B（第三行中间列）</string>
+  <string id="PARAM_AREA7">字段 3C（第三行最右列）</string>
+  <string id="PARAM_AREA8">字段 4A（第四行最左列）</string>
+  <string id="PARAM_AREA9">字段 4B（第四行最右列）</string>
+  <string id="PARAM_AREA10">字段 5（底部）</string>
 
   <string id="F00">空白</string>
   <string id="F01">时间</string>

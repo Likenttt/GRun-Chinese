@@ -22,7 +22,7 @@
   <string id="PARAM_DESC_AVG_VERTICAL_SPEED_TIME">计算垂直速度的周期秒数 (最近 X 秒)</string>
   
   <string id="PARAM_TARGET_CADENCE">目标步频 (转数每分钟)</string>
-  <string id="PARAM_CADENCE_RANGE">步频区间 (转数每分钟)</string>
+  <string id="PARAM_CADENCE_RANGE">步频浮动值 (转数每分钟，低于目标此值及以上显示红，高于目标此值及以上显示蓝，区间内绿)</string>
   <string id="PARAM_DESC_CADENCE_RANGE">用于当步频超出限制范围时高亮显示</string>
 
 </strings>
