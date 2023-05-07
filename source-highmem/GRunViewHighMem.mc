@@ -870,6 +870,9 @@ class GRunViewHighMem extends GRunView {
         return null;
       }
       var paceHighLowArray = getWorkoutStepGoalPace(targetPace, paceRange);
+
+      System.println("paceLow = " + paceHighLowArray[0]);
+      System.println("paceHigh = " + paceHighLowArray[1]);
       if (value < paceHighLowArray[0]) {
         return Graphics.COLOR_BLUE;
       }
@@ -918,7 +921,16 @@ class GRunViewHighMem extends GRunView {
       }
       if (hasTargetType && workoutStep != null) {
         if (workoutStep.targetType == Activity.WORKOUT_STEP_TARGET_SPEED) {
-          return [workoutStep.targetValueLow, workoutStep.targetValueHigh];
+          var low = workoutStep.targetValueLow;
+          var high = workoutStep.targetValueHigh;
+          low = (
+            (isDistanceUnitsImperial ? 1609344 : 1000000) / low
+          ).toNumber();
+          high = (
+            (isDistanceUnitsImperial ? 1609344 : 1000000) / high
+          ).toNumber();
+
+          return [low, high];
         }
       }
     } else {
