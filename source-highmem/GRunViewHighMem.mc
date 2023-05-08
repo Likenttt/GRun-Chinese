@@ -923,11 +923,9 @@ class GRunViewHighMem extends GRunView {
         if (workoutStep.targetType == Activity.WORKOUT_STEP_TARGET_SPEED) {
           var low = workoutStep.targetValueLow;
           var high = workoutStep.targetValueHigh;
-          low = (
-            (isDistanceUnitsImperial ? 1609344 : 1000000) / low
-          ).toNumber();
+          low = ((isDistanceUnitsImperial ? 1609.344 : 1000) / low).toNumber();
           high = (
-            (isDistanceUnitsImperial ? 1609344 : 1000000) / high
+            (isDistanceUnitsImperial ? 1609.344 : 1000) / high
           ).toNumber();
 
           return [low, high];
