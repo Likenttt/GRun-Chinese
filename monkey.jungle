@@ -116,7 +116,7 @@ base.resourcePath = resources
 
 # High Memory (252.6 KB) with "Power" and "Training Effect" support
 d2airx10.resourcePath = resources;resources-highmem;resources-highmem-power-te
-epix2.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-hricon-50x50
+epix2.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
 fenix7.resourcePath = resources;resources-highmem;resources-highmem-power-te
 fenix7s.resourcePath = resources;resources-highmem;resources-highmem-power-te
 
@@ -125,16 +125,16 @@ fr255s.resourcePath = resources;resources-highmem;resources-highmem-power-te
 fr255m.resourcePath = resources;resources-highmem;resources-highmem-power-te
 fr255sm.resourcePath = resources;resources-highmem;resources-highmem-power-te
 fr955.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fr965.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-hricon-50x50
-fr265.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-hricon-50x50
-fr265s.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-hricon-50x50
+fr965.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
+fr265.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
+fr265s.resourcePath = resources;resources-highmem;resources-highmem-power-te
 
 
 
 fenix7x.resourcePath = resources;resources-highmem;resources-highmem-power-te
-venu2plus.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-hricon-50x50
-marq2.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-hricon-50x50
-marq2aviator.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-hricon-50x50
+venu2plus.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
+marq2.resourcePath = resources;resources-highmem;resources-highmem-power-te
+marq2aviator.resourcePath = resources;resources-highmem;resources-highmem-power-te
 
 # High Memory (124.7 KB) with no specific feature
 approachs62.resourcePath = resources;resources-highmem;resources-highmem-basic
@@ -194,7 +194,7 @@ legacyherofirstavenger.resourcePath = resources;resources-lowmem-basic
 legacysagadarthvader.resourcePath = resources;resources-lowmem-basic
 legacysagarey.resourcePath = resources;resources-lowmem-basic
 venu.resourcePath = resources;resources-lowmem-basic
-venu2.resourcePath = resources;resources-lowmem-basic
+venu2.resourcePath = resources;resources-lowmem-basic;resources-416x416
 venu2s.resourcePath = resources;resources-lowmem-basic
 venud.resourcePath = resources;resources-lowmem-basic
 vivoactive4.resourcePath = resources;resources-lowmem-basic

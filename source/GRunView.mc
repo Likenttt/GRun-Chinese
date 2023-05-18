@@ -1093,15 +1093,29 @@ class GRunView extends WatchUi.DataField {
 
     if (type >= 18 && type <= 20) {
       if (areaWidth >= 50 && areaHeight >= 20) {
+        var highResolution = deviceWidth >= 416;
         if (type == 18 /* OPTION_CURRENT_BATTERY */) {
           drawBattery(dc, id, areaXcenter, areaYcenter);
         } else if (type == 19 /* OPTION_CURRENT_LOCATION_ACCURACY */) {
-          dc.drawBitmap(areaXcenter - 14, areaYcenter - 11, imgGPS);
+          dc.drawBitmap(
+            areaXcenter - (highResolution ? 21 : 14),
+            areaYcenter - (highResolution ? 22 : 11),
+            imgGPS
+          );
         } else if (
           type == 20 /* OPTION_CURRENT_LOCATION_ACCURACY_AND_BATTERY */
         ) {
-          dc.drawBitmap(areaXcenter - 43, areaYcenter - 11, imgGPS);
-          drawBattery(dc, id, areaXcenter + 34 /*(gpsLength)*/, areaYcenter);
+          dc.drawBitmap(
+            areaXcenter - (highResolution ? 64 : 43),
+            areaYcenter - (highResolution ? 22 : 11),
+            imgGPS
+          );
+          drawBattery(
+            dc,
+            id,
+            areaXcenter + (highResolution ? 51 : 34),
+            areaYcenter
+          );
         }
       }
     } else {
@@ -1561,13 +1575,14 @@ class GRunView extends WatchUi.DataField {
 
     var batteryTextDimensions = dc.getTextDimensions("100", 0);
 
+    var ratioOfTextHeight = 1;
     // Render battery
     dc.setColor(grayColor, -1 /* Gfx.COLOR_TRANSPARENT */);
     dc.fillRoundedRectangle(
       x - batteryTextDimensions[0] * 1.2 * 0.5,
-      y - batteryTextDimensions[1] * 0.35,
+      y - (batteryTextDimensions[1] * ratioOfTextHeight) / 2,
       batteryTextDimensions[0] * 1.2,
-      batteryTextDimensions[1] * 0.8,
+      batteryTextDimensions[1] * ratioOfTextHeight,
       2
     );
     dc.fillRoundedRectangle(
