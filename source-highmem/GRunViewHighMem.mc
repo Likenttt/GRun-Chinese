@@ -34,10 +34,10 @@ class GRunViewHighMem extends GRunView {
   protected var lapHRSum = 0;
   protected var lapHRCount = 0;
 
-  protected var hasGetCurrentWorkoutStep =
-    Activity has :getCurrentWorkoutStep && Activity.WorkoutStepInfo has :step;
-  protected var hasTargetType = Activity.WorkoutStep has :targetType;
-  protected var hasActiveStep = Activity.WorkoutIntervalStep has :activeStep;
+  // protected var hasGetCurrentWorkoutStep =
+  //   Activity has :getCurrentWorkoutStep && Activity.WorkoutStepInfo has :step;
+  // protected var hasTargetType = Activity.WorkoutStep has :targetType;
+  // protected var hasActiveStep = Activity.WorkoutIntervalStep has :activeStep;
 
   enum {
     /*
@@ -864,23 +864,34 @@ class GRunViewHighMem extends GRunView {
         value = 1000 / (value / 3.6);
       }
     }
-
     if (type == OPTION_AVERAGE_PACE_CUSTOM) {
       if (value <= 0) {
         return null;
       }
-      var paceHighLowArray = getWorkoutStepGoalPace(targetPace, paceRange);
-
-      System.println("paceLow = " + paceHighLowArray[0]);
-      System.println("paceHigh = " + paceHighLowArray[1]);
-      if (value < paceHighLowArray[0]) {
+      if (value < targetPace - paceRange) {
         return Graphics.COLOR_BLUE;
       }
-      if (value > paceHighLowArray[1]) {
+      if (value > targetPace + paceRange) {
         return Graphics.COLOR_RED;
       }
       return Graphics.COLOR_DK_GREEN;
     }
+    // if (type == OPTION_AVERAGE_PACE_CUSTOM) {
+    //   if (value <= 0) {
+    //     return null;
+    //   }
+    //   var paceHighLowArray = getWorkoutStepGoalPace(targetPace, paceRange);
+
+    //   System.println("paceLow = " + paceHighLowArray[0]);
+    //   System.println("paceHigh = " + paceHighLowArray[1]);
+    //   if (value < paceHighLowArray[0]) {
+    //     return Graphics.COLOR_BLUE;
+    //   }
+    //   if (value > paceHighLowArray[1]) {
+    //     return Graphics.COLOR_RED;
+    //   }
+    //   return Graphics.COLOR_DK_GREEN;
+    // }
 
     if (type == OPTION_LAP_AVERAGE_HEART_RATE) {
       if (value < hrZones[0]) {
@@ -904,35 +915,35 @@ class GRunViewHighMem extends GRunView {
     return null;
   }
 
-  function getWorkoutStepGoalPace(targetPace, paceRange) {
-    if (hasGetCurrentWorkoutStep) {
-      var workoutStepInfo = Activity.getCurrentWorkoutStep();
-      var workoutStep = null;
-      if (
-        workoutStepInfo != null &&
-        workoutStepInfo.step instanceof Activity.WorkoutStep
-      ) {
-        workoutStep = workoutStepInfo.step;
-      } else {
-        var intervalStep = workoutStepInfo.step;
-        if (hasActiveStep && intervalStep != null) {
-          workoutStep = intervalStep.activeStep;
-        }
-      }
-      if (hasTargetType && workoutStep != null) {
-        if (workoutStep.targetType == Activity.WORKOUT_STEP_TARGET_SPEED) {
-          var low = workoutStep.targetValueLow;
-          var high = workoutStep.targetValueHigh;
-          low = ((isDistanceUnitsImperial ? 1609.344 : 1000) / low).toNumber();
-          high = (
-            (isDistanceUnitsImperial ? 1609.344 : 1000) / high
-          ).toNumber();
+  // function getWorkoutStepGoalPace(targetPace, paceRange) {
+  //   if (hasGetCurrentWorkoutStep) {
+  //     var workoutStepInfo = Activity.getCurrentWorkoutStep();
+  //     var workoutStep = null;
+  //     if (
+  //       workoutStepInfo != null &&
+  //       workoutStepInfo.step instanceof Activity.WorkoutStep
+  //     ) {
+  //       workoutStep = workoutStepInfo.step;
+  //     } else {
+  //       var intervalStep = workoutStepInfo.step;
+  //       if (hasActiveStep && intervalStep != null) {
+  //         workoutStep = intervalStep.activeStep;
+  //       }
+  //     }
+  //     if (hasTargetType && workoutStep != null) {
+  //       if (workoutStep.targetType == Activity.WORKOUT_STEP_TARGET_SPEED) {
+  //         var low = workoutStep.targetValueLow;
+  //         var high = workoutStep.targetValueHigh;
+  //         low = ((isDistanceUnitsImperial ? 1609.344 : 1000) / low).toNumber();
+  //         high = (
+  //           (isDistanceUnitsImperial ? 1609.344 : 1000) / high
+  //         ).toNumber();
 
-          return [low, high];
-        }
-      }
-    } else {
-      return [targetPace - paceRange, targetPace + paceRange];
-    }
-  }
+  //         return [low, high];
+  //       }
+  //     }
+  //   } else {
+  //     return [targetPace - paceRange, targetPace + paceRange];
+  //   }
+  // }
 }

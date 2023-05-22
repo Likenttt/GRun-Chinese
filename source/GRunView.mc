@@ -1094,28 +1094,25 @@ class GRunView extends WatchUi.DataField {
     if (type >= 18 && type <= 20) {
       if (areaWidth >= 50 && areaHeight >= 20) {
         var highResolution = deviceWidth >= 416;
+        var yStart = areaYcenter - (highResolution ? 28 : 11);
+        var GPSVY = yStart + imgGPS.getHeight() / 2;
         if (type == 18 /* OPTION_CURRENT_BATTERY */) {
-          drawBattery(dc, id, areaXcenter, areaYcenter);
+          drawBattery(dc, id, areaXcenter, GPSVY);
         } else if (type == 19 /* OPTION_CURRENT_LOCATION_ACCURACY */) {
           dc.drawBitmap(
             areaXcenter - (highResolution ? 21 : 14),
-            areaYcenter - (highResolution ? 22 : 11),
+            yStart,
             imgGPS
           );
         } else if (
           type == 20 /* OPTION_CURRENT_LOCATION_ACCURACY_AND_BATTERY */
         ) {
           dc.drawBitmap(
-            areaXcenter - (highResolution ? 64 : 43),
-            areaYcenter - (highResolution ? 22 : 11),
+            areaXcenter - (highResolution ? 64 : 40),
+            yStart,
             imgGPS
           );
-          drawBattery(
-            dc,
-            id,
-            areaXcenter + (highResolution ? 51 : 34),
-            areaYcenter
-          );
+          drawBattery(dc, id, areaXcenter + (highResolution ? 51 : 30), GPSVY);
         }
       }
     } else {
@@ -1565,6 +1562,7 @@ class GRunView extends WatchUi.DataField {
   }
 
   // drawBattery (Light version)
+  //y is the start y of battery to make it easier to align top
   function drawBattery(dc, id, x, y) {
     var batteryPercentage = System.getSystemStats().battery;
     var batteryText = round(batteryPercentage);
@@ -1574,32 +1572,28 @@ class GRunView extends WatchUi.DataField {
         : ~headerBackgroundColor & 0xffffff;
 
     var batteryTextDimensions = dc.getTextDimensions("100", 0);
+    var batteryHeight = batteryTextDimensions[1] * 0.9;
+    y -= batteryHeight / 2;
 
-    var ratioOfTextHeight = 1;
     // Render battery
     dc.setColor(grayColor, -1 /* Gfx.COLOR_TRANSPARENT */);
     dc.fillRoundedRectangle(
       x - batteryTextDimensions[0] * 1.2 * 0.5,
-      y - (batteryTextDimensions[1] * ratioOfTextHeight) / 2,
+      y,
       batteryTextDimensions[0] * 1.2,
-      batteryTextDimensions[1] * ratioOfTextHeight,
+      batteryHeight,
       2
     );
+    //BATTERY HEADER
     dc.fillRoundedRectangle(
       x + batteryTextDimensions[0] * 0.6,
-      y - batteryTextDimensions[1] * 0.2,
+      y + batteryHeight * 0.25,
       batteryTextDimensions[0] * 0.1,
-      batteryTextDimensions[1] * 0.4,
+      batteryHeight * 0.5,
       2
     );
     dc.setColor(Graphics.COLOR_BLACK, -1 /* Gfx.COLOR_TRANSPARENT */);
-    dc.drawText(
-      x,
-      y,
-      0,
-      batteryText,
-      1 /* Gfx.TEXT_JUSTIFY_CENTER */ | 4 /* Gfx.TEXT_JUSTIFY_VCENTER */
-    );
+    dc.drawText(x, y + batteryHeight * 0.5, 0, batteryText, 5);
   }
 
   // drawBattery (Full version - High Memory
