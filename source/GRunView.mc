@@ -1561,6 +1561,12 @@ class GRunView extends WatchUi.DataField {
     return Math.round(v).toNumber();
   }
 
+  function roundWithDefault(v, d) {
+    var v2 = Math.round(v).toNumber();
+    // System.println("v2 = " + v2);
+    return v2 <= 0 ? d : v2;
+  }
+
   // drawBattery (Light version)
   //y is the start y of battery to make it easier to align top
   function drawBattery(dc, id, x, y) {
@@ -1574,6 +1580,8 @@ class GRunView extends WatchUi.DataField {
     var batteryTextDimensions = dc.getTextDimensions("100", 0);
     var batteryHeight = batteryTextDimensions[1] * 0.9;
     y -= batteryHeight / 2;
+    // System.println("y = " + y);
+    // System.println("x = " + x);
 
     // Render battery
     dc.setColor(grayColor, -1 /* Gfx.COLOR_TRANSPARENT */);
@@ -1584,12 +1592,16 @@ class GRunView extends WatchUi.DataField {
       batteryHeight,
       2
     );
+    //     System.println("batteryTextDimensions = " + batteryTextDimensions);
+    //     System.println("batteryTextDimensions[0] * 0.2 = " + batteryTextDimensions[0] * 0.2);
+    // dc.setColor(0xffff00, -1 /* Gfx.COLOR_TRANSPARENT */);
+
     //BATTERY HEADER
     dc.fillRoundedRectangle(
       x + batteryTextDimensions[0] * 0.6,
-      y + batteryHeight * 0.25,
-      batteryTextDimensions[0] * 0.1,
-      batteryHeight * 0.5,
+      y + roundWithDefault(batteryHeight * 0.25, 2),
+      roundWithDefault(batteryTextDimensions[0] * 0.1, 4),
+      roundWithDefault(batteryHeight * 0.5, 4),
       2
     );
     dc.setColor(Graphics.COLOR_BLACK, -1 /* Gfx.COLOR_TRANSPARENT */);
