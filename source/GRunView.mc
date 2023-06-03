@@ -1577,7 +1577,7 @@ class GRunView extends WatchUi.DataField {
         ? headerBackgroundColor
         : ~headerBackgroundColor & 0xffffff;
 
-    var batteryTextDimensions = dc.getTextDimensions("100", 0);
+    var batteryTextDimensions = dc.getTextDimensions("100%", 0);
     var batteryHeight = batteryTextDimensions[1] * 0.9;
     y -= batteryHeight / 2;
     // System.println("y = " + y);
@@ -1600,12 +1600,12 @@ class GRunView extends WatchUi.DataField {
     dc.fillRoundedRectangle(
       x + batteryTextDimensions[0] * 0.6,
       y + roundWithDefault(batteryHeight * 0.25, 2),
-      roundWithDefault(batteryTextDimensions[0] * 0.1, 4),
+      roundWithDefault(batteryTextDimensions[0] * 0.15, 4),
       roundWithDefault(batteryHeight * 0.5, 4),
       2
     );
     dc.setColor(Graphics.COLOR_BLACK, -1 /* Gfx.COLOR_TRANSPARENT */);
-    dc.drawText(x, y + batteryHeight * 0.5, 0, batteryText, 5);
+    dc.drawText(x, y + batteryHeight * 0.5, 0, batteryText + "%", 5);
   }
 
   // drawBattery (Full version - High Memory
