@@ -1,0 +1,102 @@
+<strings>
+  <string id="AppName">GRun i18n</string>
+  <string id="PARAM_APP_VERSION">GRun Version</string>
+
+  <string id="PARAM_TARGET_PACE">Cíl rychlosti (v sekundách na km nebo mili)</string>
+  <string id="PARAM_DESC_TARGET_PACE">Příklad: 330 pro 5min a 30sec (km/míle se vybírá
+    automaticky podle nastavení hodinek</string>
+  <string id="PARAM_PACE_RANGE">Rozsah rychlosti (+/- v sekundách)</string>
+  <string id="PARAM_DESC_PACE_RANGE">Použít pro zobrazení rychlosti/rychlosti ve vybrané barvě,
+    pokud je mimo rozsah</string>
+
+  <string id="PARAM_LAP_DISTANCE">Vzdálenost kola (v metrech)</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">Automaticky opravit vzdálenost, když je stisknuté tlačítko
+    kola (0=zakázat,
+    1000=1km, 1609=1míle)</string>
+
+  <string id="PARAM_HEADER_HEIGHT">Výška záhlaví (%)</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0 pro skrytí záhlaví</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">Poměr výšky řádku</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">Příklad: 4,7,7,3,3 znamená, že řádek #1 používá 4/24
+    obrazovky,
+    řádek #2 a #3 používá 7/24 atd.</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">Poměr šířky sloupce pro druhý řádek</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">Příklad: 1,2,1 znamená, že střední sloupec bude 2krát
+    větší než sloupec 1 a 3</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">Poměr šířky sloupce pro třetí řádek</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">Uniformní barva pozadí</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">Pokud je pravda, řádky 4/5 mají stejnou barvu jako
+    řádky 1/2/3</string>
+
+  <string id="PARAM_DISABLE_COLOR">Zakázat</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">Pozadí (všechna pole)</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">Pozadí pouze pro řádky 1, 4 a 5</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">Pozadí pouze pro řádky 2 a 3</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">Popředí (všechna pole)</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">Popředí pouze pro řádky 1, 4 a 5</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">Popředí pouze pro řádky 2 a 3</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">Dynamická barva pozadí záhlaví</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">Dynamická barva pozadí dat</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">Dynamická barva popředí dat</string>
+
+  <string id="PARAM_AREA1">Pole 1</string>
+  <string id="PARAM_AREA2">Pole 2A</string>
+  <string id="PARAM_AREA3">Pole 2B</string>
+  <string id="PARAM_AREA4">Pole 2C</string>
+  <string id="PARAM_AREA5">Pole 3A</string>
+  <string id="PARAM_AREA6">Pole 3B</string>
+  <string id="PARAM_AREA7">Pole 3C</string>
+
+  <string id="PARAM_AREA8">ફીલ્ડ 4A</string>
+  <string id="PARAM_AREA9">ફીલ્ડ 4B</string>
+  <string id="PARAM_AREA10">ફીલ્ડ 5</string>
+
+  <string id="F00">ખાલી</string>
+  <string id="F01">સમય</string>
+  <string id="F02">ટાઈમર</string>
+  <string id="F05">દૂરી</string>
+  <string id="F06">વર્તમાન હાર્ટ રેટ</string>
+  <string id="F07">વર્તમાન પેસ</string>
+  <string id="F08">વર્તમાન સ્પીડ</string>
+  <string id="F09">ઔદ્યોગિક હાર્ટ રેટ</string>
+  <string id="F10">ઔદ્યોગિક પેસ</string>
+  <string id="F12">ઔદ્યોગિક સ્પીડ</string>
+  <string id="F13">કૅલોરી</string>
+  <string id="F14">વર્તમાન કૅડન્સ</string>
+  <string id="F15">ઊંચાઈ</string>
+  <string id="F16">કુલ ઊભાઈ</string>
+  <string id="F17">કુલ નીચાઈ</string>
+  <string id="F18">બેટરી આઈકન</string>
+  <string id="F19">GPS આઈકન</string>
+  <string id="F20">GPS આઈકન અને બેટરી આઈકન</string>
+  <string id="F21">વર્તમાન પાવર</string>
+  <string id="F22">ઔદ્યોગિક પાવર</string>
+  <string id="F25">લેપ સમય</string>
+  <string id="F26">લેપ દૂરી</string>
+  <string id="F27">લેપ પેસ</string>
+  <string id="F28">ટ્રેનિંગ ઇફેક્ટ</string>
+  <string id="F30">પાછાળ લેપ સમય</string>
+  <string id="F23">પાછાળ લેપ દૂરી</string>
+  <string id="F24">પાછાળ લેપ પેસ</string>
+  <string id="F31">ETA લેપ</string>
+  <string id="F32">લેપ ગણતરી</string>
+  <string id="F33">ઔદ્યોગિક કૅડન્સ</string>
+  <string id="F34">સમય આગળ/પછી</string>
+  <string id="F35">HR ઝોન</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETA હાફ માર્થન (21.0975 km)</string>
+  <string id="F53">ETA માર્થન (42.195 km)</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">આવશ્યક પેસ 5K</string>
+  <string id="F57">આવશ્યક પેસ 10K</string>
+  <string id="F58">આવશ્યક પેસ હાફ માર્થન (21.0975 km)</string>
+  <string id="F59">આવશ્યક પેસ માર્થન (42.195 km)</string>
+  <string id="F60">આવશ્યક પેસ 50K</string>
+  <string id="F61">આવશ્યક પેસ 100K</string>
+</strings>

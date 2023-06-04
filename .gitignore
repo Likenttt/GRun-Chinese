@@ -1,3 +1,5 @@
 bin/*
 .DS_Store
 .idea
+translate.py
+convert_xml.py

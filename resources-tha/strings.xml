@@ -1,0 +1,98 @@
+<strings>
+  <string id="AppName">GRun i18n</string>
+  <string id="PARAM_APP_VERSION">GRun เวอร์ชัน</string>
+
+  <string id="PARAM_TARGET_PACE">เป้าหมายช่วงความเร็ว (ในวินาทีต่อกม. หรือไมล์)</string>
+  <string id="PARAM_DESC_TARGET_PACE">ตัวอย่าง: 330 สำหรับ 5 นาทีและ 30 วินาที
+    (กม./ไมล์จะถูกเลือกโดยอัตโนมัติตามการตั้งค่าของนาฬิกา)</string>
+  <string id="PARAM_PACE_RANGE">ช่วงความเร็ว (+/- ในวินาที)</string>
+  <string id="PARAM_DESC_PACE_RANGE">ใช้แสดงความเร็ว/ช่วงความเร็วในสีหากอยู่นอกช่วง</string>
+
+  <string id="PARAM_LAP_DISTANCE">ระยะทางที่วน (ในเมตร)</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">แก้ไขระยะทางโดยอัตโนมัติเมื่อกดปุ่มวน (0=ปิด, 1000=1 กม.,
+    1609=1 ไมล์)</string>
+
+  <string id="PARAM_HEADER_HEIGHT">ความสูงของส่วนหัว (%)</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0 เพื่อซ่อนส่วนหัว</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">อัตราส่วนความสูงของแถว</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">ตัวอย่าง: 4,7,7,3,3 หมายความว่าแถวที่ 1 ใช้ 4/24
+    ของหน้าจอ แถวที่ 2 และ 3 ใช้ 7/24 ฯลฯ</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">อัตราส่วนความกว้างสำหรับแถวที่สอง</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">ตัวอย่าง: 1,2,1 หมายความว่าคอลัมน์กลางจะมีขนาดเท่ากับ
+    2 เท่าของคอลัมน์ 1 และ 3</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">อัตราส่วนความกว้างสำหรับแถวที่สาม</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">สีพื้นหลังที่ทั่วไป</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">หากเป็นจริง แถว 4/5 จะมีสีเดียวกันกับแถว 1/2/3</string>
+
+  <string id="PARAM_DISABLE_COLOR">ปิด</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">พื้นหลัง (ทุกฟิลด์)</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">พื้นหลังบน และ ล่างเท่านั้น</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">พื้นหลังบน และ ล่างเท่านั้น</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">พื้นหน้า (ทุกฟิลด์)</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">พื้นหน้าบน และ ล่างเท่านั้น</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">พื้นหน้าบน และ ล่างเท่านั้น</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">สีพื้นหลังของส่วนหัวที่เปลี่ยนแปลงได้</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">สีพื้นหลังของข้อมูลที่เปลี่ยนแปลงได้</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">สีพื้นหน้าของข้อมูลที่เปลี่ยนแปลงได้</string>
+
+  <string id="PARAM_AREA1">ฟิลด์ 1</string>
+  <string id="PARAM_AREA2">ฟิลด์ 2A</string>
+  <string id="PARAM_AREA3">ฟิลด์ 2B</string>
+  <string id="PARAM_AREA4">ฟิลด์ 2C</string>
+  <string id="PARAM_AREA5">ฟิลด์ 3A</string>
+  <string id="PARAM_AREA6">ฟิลด์ 3B</string>
+  <string id="PARAM_AREA7">ฟิลด์ 3C</string>
+
+  <string id="PARAM_AREA8">ฟิลด์ 4A</string>
+  <string id="PARAM_AREA9">ฟิลด์ 4B</string>
+  <string id="PARAM_AREA10">ฟิลด์ 5</string>
+
+  <string id="F00">ว่าง</string>
+  <string id="F01">เวลา</string>
+  <string id="F02">ตัวจับเวลา</string>
+  <string id="F05">ระยะทาง</string>
+  <string id="F06">อัตราการเต้นหัวใจปัจจุบัน</string>
+  <string id="F07">อัตราการเดินปัจจุบัน</string>
+  <string id="F08">ความเร็วปัจจุบัน</string>
+  <string id="F09">อัตราการเต้นหัวใจเฉลี่ย</string>
+  <string id="F10">อัตราการเดินเฉลี่ย</string>
+  <string id="F12">ความเร็วเฉลี่ย</string>
+  <string id="F13">แคลอรี่</string>
+  <string id="F14">ความถี่ปัจจุบัน</string>
+  <string id="F15">ระดับความสูง</string>
+  <string id="F16">สูงสุดทั้งหมด</string>
+  <string id="F17">ลดทั้งหมด</string>
+  <string id="F18">ไอคอนแบตเตอรี่</string>
+  <string id="F19">ไอคอน GPS</string>
+  <string id="F20">ไอคอน GPS และแบตเตอรี่</string>
+  <string id="F21">พลังงานปัจจุบัน</string>
+  <string id="F22">พลังงานเฉลี่ย</string>
+  <string id="F25">เวลารอบ</string>
+  <string id="F26">ระยะทางรอบ</string>
+  <string id="F27">อัตราการเดินรอบ</string>
+  <string id="F28">ผลกระทบการฝึก</string>
+  <string id="F30">เวลารอบก่อนหน้า</string>
+  <string id="F23">ระยะทางรอบก่อนหน้า</string>
+  <string id="F24">อัตราการเดินรอบก่อนหน้า</string>
+  <string id="F31">ETA รอบ</string>
+  <string id="F32">จำนวนรอบ</string>
+  <string id="F33">ความถี่เฉลี่ย</string>
+  <string id="F34">เวลาข้างหน้า/หลัง</string>
+  <string id="F35">โซนอัตราการเต้นหัวใจ</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETA Half Marathon (21.0975 กม.)</string>
+  <string id="F53">ETA Marathon (42.195 กม.)</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">อัตราการเดินที่จำเป็น 5K</string>
+  <string id="F57">อัตราการเดินที่จำเป็น 10K</string>
+  <string id="F58">อัตราการเดินที่จำเป็น Half Marathon (21.0975 กม.)</string>
+  <string id="F59">อัตราการเดินที่จำเป็น Marathon (42.195 กม.)</string>
+  <string id="F60">อัตราการเดินที่จำเป็น 50K</string>
+  <string id="F61">อัตราการเดินที่จำเป็น 100K</string>
+</strings>

@@ -1,0 +1,102 @@
+<strings>
+  <string id="AppName">GRun i18n</string>
+  <string id="PARAM_APP_VERSION">GRun Različica</string>
+
+  <string id="PARAM_TARGET_PACE">Ciljna hitrost (v sekundah na km ali miljo)</string>
+  <string id="PARAM_DESC_TARGET_PACE">Primer: 330 za 5min in 30sek (km/milja je izbrana
+    avtomatično glede na nastavitve ure)</string>
+  <string id="PARAM_PACE_RANGE">Hitrostni razpon (+/- v sekundah)</string>
+  <string id="PARAM_DESC_PACE_RANGE">Uporabi za prikaz hitrosti/hitrosti v barvi, če je izven
+    razpona</string>
+
+  <string id="PARAM_LAP_DISTANCE">Razdalja kroga (v metrih)</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">Avtomatsko popravi razdaljo, ko je pritisnjen gumb za krog
+    (0=onemogoči,
+    1000=1km, 1609=1milja)</string>
+
+  <string id="PARAM_HEADER_HEIGHT">Višina glave (%)</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0 za skrivanje glave</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">Razmerje višine vrstice</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">Primer: 4,7,7,3,3 pomeni, da je vrstica #1 uporabila 4/24
+    zaslona,
+    vrstice #2 in #3 sta uporabili 7/24, itd.</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">Razmerje širine stolpca za drugo vrstico</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">Primer: 1,2,1 pomeni, da bo srednji stolpec dvakrat
+    večji od stolpca 1 in 3</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">Razmerje širine stolpca za tretjo vrstico</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">Enakomerna barva ozadja</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">Če je res, imajo vrstice 4/5 enako barvo kot
+    vrstice 1/2/3</string>
+
+  <string id="PARAM_DISABLE_COLOR">Onemogoči</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">Ozadje (vsa polja)</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">Ozadje samo na vrsticah 1, 4 in 5</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">Ozadje samo na vrsticah 2 in 3</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">Prednja stran (vsa polja)</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">Prednja stran samo na vrsticah 1, 4 in 5</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">Prednja stran samo na vrsticah 2 in 3</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">Dinamična barva ozadja glave</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">Dinamična barva ozadja podatkov</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">Dinamična barva prednje strani podatkov</string>
+
+  <string id="PARAM_AREA1">Polje 1</string>
+  <string id="PARAM_AREA2">Polje 2A</string>
+  <string id="PARAM_AREA3">Polje 2B</string>
+  <string id="PARAM_AREA4">Polje 2C</string>
+  <string id="PARAM_AREA5">Polje 3A</string>
+  <string id="PARAM_AREA6">Polje 3B</string>
+  <string id="PARAM_AREA7">Polje 3C</string>
+
+  <string id="PARAM_AREA8">Polje 4A</string>
+  <string id="PARAM_AREA9">Polje 4B</string>
+  <string id="PARAM_AREA10">Polje 5</string>
+
+  <string id="F00">Prazno</string>
+  <string id="F01">Čas</string>
+  <string id="F02">Štoparica</string>
+  <string id="F05">Razdalja</string>
+  <string id="F06">Trenutna srčna frekvenca</string>
+  <string id="F07">Trenutna hitrost</string>
+  <string id="F08">Trenutna hitrost</string>
+  <string id="F09">Povprečna srčna frekvenca</string>
+  <string id="F10">Povprečna hitrost</string>
+  <string id="F12">Povprečna hitrost</string>
+  <string id="F13">Kalorije</string>
+  <string id="F14">Trenutna kadenca</string>
+  <string id="F15">Višina</string>
+  <string id="F16">Skupni vzpon</string>
+  <string id="F17">Skupni spust</string>
+  <string id="F18">Ikona baterije</string>
+  <string id="F19">Ikona GPS</string>
+  <string id="F20">Ikona GPS in baterije</string>
+  <string id="F21">Trenutna moč</string>
+  <string id="F22">Povprečna moč</string>
+  <string id="F25">Čas kroga</string>
+  <string id="F26">Razdalja kroga</string>
+  <string id="F27">Hitrost kroga</string>
+  <string id="F28">Trening učinek</string>
+  <string id="F30">Prejšnji čas kroga</string>
+  <string id="F23">Prejšnja razdalja kroga</string>
+  <string id="F24">Prejšnja hitrost kroga</string>
+  <string id="F31">ETA krog</string>
+  <string id="F32">Št. krogov</string>
+  <string id="F33">Povprečna kadenca</string>
+  <string id="F34">Čas pred/zadaj</string>
+  <string id="F35">HR cona</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETA polmaraton (21.0975 km)</string>
+  <string id="F53">ETA maraton (42.195 km)</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">Zahtevana hitrost 5K</string>
+  <string id="F57">Zahtevana hitrost 10K</string>
+  <string id="F58">Zahtevana hitrost polmaraton (21.0975 km)</string>
+  <string id="F59">Zahtevana hitrost maraton (42.195 km)</string>
+  <string id="F60">Zahtevana hitrost 50K</string>
+  <string id="F61">Zahtevana hitrost 100K</string>
+</strings>

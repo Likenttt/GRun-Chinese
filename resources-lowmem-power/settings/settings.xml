@@ -14,8 +14,8 @@
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Current Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Current Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
       <listEntry value="16">@Strings.F16</listEntry>     <!-- 16 Total Ascent -->
@@ -46,7 +46,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area2" title="@Strings.PARAM_AREA2">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -62,8 +62,8 @@
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Current Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Current Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
       <listEntry value="16">@Strings.F16</listEntry>     <!-- 16 Total Ascent -->
@@ -94,7 +94,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area3" title="@Strings.PARAM_AREA3">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -110,8 +110,8 @@
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Current Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Current Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
       <listEntry value="16">@Strings.F16</listEntry>     <!-- 16 Total Ascent -->
@@ -142,7 +142,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area4" title="@Strings.PARAM_AREA4">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -158,8 +158,8 @@
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Current Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Current Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
       <listEntry value="16">@Strings.F16</listEntry>     <!-- 16 Total Ascent -->
@@ -190,7 +190,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area5" title="@Strings.PARAM_AREA5">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -206,8 +206,8 @@
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Current Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Current Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
       <listEntry value="16">@Strings.F16</listEntry>     <!-- 16 Total Ascent -->
@@ -238,7 +238,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area6" title="@Strings.PARAM_AREA6">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -254,8 +254,8 @@
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Current Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Current Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
       <listEntry value="16">@Strings.F16</listEntry>     <!-- 16 Total Ascent -->
@@ -286,7 +286,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area7" title="@Strings.PARAM_AREA7">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -302,8 +302,8 @@
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Current Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Current Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
       <listEntry value="16">@Strings.F16</listEntry>     <!-- 16 Total Ascent -->
@@ -334,7 +334,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area8" title="@Strings.PARAM_AREA8">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -350,8 +350,8 @@
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Current Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Current Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
       <listEntry value="16">@Strings.F16</listEntry>     <!-- 16 Total Ascent -->
@@ -382,7 +382,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area9" title="@Strings.PARAM_AREA9">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -398,8 +398,8 @@
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Current Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Current Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
       <listEntry value="16">@Strings.F16</listEntry>     <!-- 16 Total Ascent -->
@@ -430,7 +430,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area10" title="@Strings.PARAM_AREA10">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -446,8 +446,8 @@
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Current Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Current Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
       <listEntry value="16">@Strings.F16</listEntry>     <!-- 16 Total Ascent -->
@@ -478,5 +478,5 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
 </settings>

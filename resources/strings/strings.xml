@@ -14,20 +14,20 @@
   <string id="PARAM_HEADER_POSITION_1">顶部/顶部</string>
   <string id="PARAM_HEADER_POSITION_2">顶部/底部</string>
   <string id="PARAM_HEADER_POSITION_3">底部/顶部</string>
-  
+
   <string id="PARAM_HEADER_HEIGHT">头部高度百分比（0-100）</string>
   <string id="PARAM_DESC_HEADER_HEIGHT">0表示隐藏头部</string>
-  
+
   <string id="PARAM_ROW_HEIGHT_RATIO">行高度比</string>
   <string id="PARAM_DESC_ROW_HEIGHT_RATIO">例如: 4,7,7,3,3 表示 第一行使用屏幕高度的4/24, 第二和第三行使用7/24, 依此类推</string>
-  
+
   <string id="PARAM_COLUMN_WIDTH_RATIO_1">第二行的列宽比</string>
   <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">例如: 1,2,1 意味着第二列将会是第一和第三列的两倍宽</string>
   <string id="PARAM_COLUMN_WIDTH_RATIO_2">第三行列宽比</string>
 
   <string id="PARAM_SINGLE_BACKGROUND_COLOR">统一背景颜色（如果启用，第四、五行将会和第一、二、三行颜色相同）</string>
   <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">如果设置为true，第四、五行将会和第一、二、三行颜色相同</string>
-  
+
   <string id="PARAM_DISABLE_COLOR">禁用</string>
   <string id="PARAM_ALL_BACKGROUND_COLOR">所有字段背景色</string>
   <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">仅第一、四、五行的背景色</string>
@@ -35,7 +35,7 @@
   <string id="PARAM_ALL_FOREGROUND_COLOR">所有字段前景色</string>
   <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">仅第一、四、五行的前景色</string>
   <string id="PARAM_MIDDLE_FOREGROUND_COLOR">仅第二、三行的前景颜色</string>
-      
+
   <string id="PARAM_HEADER_BACKGROUND_COLOR">动态标题背景色</string>
   <string id="PARAM_DATA_BACKGROUND_COLOR">动态数据背景色</string>
   <string id="PARAM_DATA_FOREGROUND_COLOR">动态数据前景色</string>
@@ -69,8 +69,8 @@
   <string id="F18">电池图标</string>
   <string id="F19">GPS图标</string>
   <string id="F20">GPS图标和电池图标</string>
-  <string id="Field21">当前功率</string>
-  <string id="Field22">平均功率</string>
+  <string id="F21">当前功率</string>
+  <string id="F22">平均功率</string>
   <string id="F23">上一圈距离</string>
   <string id="F24">上一圈配速</string>
   <string id="F25">单圈时间</string>

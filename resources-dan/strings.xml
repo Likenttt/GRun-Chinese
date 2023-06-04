@@ -1,0 +1,102 @@
+<strings>
+  <string id="AppName">GRun i18n</string>
+  <string id="PARAM_APP_VERSION">GRun Version</string>
+
+  <string id="PARAM_TARGET_PACE">Målhastighed (i sekunder pr. km eller mil)</string>
+  <string id="PARAM_DESC_TARGET_PACE">Eksempel: 330 for 5 min og 30 sek (km/mil vælges
+    automatisk baseret på urets indstillinger</string>
+  <string id="PARAM_PACE_RANGE">Hastighedsområde (+/- i sekunder)</string>
+  <string id="PARAM_DESC_PACE_RANGE">Brug for at vise hastighed/tempo i farve, hvis udenfor området</string>
+
+  <string id="PARAM_LAP_DISTANCE">Lap Distance (i meter)</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">Korriger automatisk afstand, når lap-knappen trykkes
+    (0=deaktiveret,
+    1000=1km, 1609=1mile)</string>
+
+  <string id="PARAM_HEADER_HEIGHT">Header Højde (%)</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0 for at skjule headers</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">Række Højde Ratio</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">Eksempel: 4,7,7,3,3 betyder, at række #1 bruger 4/24 af
+    skærmen,
+    række #2 og #3 bruger 7/24, osv.</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">Kolonne Bredde Ratio for anden række</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">Eksempel: 1,2,1 betyder, at midterste kolonne vil
+    være 2 gange
+    større end kolonne 1 og 3</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">Kolonne Bredde Ratio for tredje række</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">Ensartet Baggrundsfarve</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">Hvis sand, har række 4/5 samme farve som række
+    1/2/3</string>
+
+  <string id="PARAM_DISABLE_COLOR">Deaktiver</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">Baggrund (Alle felter)</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">Baggrund på række 1, 4 og 5 kun</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">Baggrund på række 2 og 3 kun</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">Forgrund (Alle felter)</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">Forgrund på række 1, 4 og 5 kun</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">Forgrund på række 2 og 3 kun</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">Dynamisk Header Baggrundsfarve</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">Dynamisk Data Baggrundsfarve</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">Dynamisk Data Forgrundsfarve</string>
+
+  <string id="PARAM_AREA1">Felt 1</string>
+  <string id="PARAM_AREA2">Felt 2A</string>
+  <string id="PARAM_AREA3">Felt 2B</string>
+  <string id="PARAM_AREA4">Felt 2C</string>
+  <string id="PARAM_AREA5">Felt 3A</string>
+  <string id="PARAM_AREA6">Felt 3B</string>
+  <string id="PARAM_AREA7">Felt 3C</string>
+
+  <string id="PARAM_AREA8">Felt 4A</string>
+  <string id="PARAM_AREA9">Felt 4B</string>
+  <string id="PARAM_AREA10">Felt 5</string>
+
+  <string id="F00">Tom</string>
+  <string id="F01">Tid</string>
+  <string id="F02">Timer</string>
+  <string id="F05">Afstand</string>
+  <string id="F06">Aktuelle hjertefrekvens</string>
+  <string id="F07">Aktuel fart</string>
+  <string id="F08">Aktuel hastighed</string>
+  <string id="F09">Gennemsnitlig hjertefrekvens</string>
+  <string id="F10">Gennemsnitlig fart</string>
+  <string id="F12">Gennemsnitlig hastighed</string>
+  <string id="F13">Kalorier</string>
+  <string id="F14">Aktuel kadence</string>
+  <string id="F15">Højde</string>
+  <string id="F16">Samlet stigning</string>
+  <string id="F17">Samlet fald</string>
+  <string id="F18">Batteri ikon</string>
+  <string id="F19">GPS ikon</string>
+  <string id="F20">GPS ikon og batteri ikon</string>
+  <string id="F21">Aktuel kraft</string>
+  <string id="F22">Gennemsnitlig kraft</string>
+  <string id="F25">Omgangstid</string>
+  <string id="F26">Omgangsafstand</string>
+  <string id="F27">Omgangsfart</string>
+  <string id="F28">Træningseffekt</string>
+  <string id="F30">Forrige omgangstid</string>
+  <string id="F23">Forrige omgangsafstand</string>
+  <string id="F24">Forrige omgangsfart</string>
+  <string id="F31">ETA omgang</string>
+  <string id="F32">Omgangstæller</string>
+  <string id="F33">Gennemsnitlig kadence</string>
+  <string id="F34">Tid foran/bagud</string>
+  <string id="F35">HR zone</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETA halvmaraton (21,0975 km)</string>
+  <string id="F53">ETA maraton (42,195 km)</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">Krævet fart 5K</string>
+  <string id="F57">Krævet fart 10K</string>
+  <string id="F58">Krævet fart halvmaraton (21,0975 km)</string>
+  <string id="F59">Krævet fart maraton (42,195 km)</string>
+  <string id="F60">Krævet fart 50K</string>
+  <string id="F61">Krævet fart 100K</string>
+</strings>

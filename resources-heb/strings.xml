@@ -1,0 +1,98 @@
+<strings>
+  <string id="AppName">GRun i18n</string>
+  <string id="PARAM_APP_VERSION">גרון גרסה</string>
+
+  <string id="PARAM_TARGET_PACE">מהירות יעד (בשניות לק"מ או מייל)</string>
+  <string id="PARAM_DESC_TARGET_PACE">דוגמא: 330 ל5 דקות ו30 שניות (היחידה נבחרת באופן אוטומטי בהתאם
+    להגדרות של השעון)</string>
+  <string id="PARAM_PACE_RANGE">טווח מהירות (+/- בשניות)</string>
+  <string id="PARAM_DESC_PACE_RANGE">השתמש כדי להציג מהירות/מהירות בצבע אם מחוץ לטווח</string>
+
+  <string id="PARAM_LAP_DISTANCE">מרחק לפ (במטרים)</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">תיקון אוטומטי של המרחק כאשר לחצן הלפ נלחץ (0=להשבית,
+    1000=1km, 1609=1mile)</string>
+
+  <string id="PARAM_HEADER_HEIGHT">גובה כותרת (%)</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0 כדי להסתיר כותרות</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">יחס גובה שורה</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">דוגמא: 4,7,7,3,3 אומר ששורה #1 השתמשה ב-4/24 מהמסך, שורה
+    #2 ו-#3 השתמשו ב-7/24 וכו '</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">יחס רוחב עמודה עבור שורה שנייה</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">דוגמא: 1,2,1 אומר שהעמודה האמצעית תהיה שני פעמים
+    גדולה מעמודה 1 ו-3</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">יחס רוחב עמודה עבור שורה שלישית</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">צבע רקע אחיד</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">אם נכון, שורות 4/5 יש אותו צבע כשורות 1/2/3</string>
+
+  <string id="PARAM_DISABLE_COLOR">בטל</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">רקע (כל השדות)</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">רקע על שורה 1, 4 ו-5 בלבד</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">רקע על שורות 2 ו-3 בלבד</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">קדמי (כל השדות)</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">קדמי על שורה 1, 4 ו-5 בלבד</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">קדמי על שורות 2 ו-3 בלבד</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">צבע רקע דינמי של כותרת</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">צבע רקע דינמי של נתונים</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">צבע קדמי דינמי של נתונים</string>
+
+  <string id="PARAM_AREA1">שדה 1</string>
+  <string id="PARAM_AREA2">שדה 2A</string>
+  <string id="PARAM_AREA3">שדה 2B</string>
+  <string id="PARAM_AREA4">שדה 2C</string>
+  <string id="PARAM_AREA5">שדה 3A</string>
+  <string id="PARAM_AREA6">שדה 3B</string>
+  <string id="PARAM_AREA7">שדה 3C</string>
+
+  <string id="PARAM_AREA8">שדה 4A</string>
+  <string id="PARAM_AREA9">שדה 4B</string>
+  <string id="PARAM_AREA10">שדה 5</string>
+
+  <string id="F00">ריק</string>
+  <string id="F01">זמן</string>
+  <string id="F02">טיימר</string>
+  <string id="F05">מרחק</string>
+  <string id="F06">קצב לב נוכחי</string>
+  <string id="F07">מהירות נוכחית</string>
+  <string id="F08">מהירות נוכחית</string>
+  <string id="F09">קצב לב ממוצע</string>
+  <string id="F10">מהירות ממוצעת</string>
+  <string id="F12">מהירות ממוצעת</string>
+  <string id="F13">קלוריות</string>
+  <string id="F14">קדנציה נוכחית</string>
+  <string id="F15">גובה</string>
+  <string id="F16">עלייה כוללת</string>
+  <string id="F17">ירידה כוללת</string>
+  <string id="F18">סמל סוללה</string>
+  <string id="F19">סמל GPS</string>
+  <string id="F20">סמל GPS וסוללה</string>
+  <string id="F21">כוח נוכחי</string>
+  <string id="F22">כוח ממוצע</string>
+  <string id="F25">זמן לפ</string>
+  <string id="F26">מרחק לפ</string>
+  <string id="F27">מהירות לפ</string>
+  <string id="F28">השפעת אימון</string>
+  <string id="F30">זמן הלפ הקודם</string>
+  <string id="F23">מרחק הלפ הקודם</string>
+  <string id="F24">מהירות הלפ הקודם</string>
+  <string id="F31">ETA לפ</string>
+  <string id="F32">מספר לפים</string>
+  <string id="F33">קדנציה ממוצעת</string>
+  <string id="F34">זמן מול/אחרי</string>
+  <string id="F35">אזור קצב לב</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETA חצי מרתון (21.0975 קמ)</string>
+  <string id="F53">ETA מרתון (42.195 קמ)</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">מהירות נדרשת 5K</string>
+  <string id="F57">מהירות נדרשת 10K</string>
+  <string id="F58">מהירות נדרשת חצי מרתון (21.0975 קמ)</string>
+  <string id="F59">מהירות נדרשת מרתון (42.195 קמ)</string>
+  <string id="F60">מהירות נדרשת 50K</string>
+  <string id="F61">מהירות נדרשת 100K</string>
+</strings>

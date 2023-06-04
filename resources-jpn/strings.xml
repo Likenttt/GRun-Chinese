@@ -1,0 +1,94 @@
+<strings>
+  <string id="AppName">GRun i18n</string>
+  <string id="PARAM_APP_VERSION">GRunバージョン</string>
+
+  <string id="PARAM_TARGET_PACE">目標ペース(km/mile毎秒)</string>
+  <string id="PARAM_DESC_TARGET_PACE">例：5分30秒なら330(腕時計の設定によりkm/mileが自動選択)</string>
+  <string id="PARAM_PACE_RANGE">ペース範囲(±秒)</string>
+  <string id="PARAM_DESC_PACE_RANGE">範囲外なら色付きで速度/ペースを表示</string>
+
+  <string id="PARAM_LAP_DISTANCE">ラップ距離(m)</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">ラップボタン押下時に距離を自動修正(0=無効、1000=1km、1609=1mile)</string>
+
+  <string id="PARAM_HEADER_HEIGHT">ヘッダー高さ(%)</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0でヘッダーを隠す</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">行高比率</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">例：4,7,7,3,3 は行#1が画面の4/24、行#2と#3が7/24を使う</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">2行目の列幅比率</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">例：1,2,1 は中央の列が1と3の列の2倍</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">3行目の列幅比率</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">背景色を統一</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">trueなら行4/5も行1/2/3と同じ色</string>
+
+  <string id="PARAM_DISABLE_COLOR">無効</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">背景色(全フィールド)</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">行1,4,5の背景色</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">行2,3の背景色</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">文字色(全フィールド)</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">行1,4,5の文字色</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">行2,3の文字色</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">動的ヘッダー背景色</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">動的データ背景色</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">動的データ文字色</string>
+
+  <string id="PARAM_AREA1">フィールド1</string>
+  <string id="PARAM_AREA2">フィールド2A</string>
+  <string id="PARAM_AREA3">フィールド2B</string>
+  <string id="PARAM_AREA4">フィールド2C</string>
+  <string id="PARAM_AREA5">フィールド3A</string>
+  <string id="PARAM_AREA6">フィールド3B</string>
+  <string id="PARAM_AREA7">フィールド3C</string>
+
+  <string id="PARAM_AREA8">4A項目</string>
+  <string id="PARAM_AREA9">4B項目</string>
+  <string id="PARAM_AREA10">5項目</string>
+
+  <string id="F00">空</string>
+  <string id="F01">時間</string>
+  <string id="F02">タイマー</string>
+  <string id="F05">距離</string>
+  <string id="F06">現在の心拍数</string>
+  <string id="F07">現在のペース</string>
+  <string id="F08">現在の速度</string>
+  <string id="F09">平均心拍数</string>
+  <string id="F10">平均ペース</string>
+  <string id="F12">平均速度</string>
+  <string id="F13">カロリー</string>
+  <string id="F14">現在のケイデンス</string>
+  <string id="F15">高度</string>
+  <string id="F16">累計上昇量</string>
+  <string id="F17">累計下降量</string>
+  <string id="F18">バッテリーアイコン</string>
+  <string id="F19">GPSアイコン</string>
+  <string id="F20">GPSアイコン＆バッテリーアイコン</string>
+  <string id="F21">現在のパワー</string>
+  <string id="F22">平均パワー</string>
+  <string id="F25">ラップタイム</string>
+  <string id="F26">ラップ距離</string>
+  <string id="F27">ラップペース</string>
+  <string id="F28">トレーニング効果</string>
+  <string id="F30">前回のラップタイム</string>
+  <string id="F23">前回のラップ距離</string>
+  <string id="F24">前回のラップペース</string>
+  <string id="F31">ETAラップ</string>
+  <string id="F32">ラップカウント</string>
+  <string id="F33">平均ケイデンス</string>
+  <string id="F34">先行/後続時間</string>
+  <string id="F35">HRゾーン</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETAハーフマラソン(21.0975 km)</string>
+  <string id="F53">ETAマラソン(42.195 km)</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">必要ペース 5K</string>
+  <string id="F57">必要ペース 10K</string>
+  <string id="F58">必要ペース ハーフマラソン(21.0975 km)</string>
+  <string id="F59">必要ペース マラソン(42.195 km)</string>
+  <string id="F60">必要ペース 50K</string>
+  <string id="F61">必要ペース 100K</string>
+</strings>

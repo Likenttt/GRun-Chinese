@@ -1,0 +1,99 @@
+<strings>
+  <string id="AppName">GRun i18n</string>
+  <string id="PARAM_APP_VERSION">Έκδοση GRun</string>
+
+  <string id="PARAM_TARGET_PACE">Στόχος Ταχύτητας (σε δευτερόλεπτα ανά χιλιόμετρο ή μίλι)</string>
+  <string id="PARAM_DESC_TARGET_PACE">Παράδειγμα: 330 για 5 λεπτά και 30 δευτερόλεπτα (ο επιλεγμένος
+    μοντέλος είναι χιλιόμετρο/μίλι ανάλογα με τις ρυθμίσεις της ρολογιού)</string>
+  <string id="PARAM_PACE_RANGE">Εύρος Ταχύτητας (+/- σε δευτερόλεπτα)</string>
+  <string id="PARAM_DESC_PACE_RANGE">Χρησιμοποιήστε για να εμφανίσετε την ταχύτητα/πίτα με χρώμα εάν
+    είναι εκτός εύρους</string>
+
+  <string id="PARAM_LAP_DISTANCE">Απόσταση Γύρου (σε μέτρα)</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">Αυτόματη διόρθωση απόστασης κατά το κλικ του κουμπιού γύρου
+    (0=απενεργοποίηση, 1000=1χιλιόμετρο, 1609=1μίλι)</string>
+
+  <string id="PARAM_HEADER_HEIGHT">Ύψος Κεφαλίδας (%)</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0 για να κρύψετε τις κεφαλίδες</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">Αναλογία Ύψους Γραμμής</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">Παράδειγμα: 4,7,7,3,3 σημαίνει ότι η γραμμή #1
+    χρησιμοποιεί 4/24 της οθόνης, οι γραμμές #2 και #3 χρησιμοποιούν 7/24, κλπ.</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">Αναλογία Πλάτους Στήλης για την δεύτερη γραμμή</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">Παράδειγμα: 1,2,1 σημαίνει ότι η μεσαία στήλη θα
+    είναι 2 φορές μεγαλύτερη από τις στήλες 1 και 3</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">Αναλογία Πλάτους Στήλης για την τρίτη γραμμή</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">Μοναδικό Χρώμα Φόντου</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">Αν είναι αληθές, οι γραμμές 4/5 έχουν το ίδιο
+    χρώμα με τις γραμμές 1/2/3</string>
+
+  <string id="PARAM_DISABLE_COLOR">Απενεργοποίηση</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">Φόντο (Όλα τα πεδία)</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">Φόντο στις γραμμές 1, 4 και 5 μόνο</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">Φόντο στις γραμμές 2 και 3 μόνο</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">Προσκήνιο (Όλα τα πεδία)</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">Προσκήνιο στις γραμμές 1, 4 και 5 μόνο</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">Προσκήνιο στις γραμμές 2 και 3 μόνο</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">Δυναμικό Χρώμα Φόντου Κεφαλίδας</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">Δυναμικό Χρώμα Φόντου Δεδομένων</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">Δυναμικό Χρώμα Προσκηνίου Δεδομένων</string>
+
+  <string id="PARAM_AREA1">Πεδίο 1</string>
+  <string id="PARAM_AREA2">Πεδίο 2A</string>
+  <string id="PARAM_AREA3">Πεδίο 2B</string>
+  <string id="PARAM_AREA4">Πεδίο 2C</string>
+  <string id="PARAM_AREA5">Πεδίο 3A</string>
+  <string id="PARAM_AREA6">Πεδίο 3B</string>
+  <string id="PARAM_AREA7">Πεδίο 3C</string>
+
+  <string id="PARAM_AREA8">Πεδίο 4A</string>
+  <string id="PARAM_AREA9">Πεδίο 4B</string>
+  <string id="PARAM_AREA10">Πεδίο 5</string>
+  <string id="F00">Άδειο</string>
+  <string id="F01">Χρόνος</string>
+  <string id="F02">Χρονόμετρο</string>
+  <string id="F05">Απόσταση</string>
+  <string id="F06">Τρέχουσα Ταχύτητα Καρδιάς</string>
+  <string id="F07">Τρέχον Ρυθμός</string>
+  <string id="F08">Τρέχουσα Ταχύτητα</string>
+  <string id="F09">Μέση Ταχύτητα Καρδιάς</string>
+  <string id="F10">Μέσος Ρυθμός</string>
+  <string id="F12">Μέση Ταχύτητα</string>
+  <string id="F13">Θερμίδες</string>
+  <string id="F14">Τρέχουσα Καδένσα</string>
+  <string id="F15">Υψόμετρο</string>
+  <string id="F16">Συνολική Ανέβαση</string>
+  <string id="F17">Συνολική Κατέβαση</string>
+  <string id="F18">Εικονίδιο Μπαταρίας</string>
+  <string id="F19">Εικονίδιο GPS</string>
+  <string id="F20">Εικονίδιο GPS και Μπαταρίας</string>
+  <string id="F21">Τρέχουσα Ισχύς</string>
+  <string id="F22">Μέση Ισχύς</string>
+  <string id="F25">Χρόνος Γύρου</string>
+  <string id="F26">Απόσταση Γύρου</string>
+  <string id="F27">Ρυθμός Γύρου</string>
+  <string id="F28">Επίδραση Εκπαίδευσης</string>
+  <string id="F30">Προηγούμενος Χρόνος Γύρου</string>
+  <string id="F23">Προηγούμενη Απόσταση Γύρου</string>
+  <string id="F24">Προηγούμενος Ρυθμός Γύρου</string>
+  <string id="F31">ETA Γύρου</string>
+  <string id="F32">Αριθμός Γύρων</string>
+  <string id="F33">Μέση Καδένσα</string>
+  <string id="F34">Χρόνος Μπροστά/Πίσω</string>
+  <string id="F35">Ζώνη Ταχύτητας Καρδιάς</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETA Ημιμαραθώνιο (21.0975 km)</string>
+  <string id="F53">ETA Μαραθώνιο (42.195 km)</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">Απαιτούμενος Ρυθμός 5K</string>
+  <string id="F57">Απαιτούμενος Ρυθμός 10K</string>
+  <string id="F58">Απαιτούμενος Ρυθμός Ημιμαραθώνιο (21.0975 km)</string>
+  <string id="F59">Απαιτούμενος Ρυθμός Μαραθώνιο (42.195 km)</string>
+  <string id="F60">Απαιτούμενος Ρυθμός 50K</string>
+  <string id="F61">Απαιτούμενος Ρυθμός 100K</string>
+</strings>

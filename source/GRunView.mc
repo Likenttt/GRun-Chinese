@@ -1600,7 +1600,7 @@ class GRunView extends WatchUi.DataField {
     dc.fillRoundedRectangle(
       x + batteryTextDimensions[0] * 0.6,
       y + roundWithDefault(batteryHeight * 0.25, 2),
-      roundWithDefault(batteryTextDimensions[0] * 0.15, 4),
+      roundWithDefault(batteryTextDimensions[0] * 0.2, 4),
       roundWithDefault(batteryHeight * 0.5, 4),
       2
     );

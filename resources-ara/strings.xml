@@ -1,0 +1,97 @@
+<strings>
+  <string id="AppName">GRun I18n</string>
+  <string id="PARAM_APP_VERSION">GRun Version</string>
+
+  <string id="PARAM_TARGET_PACE">سرعة الهدف (بالثواني لكل كيلومتر أو ميل)</string>
+  <string id="PARAM_DESC_TARGET_PACE">مثال: 330 لخمس دقائق وثلاثين ثانية (الكيلومتر/الميل سيتم
+    اختيارها تلقائيًا بناءً على إعدادات الساعة)</string>
+  <string id="PARAM_PACE_RANGE">نطاق السرعة (+/- بالثواني)</string>
+  <string id="PARAM_DESC_PACE_RANGE">استخدم لعرض السرعة/السرعة باللون إذا كان خارج النطاق</string>
+
+  <string id="PARAM_LAP_DISTANCE">مسافة اللفة (بالمتر)</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">تصحيح المسافة تلقائيًا عند الضغط على زر اللفة (0=تعطيل،
+    1000=1 كيلومتر، 1609=1 ميل)</string>
+
+  <string id="PARAM_HEADER_HEIGHT">ارتفاع الرأس (%)</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0 لإخفاء الرؤوس</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">نسبة ارتفاع الصف</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">مثال: 4،7،7،3،3 يعني أن الصف #1 تستخدم 4/24 من الشاشة،
+    والصفوف #2 و #3 تستخدم 7/24، إلخ.</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">نسبة عرض العمود للصف الثاني</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">مثال: 1،2،1 يعني أن العمود الوسط سيكون أضعف مرتين من
+    العمود 1 و 3</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">نسبة عرض العمود للصف الثالث</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">لون خلفية موحد</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">إذا كان صحيحًا، فإن الصفوف 4/5 ستحتوي على نفس
+    اللون مثل الصفوف 1/2/3</string>
+
+  <string id="PARAM_DISABLE_COLOR">تعطيل</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">الخلفية (كافة الحقول)</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">الخلفية في الصفوف 1، 4 و 5 فقط</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">الخلفية في الصفوف 2 و 3 فقط</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">المؤثر (كافة الحقول)</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">المؤثر في الصفوف 1، 4 و 5 فقط</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">المؤثر في الصفوف 2 و 3 فقط</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">لون الخلفية الديناميكي للرأس</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">لون الخلفية الديناميكي للبيانات</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">لون المؤثر الديناميكي للبيانات</string>
+
+  <string id="PARAM_AREA1">Field 1</string>
+  <string id="PARAM_AREA2">Field 2A</string>
+  <string id="PARAM_AREA3">Field 2B</string>
+  <string id="PARAM_AREA4">Field 2C</string>
+  <string id="PARAM_AREA5">Field 3A</string>
+  <string id="PARAM_AREA6">Field 3B</string>
+  <string id="PARAM_AREA7">Field 3C</string>
+  <string id="PARAM_AREA8">Field 4A</string>
+  <string id="PARAM_AREA9">Field 4B</string>
+  <string id="PARAM_AREA10">Field 5</string>
+  <string id="F00">فارغ</string>
+  <string id="F01">الوقت</string>
+  <string id="F02">المؤقت</string>
+  <string id="F05">المسافة</string>
+  <string id="F06">الضربات القلبية الحالية</string>
+  <string id="F07">السرعة الحالية</string>
+  <string id="F08">السرعة الحالية</string>
+  <string id="F09">متوسط ​​ضربات القلب</string>
+  <string id="F10">متوسط ​​السرعة</string>
+  <string id="F12">السرعة المتوسطة</string>
+  <string id="F13">السعرات الحرارية</string>
+  <string id="F14">السرعة الحالية</string>
+  <string id="F15">الارتفاع</string>
+  <string id="F16">الارتفاع الكلي</string>
+  <string id="F17">الهبوط الكلي</string>
+  <string id="F18">رمز البطارية</string>
+  <string id="F19">رمز GPS</string>
+  <string id="F20">رمز GPS ورمز البطارية</string>
+  <string id="F21">الطاقة الحالية</string>
+  <string id="F22">الطاقة المتوسطة</string>
+  <string id="F25">وقت الجزء</string>
+  <string id="F26">مسافة الجزء</string>
+  <string id="F27">سرعة الجزء</string>
+  <string id="F28">تأثير التدريب</string>
+  <string id="F30">الجزء السابق وقت</string>
+  <string id="F23">الجزء السابق المسافة</string>
+  <string id="F24">الجزء السابق السرعة</string>
+  <string id="F31">ETA Lap</string>
+  <string id="F32">عدد الجزء</string>
+  <string id="F33">السرعة المتوسطة</string>
+  <string id="F34">الوقت المتقدم / المتأخر</string>
+  <string id="F35">منطقة الضربات القلبية</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETA نصف الماراثون (21.0975 كم)</string>
+  <string id="F53">ETA الماراثون (42.195 كم)</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">السرعة المطلوبة 5K</string>
+  <string id="F57">السرعة المطلوبة 10K</string>
+  <string id="F58">السرعة المطلوبة نصف الماراثون (21.0975 كم)</string>
+  <string id="F59">السرعة المطلوبة الماراثون (42.195 كم)</string>
+  <string id="F60">السرعة المطلوبة 50K</string>
+  <string id="F61">السرعة المطلوبة 100K</string>
+</strings>

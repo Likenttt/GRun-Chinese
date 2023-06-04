@@ -1,0 +1,102 @@
+<strings>
+  <string id="AppName">GRun i18n</string>
+  <string id="PARAM_APP_VERSION">GRun Verzió</string>
+
+  <string id="PARAM_TARGET_PACE">Cél tempó (másodperc/km vagy mile)</string>
+  <string id="PARAM_DESC_TARGET_PACE">Példa: 330 a 5perc 30másodperceshez (km/mile automatikusan
+    választva a karóra beállításai alapján)</string>
+  <string id="PARAM_PACE_RANGE">Tempó tartomány (+/- másodperc)</string>
+  <string id="PARAM_DESC_PACE_RANGE">Használd a színezéshez, ha a tartományon kívülre kerül</string>
+
+  <string id="PARAM_LAP_DISTANCE">Köridő (méterben)</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">Automatikus távolság korrekció a lap gomb megnyomásakor
+    (0=kikapcsol,
+    1000=1km, 1609=1mile)</string>
+
+  <string id="PARAM_HEADER_HEIGHT">Fejléc magasság (%)</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0 a fejlécek elrejtéséhez</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">Sor magasság arány</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">Példa: 4,7,7,3,3 azt jelenti, hogy az 1. sor használja a
+    képernyő
+    24%-át, a 2. és 3. sor 7/24-et, stb.</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">Oszlop szélesség arány a második sorhoz</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">Példa: 1,2,1 azt jelenti, hogy a középső oszlop
+    kétszer
+    nagyobb lesz, mint az 1. és 3.</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">Oszlop szélesség arány a harmadik sorhoz</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">Egyenletes háttér szín</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">Ha igaz, a 4. és 5. sor ugyanolyan színű, mint az
+    1., 2. és 3.</string>
+
+  <string id="PARAM_DISABLE_COLOR">Kikapcsol</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">Háttér (összes mező)</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">Háttér csak az 1., 4. és 5. sorban</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">Háttér csak a 2. és 3. sorban</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">Előtér (összes mező)</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">Előtér csak az 1., 4. és 5. sorban</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">Előtér csak a 2. és 3. sorban</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">Dinamikus fejléc háttér szín</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">Dinamikus adat háttér szín</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">Dinamikus adat előtér szín</string>
+
+  <string id="PARAM_AREA1">Mező 1</string>
+  <string id="PARAM_AREA2">Mező 2A</string>
+  <string id="PARAM_AREA3">Mező 2B</string>
+  <string id="PARAM_AREA4">Mező 2C</string>
+  <string id="PARAM_AREA5">Mező 3A</string>
+  <string id="PARAM_AREA6">Mező 3B</string>
+  <string id="PARAM_AREA7">Mező 3C</string>
+
+  <string id="PARAM_AREA8">Mező 4A</string>
+  <string id="PARAM_AREA9">Mező 4B</string>
+  <string id="PARAM_AREA10">Mező 5</string>
+
+  <string id="F00">Üres</string>
+  <string id="F01">Idő</string>
+  <string id="F02">Időzítő</string>
+  <string id="F05">Távolság</string>
+  <string id="F06">Jelenlegi pulzus</string>
+  <string id="F07">Jelenlegi tempó</string>
+  <string id="F08">Jelenlegi sebesség</string>
+  <string id="F09">Átlag pulzus</string>
+  <string id="F10">Átlag tempó</string>
+  <string id="F12">Átlag sebesség</string>
+  <string id="F13">Kalóriák</string>
+  <string id="F14">Jelenlegi lépés</string>
+  <string id="F15">Magasság</string>
+  <string id="F16">Összes emelkedés</string>
+  <string id="F17">Összes lejtés</string>
+  <string id="F18">Akkumulátor ikon</string>
+  <string id="F19">GPS ikon</string>
+  <string id="F20">GPS ikon és akkumulátor ikon</string>
+  <string id="F21">Jelenlegi teljesítmény</string>
+  <string id="F22">Átlag teljesítmény</string>
+  <string id="F25">Kör idő</string>
+  <string id="F26">Kör távolság</string>
+  <string id="F27">Kör tempó</string>
+  <string id="F28">Edzés hatás</string>
+  <string id="F30">Előző kör idő</string>
+  <string id="F23">Előző kör távolság</string>
+  <string id="F24">Előző kör tempó</string>
+  <string id="F31">ETA kör</string>
+  <string id="F32">Körök száma</string>
+  <string id="F33">Átlag lépés</string>
+  <string id="F34">Idő előre/hátra</string>
+  <string id="F35">HR zóna</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETA félmaraton (21.0975 km)</string>
+  <string id="F53">ETA maraton (42.195 km)</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">Szükséges tempó 5K</string>
+  <string id="F57">Szükséges tempó 10K</string>
+  <string id="F58">Szükséges tempó félmaraton (21.0975 km)</string>
+  <string id="F59">Szükséges tempó maraton (42.195 km)</string>
+  <string id="F60">Szükséges tempó 50K</string>
+  <string id="F61">Szükséges tempó 100K</string>
+</strings>

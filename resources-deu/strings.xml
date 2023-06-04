@@ -1,0 +1,100 @@
+<strings>
+  <string id="AppName">GRun i18n</string>
+  <string id="PARAM_APP_VERSION">GRun Version</string>
+
+  <string id="PARAM_TARGET_PACE">Ziel-Geschw.(in Sek./km oder Meile)</string>
+  <string id="PARAM_DESC_TARGET_PACE">Beispiel: 330 für 5min und 30sec (km/Meile wird
+    automatisch basierend auf Uhr-Einstellungen gewählt)</string>
+  <string id="PARAM_PACE_RANGE">Geschw.-Bereich (+/- in Sekunden)</string>
+  <string id="PARAM_DESC_PACE_RANGE">Verwenden, um Geschw./Tempo in Farbe anzuzeigen,
+    wenn außerhalb des Bereichs</string>
+
+  <string id="PARAM_LAP_DISTANCE">Runden-Distanz (in Metern)</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">Automatische Korrektur der Distanz, wenn Runden-Taste
+    gedrückt wird (0=deaktiviert, 1000=1km, 1609=1Meile)</string>
+
+  <string id="PARAM_HEADER_HEIGHT">Header-Höhe (%)</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0 zum Verbergen von Headern</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">Zeilen-Höhe-Verhältnis</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">Beispiel: 4,7,7,3,3 bedeutet, dass Zeile #1 4/24
+    des Bildschirms verwendet, Zeile #2 und #3 7/24 usw.</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">Spaltenbreiten-Verhältnis für zweite Zeile</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">Beispiel: 1,2,1 bedeutet, dass die mittlere
+    Spalte 2-mal größer als Spalte 1 und 3 ist</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">Spaltenbreiten-Verhältnis für dritte Zeile</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">Einheitliche Hintergrundfarbe</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">Wenn wahr, haben Zeilen 4/5 dieselbe Farbe
+    wie Zeilen 1/2/3</string>
+
+  <string id="PARAM_DISABLE_COLOR">Deaktivieren</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">Hintergrund (Alle Felder)</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">Hintergrund nur auf Zeile 1, 4 und 5</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">Hintergrund nur auf Zeile 2 und 3</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">Vordergrund (Alle Felder)</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">Vordergrund nur auf Zeile 1, 4 und 5</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">Vordergrund nur auf Zeile 2 und 3</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">Dynamische Header-Hintergrundfarbe</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">Dynamische Daten-Hintergrundfarbe</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">Dynamische Daten-Vordergrundfarbe</string>
+
+  <string id="PARAM_AREA1">Feld 1</string>
+  <string id="PARAM_AREA2">Feld 2A</string>
+  <string id="PARAM_AREA3">Feld 2B</string>
+  <string id="PARAM_AREA4">Feld 2C</string>
+  <string id="PARAM_AREA5">Feld 3A</string>
+  <string id="PARAM_AREA6">Feld 3B</string>
+  <string id="PARAM_AREA7">Feld 3C</string>
+
+  <string id="PARAM_AREA8">Feld 4A</string>
+  <string id="PARAM_AREA9">Feld 4B</string>
+  <string id="PARAM_AREA10">Feld 5</string>
+
+  <string id="F00">Leer</string>
+  <string id="F01">Zeit</string>
+  <string id="F02">Timer</string>
+  <string id="F05">Distanz</string>
+  <string id="F06">Akt. Herzfrequenz</string>
+  <string id="F07">Akt. Tempo</string>
+  <string id="F08">Akt. Geschwindigkeit</string>
+  <string id="F09">Durchschn. Herzfrequenz</string>
+  <string id="F10">Durchschn. Tempo</string>
+  <string id="F12">Durchschn. Geschwindigkeit</string>
+  <string id="F13">Kalorien</string>
+  <string id="F14">Akt. Trittfrequenz</string>
+  <string id="F15">Höhe</string>
+  <string id="F16">Gesamtanstieg</string>
+  <string id="F17">Gesamtabstieg</string>
+  <string id="F18">Batteriesymbol</string>
+  <string id="F19">GPS-Symbol</string>
+  <string id="F20">GPS-Symbol und Batteriesymbol</string>
+  <string id="F21">Akt. Leistung</string>
+  <string id="F22">Durchschn. Leistung</string>
+  <string id="F25">Rundenzeit</string>
+  <string id="F26">Rundendistanz</string>
+  <string id="F27">Rundentempo</string>
+  <string id="F28">Trainingswirkung</string>
+  <string id="F30">Vorherige Rundenzeit</string>
+  <string id="F23">Vorherige Rundendistanz</string>
+  <string id="F24">Vorheriges Rundentempo</string>
+  <string id="F31">ETA-Runde</string>
+  <string id="F32">Rundenzähler</string>
+  <string id="F33">Durchschn. Trittfrequenz</string>
+  <string id="F34">Zeit vor/hinter</string>
+  <string id="F35">HR-Zone</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETA Halbmarathon (21,0975 km)</string>
+  <string id="F53">ETA Marathon (42,195 km)</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">Erforderliches Tempo 5K</string>
+  <string id="F57">Erforderliches Tempo 10K</string>
+  <string id="F58">Erforderliches Tempo Halbmarathon (21,0975 km)</string>
+  <string id="F59">Erforderliches Tempo Marathon (42,195 km)</string>
+  <string id="F60">Erforderliches Tempo 50K</string>
+  <string id="F61">Erforderliches Tempo 100K</string>
+</strings>

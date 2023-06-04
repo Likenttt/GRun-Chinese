@@ -1,0 +1,227 @@
+project.manifest = manifest-i18n.xml
+
+# Source Files
+#######################################################
+# Default used low memory
+base.sourcePath = source
+
+# High Memory (252.6 KB)
+d2airx10.sourcePath = source;source-highmem;source-highmem-venu2plus
+epix2.sourcePath = source;source-highmem;source-highmem-epix2
+fenix7.sourcePath = source;source-highmem;source-highmem-fenix7
+
+fr255.sourcePath = source;source-highmem;source-highmem-fenix7
+fr255m.sourcePath = source;source-highmem;source-highmem-fenix7
+
+fr255s.sourcePath = source;source-highmem;source-highmem-fr255s
+fr255sm.sourcePath = source;source-highmem;source-highmem-fr255s
+
+fr955.sourcePath = source;source-highmem;source-highmem-fenix7
+
+fenix7s.sourcePath = source;source-highmem;source-highmem-fenix7s
+fenix7x.sourcePath = source;source-highmem;source-highmem-fenix7
+fr255.sourcePath = source;source-highmem;source-highmem-fenix7
+fr255m.sourcePath = source;source-highmem;source-highmem-fenix7
+fr255s.sourcePath = source;source-highmem;source-highmem-fr255s
+fr255sm.sourcePath = source;source-highmem;source-highmem-fr255s
+fr955.sourcePath = source;source-highmem;source-highmem-fenix7
+
+fr965.sourcePath = source;source-highmem;source-highmem-fr965
+fr265.sourcePath = source;source-highmem;source-highmem-epix2
+fr265s.sourcePath = source;source-highmem;source-highmem-fr265s
+venu2plus.sourcePath = source;source-highmem;source-highmem-venu2plus
+
+marq2.sourcePath = source;source-highmem;source-highmem-marq2
+marq2aviator.sourcePath = source;source-highmem;source-highmem-marq2
+
+# High Memory (124.7 KB)
+approachs62.sourcePath = source;source-highmem;source-highmem-approachs62
+d2charlie.sourcePath = source;source-highmem;source-highmem-default
+d2delta.sourcePath = source;source-highmem;source-highmem-default
+d2deltapx.sourcePath = source;source-highmem;source-highmem-default
+d2deltas.sourcePath = source;source-highmem;source-highmem-default
+descentmk1.sourcePath = source;source-highmem;source-highmem-default
+descentmk2.sourcePath = source;source-highmem;source-highmem-fenix6pro
+descentmk2s.sourcePath = source;source-highmem;source-highmem-fenix6pro
+edge1030.sourcePath = source;source-highmem;source-highmem-edge1030
+edge1030plus.sourcePath = source;source-highmem;source-highmem-edge1030
+edge1030bontrager.sourcePath = source;source-highmem;source-highmem-edge1030
+edge520plus.sourcePath = source;source-highmem;source-highmem-edge520plus
+edge530.sourcePath = source;source-highmem;source-highmem-edge530
+edge820.sourcePath = source;source-highmem;source-highmem-edge520plus
+edge830.sourcePath = source;source-highmem;source-highmem-edge830
+edgeexplore.sourcePath = source;source-highmem;source-highmem-edgeexplore
+fenix5plus.sourcePath = source;source-highmem;source-highmem-default
+fenix5splus.sourcePath = source;source-highmem;source-highmem-default
+fenix5x.sourcePath = source;source-highmem;source-highmem-default
+fenix5xplus.sourcePath = source;source-highmem;source-highmem-default
+fr945.sourcePath = source;source-highmem;source-highmem-fr945
+fr945lte.sourcePath = source;source-highmem;source-highmem-fr945
+
+marqadventurer.sourcePath = source;source-highmem;source-highmem-marq
+marqathlete.sourcePath = source;source-highmem;source-highmem-marq
+marqaviator.sourcePath = source;source-highmem;source-highmem-marq
+marqcaptain.sourcePath = source;source-highmem;source-highmem-marq
+marqcommander.sourcePath = source;source-highmem;source-highmem-marq
+marqdriver.sourcePath = source;source-highmem;source-highmem-marq
+marqexpedition.sourcePath = source;source-highmem;source-highmem-marq
+marqgolfer.sourcePath = source;source-highmem;source-highmem-marq
+
+oregon7xx.sourcePath = source;source-highmem;source-highmem-oregon7xx
+rino7xx.sourcePath = source;source-highmem;source-highmem-oregon7xx
+fenix6pro.sourcePath = source;source-highmem;source-highmem-fenix6pro
+fenix6spro.sourcePath = source;source-highmem;source-highmem-fenix6xpro
+fenix6xpro.sourcePath = source;source-highmem;source-highmem-fenix6xpro
+
+fr245m.sourcePath = source;source-highmem;source-highmem-fr245m
+
+# High Memory (60.7 KB)
+fr645m.sourcePath = source;source-highmem;source-highmem-fr645m
+fr745.sourcePath = source;source-highmem;source-highmem-fr945
+
+
+
+# Resource Files
+#######################################################
+base.resourcePath = resources
+
+# High Memory (252.6 KB) with "Power" and "Training Effect" support
+d2airx10.resourcePath = resources;resources-highmem;resources-highmem-power-te
+epix2.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
+fenix7.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fenix7s.resourcePath = resources;resources-highmem;resources-highmem-power-te
+
+fr255.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fr255s.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fr255m.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fr255sm.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fr955.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fr965.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
+fr265.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
+fr265s.resourcePath = resources;resources-highmem;resources-highmem-power-te
+
+
+
+fenix7x.resourcePath = resources;resources-highmem;resources-highmem-power-te
+venu2plus.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
+marq2.resourcePath = resources;resources-highmem;resources-highmem-power-te
+marq2aviator.resourcePath = resources;resources-highmem;resources-highmem-power-te
+
+# High Memory (124.7 KB) with no specific feature
+approachs62.resourcePath = resources;resources-highmem;resources-highmem-basic
+edgeexplore.resourcePath = resources;resources-highmem;resources-highmem-basic
+oregon7xx.resourcePath = resources;resources-highmem;resources-highmem-basic
+rino7xx.resourcePath = resources;resources-highmem;resources-highmem-basic
+
+# High Memory (124.7 KB) with "Power" support
+d2charlie.resourcePath = resources;resources-highmem;resources-highmem-power
+d2delta.resourcePath = resources;resources-highmem;resources-highmem-power
+d2deltapx.resourcePath = resources;resources-highmem;resources-highmem-power
+d2deltas.resourcePath = resources;resources-highmem;resources-highmem-power
+edge820.resourcePath = resources;resources-highmem;resources-highmem-power
+fenix5plus.resourcePath = resources;resources-highmem;resources-highmem-power
+fenix5splus.resourcePath = resources;resources-highmem;resources-highmem-power
+
+# High Memory (60.7 KB) with "Training Effect" support
+fr245m.resourcePath = resources;resources-highmem;resources-highmem-te
+fr645m.resourcePath = resources;resources-highmem;resources-highmem-te
+
+# High Memory (124.7 KB) with "Power" and "Training Effect" support
+descentmk1.resourcePath = resources;resources-highmem;resources-highmem-power-te
+descentmk2.resourcePath = resources;resources-highmem;resources-highmem-power-te
+descentmk2s.resourcePath = resources;resources-highmem;resources-highmem-power-te
+edge1030.resourcePath = resources;resources-highmem;resources-highmem-power-te
+edge1030plus.resourcePath = resources;resources-highmem;resources-highmem-power-te
+edge1030bontrager.resourcePath = resources;resources-highmem;resources-highmem-power-te
+edge520plus.resourcePath = resources;resources-highmem;resources-highmem-power-te
+edge530.resourcePath = resources;resources-highmem;resources-highmem-power-te
+edge830.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fenix5x.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fenix5xplus.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fenix6pro.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fenix6spro.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fenix6xpro.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fr745.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fr945.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fr945lte.resourcePath = resources;resources-highmem;resources-highmem-power-te
+marqadventurer.resourcePath = resources;resources-highmem;resources-highmem-power-te
+marqathlete.resourcePath = resources;resources-highmem;resources-highmem-power-te
+marqaviator.resourcePath = resources;resources-highmem;resources-highmem-power-te
+marqcaptain.resourcePath = resources;resources-highmem;resources-highmem-power-te
+marqcommander.resourcePath = resources;resources-highmem;resources-highmem-power-te
+marqdriver.resourcePath = resources;resources-highmem;resources-highmem-power-te
+marqexpedition.resourcePath = resources;resources-highmem;resources-highmem-power-te
+marqgolfer.resourcePath = resources;resources-highmem;resources-highmem-power-te
+
+# Low Memory (28.7 KB) with no specific feature
+d2air.resourcePath = resources;resources-lowmem-basic
+fr55.resourcePath = resources;resources-lowmem-basic
+vivoactive3.resourcePath = resources;resources-lowmem-basic
+vivoactive3d.resourcePath = resources;resources-lowmem-basic
+vivoactive3m.resourcePath = resources;resources-lowmem-basic
+vivoactive3mlte.resourcePath = resources;resources-lowmem-basic
+legacyherocaptainmarvel.resourcePath = resources;resources-lowmem-basic
+legacyherofirstavenger.resourcePath = resources;resources-lowmem-basic
+legacysagadarthvader.resourcePath = resources;resources-lowmem-basic
+legacysagarey.resourcePath = resources;resources-lowmem-basic
+venu.resourcePath = resources;resources-lowmem-basic
+venu2.resourcePath = resources;resources-lowmem-basic;resources-416x416
+venu2s.resourcePath = resources;resources-lowmem-basic
+venud.resourcePath = resources;resources-lowmem-basic
+vivoactive4.resourcePath = resources;resources-lowmem-basic
+vivoactive4s.resourcePath = resources;resources-lowmem-basic
+
+# Low Memory (28.7 KB) with "Power" support
+edge130.resourcePath = resources;resources-lowmem-power
+edge130plus.resourcePath = resources;resources-lowmem-power
+
+# Low Memory (28.7 KB) with "Training Effect" support
+fr245.resourcePath = resources;resources-lowmem-te
+fr645.resourcePath = resources;resources-lowmem-te
+
+# Low Memory (28.7 KB)  with "Power" and "Training Effect" support
+enduro.resourcePath = resources;resources-lowmem-power-te
+fenix5.resourcePath = resources;resources-lowmem-power-te
+fenix5s.resourcePath = resources;resources-lowmem-power-te
+fenix6.resourcePath = resources;resources-lowmem-power-te
+fenix6s.resourcePath = resources;resources-lowmem-power-te
+fenixchronos.resourcePath = resources;resources-lowmem-power-te
+fr935.resourcePath = resources;resources-lowmem-power-te
+
+
+base.lang.ara = resources-ara
+base.lang.bul = resources-bul
+base.lang.ces = resources-ces
+base.lang.dan = resources-dan
+base.lang.deu = resources-deu
+base.lang.dut = resources-dut
+base.lang.eng = resources-eng
+base.lang.est = resources-est
+base.lang.fin = resources-fin
+base.lang.fre = resources-fre
+base.lang.gre = resources-gre
+base.lang.heb = resources-heb
+base.lang.hrv = resources-hrv
+base.lang.hun = resources-hun
+base.lang.ita = resources-ita
+base.lang.lav = resources-lav
+base.lang.lit = resources-lit
+base.lang.nob = resources-nob
+base.lang.pol = resources-pol
+base.lang.por = resources-por
+base.lang.ron = resources-ron
+base.lang.rus = resources-rus
+base.lang.slo = resources-slo
+base.lang.slv = resources-slv
+base.lang.spa = resources-spa
+base.lang.swe = resources-swe
+base.lang.tur = resources-tur
+base.lang.ukr = resources-ukr
+base.lang.ind = resources-ind
+base.lang.zsm = resources-zsm
+base.lang.vie = resources-vie
+base.lang.zhs = resources-zhs
+base.lang.zht = resources-zht
+base.lang.jpn = resources-jpn
+base.lang.kor = resources-kor
+base.lang.tha = resources-tha

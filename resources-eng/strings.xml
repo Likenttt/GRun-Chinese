@@ -1,0 +1,97 @@
+<strings>
+  <string id="AppName">GRun i18n</string>
+  <string id="PARAM_APP_VERSION">GRun Version</string>
+
+  <string id="PARAM_TARGET_PACE">Target Pace (in seconds per km or mile)</string>
+  <string id="PARAM_DESC_TARGET_PACE">Example: 330 for 5min and 30sec (km/mile is chosen
+    automatically based on watch settings</string>
+  <string id="PARAM_PACE_RANGE">Pace Range (+/- in seconds)</string>
+  <string id="PARAM_DESC_PACE_RANGE">Use to display speed/pace in color if outside the range</string>
+
+  <string id="PARAM_LAP_DISTANCE">Lap Distance (in meters)</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">Auto correct distance when lap button is pressed (0=disable,
+    1000=1km, 1609=1mile)</string>
+
+  <string id="PARAM_HEADER_HEIGHT">Header Height (%)</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0 to hide headers</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">Row Height Ratio</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">Example: 4,7,7,3,3 means row #1 used 4/24 of the screen,
+    row #2 and #3 used 7/24, etc.</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">Column Width Ratio for second row</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">Example: 1,2,1 means middle column will be 2 times
+    larger than column 1 and 3</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">Column Width Ratio for third row</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">Uniform Background Color</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">If true, rows 4/5 have same color as rows 1/2/3</string>
+
+  <string id="PARAM_DISABLE_COLOR">Disable</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">Background (All fields)</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">Background on row 1, 4 and 5 only</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">Background on row 2 and 3 only</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">Foreground (All fields)</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">Foreground on row 1, 4 and 5 only</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">Foreground on row 2 and 3 only</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">Dynamic Header Background Color</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">Dynamic Data Background Color</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">Dynamic Data Foreground Color</string>
+
+  <string id="PARAM_AREA1">Field 1</string>
+  <string id="PARAM_AREA2">Field 2A</string>
+  <string id="PARAM_AREA3">Field 2B</string>
+  <string id="PARAM_AREA4">Field 2C</string>
+  <string id="PARAM_AREA5">Field 3A</string>
+  <string id="PARAM_AREA6">Field 3B</string>
+  <string id="PARAM_AREA7">Field 3C</string>
+  <string id="PARAM_AREA8">Field 4A</string>
+  <string id="PARAM_AREA9">Field 4B</string>
+  <string id="PARAM_AREA10">Field 5</string>
+
+  <string id="F00">Empty</string>
+  <string id="F01">Time</string>
+  <string id="F02">Timer</string>
+  <string id="F05">Distance</string>
+  <string id="F06">Current Heart Rate</string>
+  <string id="F07">Current Pace</string>
+  <string id="F08">Current Speed</string>
+  <string id="F09">Average Heart Rate</string>
+  <string id="F10">Average Pace</string>
+  <string id="F12">Average Speed</string>
+  <string id="F13">Calories</string>
+  <string id="F14">Current Cadence</string>
+  <string id="F15">Altitude</string>
+  <string id="F16">Total Ascent</string>
+  <string id="F17">Total Descent</string>
+  <string id="F18">Battery Icon</string>
+  <string id="F19">GPS Icon</string>
+  <string id="F20">GPS Icon and Battery Icon</string>
+  <string id="F21">Current Power</string>
+  <string id="F22">Average Power</string>
+  <string id="F25">Lap Time</string>
+  <string id="F26">Lap Distance</string>
+  <string id="F27">Lap Pace</string>
+  <string id="F28">Training Effect</string>
+  <string id="F30">Previous Lap Time</string>
+  <string id="F23">Previous Lap Distance</string>
+  <string id="F24">Previous Lap Pace</string>
+  <string id="F31">ETA Lap</string>
+  <string id="F32">Lap Count</string>
+  <string id="F33">Average Cadence</string>
+  <string id="F34">Time Ahead/Behind</string>
+  <string id="F35">HR Zone</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETA Half Marathon (21.0975 km)</string>
+  <string id="F53">ETA Marathon (42.195 km)</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">Required Pace 5K</string>
+  <string id="F57">Required Pace 10K</string>
+  <string id="F58">Required Pace Half Marathon (21.0975 km)</string>
+  <string id="F59">Required Pace Marathon (42.195 km)</string>
+  <string id="F60">Required Pace 50K</string>
+  <string id="F61">Required Pace 100K</string>
+</strings>

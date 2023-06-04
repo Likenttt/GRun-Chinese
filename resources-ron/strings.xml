@@ -1,0 +1,103 @@
+<strings>
+  <string id="AppName">GRun i18n</string>
+  <string id="PARAM_APP_VERSION">Versiune GRun</string>
+
+  <string id="PARAM_TARGET_PACE">Ritm țintă (în secunde pe km sau milă)</string>
+  <string id="PARAM_DESC_TARGET_PACE">Exemplu: 330 pentru 5min și 30sec (km/milă este ales
+    automat în funcție de setările ceasului</string>
+  <string id="PARAM_PACE_RANGE">Interval ritm (+/- în secunde)</string>
+  <string id="PARAM_DESC_PACE_RANGE">Utilizat pentru a afișa viteza/ritmul în culoare dacă este în
+    afara intervalului</string>
+
+  <string id="PARAM_LAP_DISTANCE">Distanță tură (în metri)</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">Corectare automată a distanței când butonul de tură este
+    apăsat (0=dezactivat,
+    1000=1km, 1609=1milă)</string>
+
+  <string id="PARAM_HEADER_HEIGHT">Înălțime antet (%)</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0 pentru a ascunde antetele</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">Raport înălțime rând</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">Exemplu: 4,7,7,3,3 înseamnă că rândul #1 folosește 4/24
+    din ecran,
+    rândul #2 și #3 folosesc 7/24, etc.</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">Raport lățime coloană pentru al doilea rând</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">Exemplu: 1,2,1 înseamnă că coloana din mijloc va fi
+    de două ori
+    mai mare decât coloanele 1 și 3</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">Raport lățime coloană pentru al treilea rând</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">Culoare de fundal uniformă</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">Dacă este adevărat, rândurile 4/5 au aceeași
+    culoare ca rândurile 1/2/3</string>
+
+  <string id="PARAM_DISABLE_COLOR">Dezactivat</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">Fundal (toate câmpurile)</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">Fundal doar pentru rândurile 1, 4 și 5</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">Fundal doar pentru rândurile 2 și 3</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">Prim-plan (toate câmpurile)</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">Prim-plan doar pentru rândurile 1, 4 și 5</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">Prim-plan doar pentru rândurile 2 și 3</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">Culoare dinamică fundal antet</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">Culoare dinamică fundal date</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">Culoare dinamică prim-plan date</string>
+
+  <string id="PARAM_AREA1">Câmp 1</string>
+  <string id="PARAM_AREA2">Câmp 2A</string>
+  <string id="PARAM_AREA3">Câmp 2B</string>
+  <string id="PARAM_AREA4">Câmp 2C</string>
+  <string id="PARAM_AREA5">Câmp 3A</string>
+  <string id="PARAM_AREA6">Câmp 3B</string>
+  <string id="PARAM_AREA7">Câmp 3C</string>
+
+  <string id="PARAM_AREA8">Câmp 4A</string>
+  <string id="PARAM_AREA9">Câmp 4B</string>
+  <string id="PARAM_AREA10">Câmp 5</string>
+
+  <string id="F00">Gol</string>
+  <string id="F01">Timp</string>
+  <string id="F02">Cronometru</string>
+  <string id="F05">Distanță</string>
+  <string id="F06">Ritm cardiac curent</string>
+  <string id="F07">Ritm curent</string>
+  <string id="F08">Viteză curentă</string>
+  <string id="F09">Ritm cardiac mediu</string>
+  <string id="F10">Ritm mediu</string>
+  <string id="F12">Viteză medie</string>
+  <string id="F13">Calorii</string>
+  <string id="F14">Cadență curentă</string>
+  <string id="F15">Altitudine</string>
+  <string id="F16">Coborâre totală</string>
+  <string id="F17">Urcare totală</string>
+  <string id="F18">Iconiță baterie</string>
+  <string id="F19">Iconiță GPS</string>
+  <string id="F20">Iconiță GPS și baterie</string>
+  <string id="F21">Putere curentă</string>
+  <string id="F22">Putere medie</string>
+  <string id="F25">Timp tură</string>
+  <string id="F26">Distanță tură</string>
+  <string id="F27">Ritm tură</string>
+  <string id="F28">Efect antrenament</string>
+  <string id="F30">Timp tură precedent</string>
+  <string id="F23">Distanță tură precedent</string>
+  <string id="F24">Ritm tură precedent</string>
+  <string id="F31">ETA tură</string>
+  <string id="F32">Număr tură</string>
+  <string id="F33">Cadență medie</string>
+  <string id="F34">Timp înainte/după</string>
+  <string id="F35">Zonă HR</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETA Semimaraton (21.0975 km)</string>
+  <string id="F53">ETA Maraton (42.195 km)</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">Ritm necesar 5K</string>
+  <string id="F57">Ritm necesar 10K</string>
+  <string id="F58">Ritm necesar Semimaraton (21.0975 km)</string>
+  <string id="F59">Ritm necesar Maraton (42.195 km)</string>
+  <string id="F60">Ritm necesar 50K</string>
+  <string id="F61">Ritm necesar 100K</string>
+</strings>

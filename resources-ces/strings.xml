@@ -1,0 +1,103 @@
+<strings>
+  <string id="AppName">GRun i18n</string>
+  <string id="PARAM_APP_VERSION">GRun Version</string>
+
+  <string id="PARAM_TARGET_PACE">Cible (en sec/km ou mile)</string>
+  <string id="PARAM_DESC_TARGET_PACE">Exemple: 330 pour 5min et 30sec (km/mile est choisi
+    automatiquement selon les paramètres de la montre</string>
+  <string id="PARAM_PACE_RANGE">Plage de rythme (+/- en sec)</string>
+  <string id="PARAM_DESC_PACE_RANGE">Utiliser pour afficher la vitesse/rythme en couleur si en
+    dehors de la plage</string>
+
+  <string id="PARAM_LAP_DISTANCE">Distance du tour (en mètres)</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">Correction automatique de la distance lorsque le bouton de
+    tour est pressé (0=désactivé,
+    1000=1km, 1609=1mile)</string>
+
+  <string id="PARAM_HEADER_HEIGHT">Hauteur de l'en-tête (%)</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0 pour cacher les en-têtes</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">Ratio de hauteur de ligne</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">Exemple: 4,7,7,3,3 signifie que la ligne #1 utilise 4/24
+    de l'écran,
+    les lignes #2 et #3 utilisent 7/24, etc.</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">Ratio de largeur de colonne pour la deuxième ligne</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">Exemple: 1,2,1 signifie que la colonne du milieu sera
+    2 fois
+    plus grande que les colonnes 1 et 3</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">Ratio de largeur de colonne pour la troisième ligne</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">Couleur d'arrière-plan uniforme</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">Si vrai, les lignes 4/5 ont la même couleur que
+    les lignes 1/2/3</string>
+
+  <string id="PARAM_DISABLE_COLOR">Désactiver</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">Arrière-plan (tous les champs)</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">Arrière-plan sur les lignes 1, 4 et 5 seulement</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">Arrière-plan sur les lignes 2 et 3 seulement</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">Avant-plan (tous les champs)</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">Avant-plan sur les lignes 1, 4 et 5 seulement</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">Avant-plan sur les lignes 2 et 3 seulement</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">Couleur d'arrière-plan dynamique de l'en-tête</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">Couleur d'arrière-plan dynamique des données</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">Couleur d'avant-plan dynamique des données</string>
+
+  <string id="PARAM_AREA1">Champ 1</string>
+  <string id="PARAM_AREA2">Champ 2A</string>
+  <string id="PARAM_AREA3">Champ 2B</string>
+  <string id="PARAM_AREA4">Champ 2C</string>
+  <string id="PARAM_AREA5">Champ 3A</string>
+  <string id="PARAM_AREA6">Champ 3B</string>
+  <string id="PARAM_AREA7">Champ 3C</string>
+
+  <string id="PARAM_AREA8">Champ 4A</string>
+  <string id="PARAM_AREA9">Champ 4B</string>
+  <string id="PARAM_AREA10">Champ 5</string>
+
+  <string id="F00">Vide</string>
+  <string id="F01">Temps</string>
+  <string id="F02">Minuteur</string>
+  <string id="F05">Distance</string>
+  <string id="F06">FC actuelle</string>
+  <string id="F07">Allure actuelle</string>
+  <string id="F08">Vitesse actuelle</string>
+  <string id="F09">FC moyenne</string>
+  <string id="F10">Allure moyenne</string>
+  <string id="F12">Vitesse moyenne</string>
+  <string id="F13">Calories</string>
+  <string id="F14">Cadence actuelle</string>
+  <string id="F15">Altitude</string>
+  <string id="F16">Dénivelé positif</string>
+  <string id="F17">Dénivelé négatif</string>
+  <string id="F18">Icône de batterie</string>
+  <string id="F19">Icône GPS</string>
+  <string id="F20">Icône GPS et batterie</string>
+  <string id="F21">Puissance actuelle</string>
+  <string id="F22">Puissance moyenne</string>
+  <string id="F25">Temps de tour</string>
+  <string id="F26">Distance de tour</string>
+  <string id="F27">Allure de tour</string>
+  <string id="F28">Effet d'entraînement</string>
+  <string id="F30">Temps de tour précédent</string>
+  <string id="F23">Distance de tour précédent</string>
+  <string id="F24">Allure de tour précédent</string>
+  <string id="F31">ETA de tour</string>
+  <string id="F32">Nombre de tours</string>
+  <string id="F33">Cadence moyenne</string>
+  <string id="F34">Temps avant/après</string>
+  <string id="F35">Zone FC</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETA Semi-marathon (21,0975 km)</string>
+  <string id="F53">ETA Marathon (42,195 km)</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">Allure requise 5K</string>
+  <string id="F57">Allure requise 10K</string>
+  <string id="F58">Allure requise Semi-marathon (21,0975 km)</string>
+  <string id="F59">Allure requise Marathon (42,195 km)</string>
+  <string id="F60">Allure requise 50K</string>
+  <string id="F61">Allure requise 100K</string>
+</strings>

@@ -4,7 +4,8 @@
     <settingConfig type="numeric" min="0" />
   </setting>
 
-  <setting propertyKey="@Properties.CadenceRange" title="@Strings.PARAM_CADENCE_RANGE"  prompt="@Strings.PARAM_DESC_CADENCE_RANGE">
+  <setting propertyKey="@Properties.CadenceRange" title="@Strings.PARAM_CADENCE_RANGE"
+    prompt="@Strings.PARAM_DESC_CADENCE_RANGE">
     <settingConfig type="numeric" min="0" />
   </setting>
 
@@ -24,12 +25,14 @@
       <listEntry value="8">@Strings.F08</listEntry>      <!-- 08 Current Speed -->
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="138">@Strings.F138</listEntry>   <!-- 138 Average Speed (Last X sec) -->
-      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X sec) -->
-      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last X sec) -->
+      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X
+      sec) -->
+      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last
+      X sec) -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Average Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Average Power -->
       <listEntry value="121">@Strings.F121</listEntry>   <!-- 121 Max Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
@@ -50,7 +53,8 @@
       <listEntry value="152">@Strings.F152</listEntry>   <!-- 152 Required Pace Lap Distance -->
       <listEntry value="147">@Strings.F147</listEntry>   <!-- 147 Required Speed 5K -->
       <listEntry value="148">@Strings.F148</listEntry>   <!-- 148 Required Speed 10K -->
-      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975 km) -->
+      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975
+      km) -->
       <listEntry value="150">@Strings.F150</listEntry>   <!-- 150 Required Speed Marathon (42.195 km) -->
       <listEntry value="151">@Strings.F151</listEntry>   <!-- 151 Required Speed 100K -->
       <listEntry value="153">@Strings.F153</listEntry>   <!-- 153 Required Speed Lap Distance -->
@@ -68,7 +72,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area2" title="@Strings.PARAM_AREA2">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -85,12 +89,14 @@
       <listEntry value="8">@Strings.F08</listEntry>      <!-- 08 Current Speed -->
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="138">@Strings.F138</listEntry>   <!-- 138 Average Speed (Last X sec) -->
-      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X sec) -->
-      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last X sec) -->
+      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X
+      sec) -->
+      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last
+      X sec) -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Average Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Average Power -->
       <listEntry value="121">@Strings.F121</listEntry>   <!-- 121 Max Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
@@ -111,7 +117,8 @@
       <listEntry value="152">@Strings.F152</listEntry>   <!-- 152 Required Pace Lap Distance -->
       <listEntry value="147">@Strings.F147</listEntry>   <!-- 147 Required Speed 5K -->
       <listEntry value="148">@Strings.F148</listEntry>   <!-- 148 Required Speed 10K -->
-      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975 km) -->
+      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975
+      km) -->
       <listEntry value="150">@Strings.F150</listEntry>   <!-- 150 Required Speed Marathon (42.195 km) -->
       <listEntry value="151">@Strings.F151</listEntry>   <!-- 151 Required Speed 100K -->
       <listEntry value="153">@Strings.F153</listEntry>   <!-- 153 Required Speed Lap Distance -->
@@ -129,7 +136,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area3" title="@Strings.PARAM_AREA3">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -146,12 +153,14 @@
       <listEntry value="8">@Strings.F08</listEntry>      <!-- 08 Current Speed -->
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="138">@Strings.F138</listEntry>   <!-- 138 Average Speed (Last X sec) -->
-      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X sec) -->
-      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last X sec) -->
+      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X
+      sec) -->
+      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last
+      X sec) -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Average Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Average Power -->
       <listEntry value="121">@Strings.F121</listEntry>   <!-- 121 Max Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
@@ -172,7 +181,8 @@
       <listEntry value="152">@Strings.F152</listEntry>   <!-- 152 Required Pace Lap Distance -->
       <listEntry value="147">@Strings.F147</listEntry>   <!-- 147 Required Speed 5K -->
       <listEntry value="148">@Strings.F148</listEntry>   <!-- 148 Required Speed 10K -->
-      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975 km) -->
+      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975
+      km) -->
       <listEntry value="150">@Strings.F150</listEntry>   <!-- 150 Required Speed Marathon (42.195 km) -->
       <listEntry value="151">@Strings.F151</listEntry>   <!-- 151 Required Speed 100K -->
       <listEntry value="153">@Strings.F153</listEntry>   <!-- 153 Required Speed Lap Distance -->
@@ -190,7 +200,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area4" title="@Strings.PARAM_AREA4">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -207,12 +217,14 @@
       <listEntry value="8">@Strings.F08</listEntry>      <!-- 08 Current Speed -->
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="138">@Strings.F138</listEntry>   <!-- 138 Average Speed (Last X sec) -->
-      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X sec) -->
-      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last X sec) -->
+      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X
+      sec) -->
+      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last
+      X sec) -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Average Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Average Power -->
       <listEntry value="121">@Strings.F121</listEntry>   <!-- 121 Max Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
@@ -233,7 +245,8 @@
       <listEntry value="152">@Strings.F152</listEntry>   <!-- 152 Required Pace Lap Distance -->
       <listEntry value="147">@Strings.F147</listEntry>   <!-- 147 Required Speed 5K -->
       <listEntry value="148">@Strings.F148</listEntry>   <!-- 148 Required Speed 10K -->
-      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975 km) -->
+      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975
+      km) -->
       <listEntry value="150">@Strings.F150</listEntry>   <!-- 150 Required Speed Marathon (42.195 km) -->
       <listEntry value="151">@Strings.F151</listEntry>   <!-- 151 Required Speed 100K -->
       <listEntry value="153">@Strings.F153</listEntry>   <!-- 153 Required Speed Lap Distance -->
@@ -251,7 +264,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area5" title="@Strings.PARAM_AREA5">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -268,12 +281,14 @@
       <listEntry value="8">@Strings.F08</listEntry>      <!-- 08 Current Speed -->
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="138">@Strings.F138</listEntry>   <!-- 138 Average Speed (Last X sec) -->
-      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X sec) -->
-      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last X sec) -->
+      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X
+      sec) -->
+      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last
+      X sec) -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Average Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Average Power -->
       <listEntry value="121">@Strings.F121</listEntry>   <!-- 121 Max Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
@@ -294,7 +309,8 @@
       <listEntry value="152">@Strings.F152</listEntry>   <!-- 152 Required Pace Lap Distance -->
       <listEntry value="147">@Strings.F147</listEntry>   <!-- 147 Required Speed 5K -->
       <listEntry value="148">@Strings.F148</listEntry>   <!-- 148 Required Speed 10K -->
-      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975 km) -->
+      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975
+      km) -->
       <listEntry value="150">@Strings.F150</listEntry>   <!-- 150 Required Speed Marathon (42.195 km) -->
       <listEntry value="151">@Strings.F151</listEntry>   <!-- 151 Required Speed 100K -->
       <listEntry value="153">@Strings.F153</listEntry>   <!-- 153 Required Speed Lap Distance -->
@@ -312,7 +328,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area6" title="@Strings.PARAM_AREA6">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -329,12 +345,14 @@
       <listEntry value="8">@Strings.F08</listEntry>      <!-- 08 Current Speed -->
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="138">@Strings.F138</listEntry>   <!-- 138 Average Speed (Last X sec) -->
-      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X sec) -->
-      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last X sec) -->
+      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X
+      sec) -->
+      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last
+      X sec) -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Average Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Average Power -->
       <listEntry value="121">@Strings.F121</listEntry>   <!-- 121 Max Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
@@ -355,7 +373,8 @@
       <listEntry value="152">@Strings.F152</listEntry>   <!-- 152 Required Pace Lap Distance -->
       <listEntry value="147">@Strings.F147</listEntry>   <!-- 147 Required Speed 5K -->
       <listEntry value="148">@Strings.F148</listEntry>   <!-- 148 Required Speed 10K -->
-      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975 km) -->
+      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975
+      km) -->
       <listEntry value="150">@Strings.F150</listEntry>   <!-- 150 Required Speed Marathon (42.195 km) -->
       <listEntry value="151">@Strings.F151</listEntry>   <!-- 151 Required Speed 100K -->
       <listEntry value="153">@Strings.F153</listEntry>   <!-- 153 Required Speed Lap Distance -->
@@ -373,7 +392,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area7" title="@Strings.PARAM_AREA7">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -390,12 +409,14 @@
       <listEntry value="8">@Strings.F08</listEntry>      <!-- 08 Current Speed -->
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="138">@Strings.F138</listEntry>   <!-- 138 Average Speed (Last X sec) -->
-      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X sec) -->
-      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last X sec) -->
+      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X
+      sec) -->
+      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last
+      X sec) -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Average Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Average Power -->
       <listEntry value="121">@Strings.F121</listEntry>   <!-- 121 Max Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
@@ -416,7 +437,8 @@
       <listEntry value="152">@Strings.F152</listEntry>   <!-- 152 Required Pace Lap Distance -->
       <listEntry value="147">@Strings.F147</listEntry>   <!-- 147 Required Speed 5K -->
       <listEntry value="148">@Strings.F148</listEntry>   <!-- 148 Required Speed 10K -->
-      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975 km) -->
+      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975
+      km) -->
       <listEntry value="150">@Strings.F150</listEntry>   <!-- 150 Required Speed Marathon (42.195 km) -->
       <listEntry value="151">@Strings.F151</listEntry>   <!-- 151 Required Speed 100K -->
       <listEntry value="153">@Strings.F153</listEntry>   <!-- 153 Required Speed Lap Distance -->
@@ -434,7 +456,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area8" title="@Strings.PARAM_AREA8">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -451,12 +473,14 @@
       <listEntry value="8">@Strings.F08</listEntry>      <!-- 08 Current Speed -->
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="138">@Strings.F138</listEntry>   <!-- 138 Average Speed (Last X sec) -->
-      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X sec) -->
-      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last X sec) -->
+      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X
+      sec) -->
+      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last
+      X sec) -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Average Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Average Power -->
       <listEntry value="121">@Strings.F121</listEntry>   <!-- 121 Max Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
@@ -477,7 +501,8 @@
       <listEntry value="152">@Strings.F152</listEntry>   <!-- 152 Required Pace Lap Distance -->
       <listEntry value="147">@Strings.F147</listEntry>   <!-- 147 Required Speed 5K -->
       <listEntry value="148">@Strings.F148</listEntry>   <!-- 148 Required Speed 10K -->
-      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975 km) -->
+      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975
+      km) -->
       <listEntry value="150">@Strings.F150</listEntry>   <!-- 150 Required Speed Marathon (42.195 km) -->
       <listEntry value="151">@Strings.F151</listEntry>   <!-- 151 Required Speed 100K -->
       <listEntry value="153">@Strings.F153</listEntry>   <!-- 153 Required Speed Lap Distance -->
@@ -495,7 +520,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area9" title="@Strings.PARAM_AREA9">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -512,12 +537,14 @@
       <listEntry value="8">@Strings.F08</listEntry>      <!-- 08 Current Speed -->
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="138">@Strings.F138</listEntry>   <!-- 138 Average Speed (Last X sec) -->
-      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X sec) -->
-      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last X sec) -->
+      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X
+      sec) -->
+      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last
+      X sec) -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Average Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Average Power -->
       <listEntry value="121">@Strings.F121</listEntry>   <!-- 121 Max Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
@@ -538,7 +565,8 @@
       <listEntry value="152">@Strings.F152</listEntry>   <!-- 152 Required Pace Lap Distance -->
       <listEntry value="147">@Strings.F147</listEntry>   <!-- 147 Required Speed 5K -->
       <listEntry value="148">@Strings.F148</listEntry>   <!-- 148 Required Speed 10K -->
-      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975 km) -->
+      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975
+      km) -->
       <listEntry value="150">@Strings.F150</listEntry>   <!-- 150 Required Speed Marathon (42.195 km) -->
       <listEntry value="151">@Strings.F151</listEntry>   <!-- 151 Required Speed 100K -->
       <listEntry value="153">@Strings.F153</listEntry>   <!-- 153 Required Speed Lap Distance -->
@@ -556,7 +584,7 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
+
   <setting propertyKey="@Properties.Area10" title="@Strings.PARAM_AREA10">
     <settingConfig type="list">
       <listEntry value="0">@Strings.F00</listEntry>      <!-- 00 Empty -->
@@ -573,12 +601,14 @@
       <listEntry value="8">@Strings.F08</listEntry>      <!-- 08 Current Speed -->
       <listEntry value="12">@Strings.F12</listEntry>     <!-- 12 Average Speed -->
       <listEntry value="138">@Strings.F138</listEntry>   <!-- 138 Average Speed (Last X sec) -->
-      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X sec) -->
-      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last X sec) -->
+      <listEntry value="139">@Strings.F139</listEntry>   <!-- 139 Average Vertical Speed (/min) (Last X
+      sec) -->
+      <listEntry value="140">@Strings.F140</listEntry>   <!-- 140 Average Vertical Speed (/hour) (Last
+      X sec) -->
       <listEntry value="14">@Strings.F14</listEntry>     <!-- 14 Current Cadence -->
       <listEntry value="33">@Strings.F33</listEntry>     <!-- 33 Average Cadence -->
-      <listEntry value="21">@Strings.Field21</listEntry>     <!-- 21 Current Power -->
-      <listEntry value="22">@Strings.Field22</listEntry>     <!-- 22 Average Power -->
+      <listEntry value="21">@Strings.F21</listEntry>     <!-- 21 Current Power -->
+      <listEntry value="22">@Strings.F22</listEntry>     <!-- 22 Average Power -->
       <listEntry value="121">@Strings.F121</listEntry>   <!-- 121 Max Power -->
       <listEntry value="13">@Strings.F13</listEntry>     <!-- 13 Calories -->
       <listEntry value="15">@Strings.F15</listEntry>     <!-- 15 Altitude -->
@@ -599,7 +629,8 @@
       <listEntry value="152">@Strings.F152</listEntry>   <!-- 152 Required Pace Lap Distance -->
       <listEntry value="147">@Strings.F147</listEntry>   <!-- 147 Required Speed 5K -->
       <listEntry value="148">@Strings.F148</listEntry>   <!-- 148 Required Speed 10K -->
-      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975 km) -->
+      <listEntry value="149">@Strings.F149</listEntry>   <!-- 149 Required Speed Half Marathon (21.0975
+      km) -->
       <listEntry value="150">@Strings.F150</listEntry>   <!-- 150 Required Speed Marathon (42.195 km) -->
       <listEntry value="151">@Strings.F151</listEntry>   <!-- 151 Required Speed 100K -->
       <listEntry value="153">@Strings.F153</listEntry>   <!-- 153 Required Speed Lap Distance -->
@@ -617,13 +648,16 @@
       <listEntry value="20">@Strings.F20</listEntry>     <!-- 20 GPS Icon and Battery Icon -->
     </settingConfig>
   </setting>
-  
-  <setting propertyKey="@Properties.AvgSpeedTime" title="@Strings.PARAM_AVG_SPEED_TIME" prompt="@Strings.PARAM_DESC_AVG_SPEED_TIME">
+
+  <setting propertyKey="@Properties.AvgSpeedTime" title="@Strings.PARAM_AVG_SPEED_TIME"
+    prompt="@Strings.PARAM_DESC_AVG_SPEED_TIME">
     <settingConfig type="numeric" min="1" />
   </setting>
-  
-  <setting propertyKey="@Properties.AvgVerticalSpeedTime" title="@Strings.PARAM_AVG_VERTICAL_SPEED_TIME" prompt="@Strings.PARAM_DESC_AVG_VERTICAL_SPEED_TIME">
+
+  <setting propertyKey="@Properties.AvgVerticalSpeedTime"
+    title="@Strings.PARAM_AVG_VERTICAL_SPEED_TIME"
+    prompt="@Strings.PARAM_DESC_AVG_VERTICAL_SPEED_TIME">
     <settingConfig type="numeric" min="1" />
   </setting>
-  
+
 </settings>

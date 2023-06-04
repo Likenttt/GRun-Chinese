@@ -1,0 +1,102 @@
+<strings>
+  <string id="AppName">GRun i18n</string>
+  <string id="PARAM_APP_VERSION">GRun Версия</string>
+
+  <string id="PARAM_TARGET_PACE">Целевая скорость (в секундах на км или милю)</string>
+  <string id="PARAM_DESC_TARGET_PACE">Пример: 330 для 5 минут и 30 секунд (км/миля выбирается
+    автоматически в зависимости от настроек часов)</string>
+  <string id="PARAM_PACE_RANGE">Диапазон скорости (+/- в секундах)</string>
+  <string id="PARAM_DESC_PACE_RANGE">Используйте для отображения скорости/темпа в цвете, если вне
+    диапазона</string>
+
+  <string id="PARAM_LAP_DISTANCE">Дистанция для круга (в метрах)</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">Автоматическое корректирование дистанции при нажатии кнопки
+    круга (0=отключить,
+    1000=1км, 1609=1миля)</string>
+
+  <string id="PARAM_HEADER_HEIGHT">Высота заголовка (%)</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0 для скрытия заголовков</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">Отношение высоты строки</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">Пример: 4,7,7,3,3 означает, что строка #1 использует 4/24
+    экрана,
+    строки #2 и #3 используют 7/24, и т.д.</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">Отношение ширины столбца для второй строки</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">Пример: 1,2,1 означает, что средний столбец будет в 2
+    раза больше, чем столбцы 1 и 3</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">Отношение ширины столбца для третьей строки</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">Одинаковый цвет фона</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">Если истина, то строки 4/5 будут иметь тот же
+    цвет, что и строки 1/2/3</string>
+
+  <string id="PARAM_DISABLE_COLOR">Отключить</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">Фон (все поля)</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">Фон только на строках 1, 4 и 5</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">Фон только на строках 2 и 3</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">Передний план (все поля)</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">Передний план только на строках 1, 4 и 5</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">Передний план только на строках 2 и 3</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">Динамический цвет фона заголовка</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">Динамический цвет фона данных</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">Динамический цвет переднего плана данных</string>
+
+  <string id="PARAM_AREA1">Поле 1</string>
+  <string id="PARAM_AREA2">Поле 2A</string>
+  <string id="PARAM_AREA3">Поле 2B</string>
+  <string id="PARAM_AREA4">Поле 2C</string>
+  <string id="PARAM_AREA5">Поле 3A</string>
+  <string id="PARAM_AREA6">Поле 3B</string>
+  <string id="PARAM_AREA7">Поле 3C</string>
+
+  <string id="PARAM_AREA8">Поле 4A</string>
+  <string id="PARAM_AREA9">Поле 4B</string>
+  <string id="PARAM_AREA10">Поле 5</string>
+
+  <string id="F00">Пусто</string>
+  <string id="F01">Время</string>
+  <string id="F02">Таймер</string>
+  <string id="F05">Дистанция</string>
+  <string id="F06">Текущая ЧСС</string>
+  <string id="F07">Текущая Скорость</string>
+  <string id="F08">Текущая Скорость</string>
+  <string id="F09">Средняя ЧСС</string>
+  <string id="F10">Средняя Скорость</string>
+  <string id="F12">Средняя Скорость</string>
+  <string id="F13">Калории</string>
+  <string id="F14">Текущий Каденс</string>
+  <string id="F15">Высота</string>
+  <string id="F16">Общий Подъем</string>
+  <string id="F17">Общий Спуск</string>
+  <string id="F18">Иконка Батареи</string>
+  <string id="F19">Иконка GPS</string>
+  <string id="F20">Иконка GPS и Батареи</string>
+  <string id="F21">Текущая Мощность</string>
+  <string id="F22">Средняя Мощность</string>
+  <string id="F25">Время Круга</string>
+  <string id="F26">Дистанция Круга</string>
+  <string id="F27">Скорость Круга</string>
+  <string id="F28">Тренировочный Эффект</string>
+  <string id="F30">Предыдущее Время Круга</string>
+  <string id="F23">Предыдущая Дистанция Круга</string>
+  <string id="F24">Предыдущая Скорость Круга</string>
+  <string id="F31">ETA Круг</string>
+  <string id="F32">Кол-во Кругов</string>
+  <string id="F33">Средний Каденс</string>
+  <string id="F34">Время Вперед/Позади</string>
+  <string id="F35">Зона ЧСС</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETA Полумарафон (21.0975 км)</string>
+  <string id="F53">ETA Марафон (42.195 км)</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">Требуемая Скорость 5K</string>
+  <string id="F57">Требуемая Скорость 10K</string>
+  <string id="F58">Требуемая Скорость Полумарафон (21.0975 км)</string>
+  <string id="F59">Требуемая Скорость Марафон (42.195 км)</string>
+  <string id="F60">Требуемая Скорость 50K</string>
+  <string id="F61">Требуемая Скорость 100K</string>
+</strings>

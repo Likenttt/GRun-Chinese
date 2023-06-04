@@ -1,0 +1,94 @@
+<strings>
+  <string id="AppName">GRun i18n</string>
+  <string id="PARAM_APP_VERSION">GRun 版本</string>
+
+  <string id="PARAM_TARGET_PACE">目标配速（每公里/英里秒）</string>
+  <string id="PARAM_DESC_TARGET_PACE">例如：330 代表5分30秒（根据手表设置自动选择公里/英里）</string>
+  <string id="PARAM_PACE_RANGE">配速范围（+/- 秒）</string>
+  <string id="PARAM_DESC_PACE_RANGE">超出范围时，用颜色显示速度/配速</string>
+
+  <string id="PARAM_LAP_DISTANCE">圈数距离（米）</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">按下圈数按钮时自动校正距离（0=禁用，1000=1公里，1609=1英里）</string>
+
+  <string id="PARAM_HEADER_HEIGHT">页眉高度（%）</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0 隐藏页眉</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">行高比例</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">例如：4,7,7,3,3 表示第1行占屏幕的4/24，第2/3行占7/24，等等</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">第2行列宽比例</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">例如：1,2,1 表示中间列是第1/3列的2倍</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">第3行列宽比例</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">统一背景色</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">若为真，第4/5行背景色与第1/2/3行相同</string>
+
+  <string id="PARAM_DISABLE_COLOR">禁用</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">背景（所有字段）</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">仅第1/4/5行背景</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">仅第2/3行背景</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">前景（所有字段）</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">仅第1/4/5行前景</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">仅第2/3行前景</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">动态页眉背景色</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">动态数据背景色</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">动态数据前景色</string>
+
+  <string id="PARAM_AREA1">字段1</string>
+  <string id="PARAM_AREA2">字段2A</string>
+  <string id="PARAM_AREA3">字段2B</string>
+  <string id="PARAM_AREA4">字段2C</string>
+  <string id="PARAM_AREA5">字段3A</string>
+  <string id="PARAM_AREA6">字段3B</string>
+  <string id="PARAM_AREA7">字段3C</string>
+
+  <string id="PARAM_AREA8">字段4A</string>
+  <string id="PARAM_AREA9">字段4B</string>
+  <string id="PARAM_AREA10">字段5</string>
+
+  <string id="F00">空</string>
+  <string id="F01">时间</string>
+  <string id="F02">计时器</string>
+  <string id="F05">距离</string>
+  <string id="F06">当前心率</string>
+  <string id="F07">当前配速</string>
+  <string id="F08">当前速度</string>
+  <string id="F09">平均心率</string>
+  <string id="F10">平均配速</string>
+  <string id="F12">平均速度</string>
+  <string id="F13">卡路里</string>
+  <string id="F14">当前踏频</string>
+  <string id="F15">海拔</string>
+  <string id="F16">总上升</string>
+  <string id="F17">总下降</string>
+  <string id="F18">电池图标</string>
+  <string id="F19">GPS图标</string>
+  <string id="F20">GPS图标和电池图标</string>
+  <string id="F21">当前功率</string>
+  <string id="F22">平均功率</string>
+  <string id="F25">圈时间</string>
+  <string id="F26">圈距离</string>
+  <string id="F27">圈配速</string>
+  <string id="F28">训练效果</string>
+  <string id="F30">上圈时间</string>
+  <string id="F23">上圈距离</string>
+  <string id="F24">上圈配速</string>
+  <string id="F31">ETA圈</string>
+  <string id="F32">圈数</string>
+  <string id="F33">平均踏频</string>
+  <string id="F34">提前/滞后时间</string>
+  <string id="F35">心率区间</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETA半马（21.0975 km）</string>
+  <string id="F53">ETA马拉松（42.195 km）</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">要求配速5K</string>
+  <string id="F57">要求配速10K</string>
+  <string id="F58">要求配速半马（21.0975 km）</string>
+  <string id="F59">要求配速马拉松（42.195 km）</string>
+  <string id="F60">要求配速50K</string>
+  <string id="F61">要求配速100K</string>
+</strings>

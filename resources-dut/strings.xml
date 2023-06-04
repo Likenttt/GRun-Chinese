@@ -1,0 +1,102 @@
+<strings>
+  <string id="AppName">GRun i18n</string>
+  <string id="PARAM_APP_VERSION">GRun Versie</string>
+
+  <string id="PARAM_TARGET_PACE">Doel Pace (in seconden per km of mijl)</string>
+  <string id="PARAM_DESC_TARGET_PACE">Voorbeeld: 330 voor 5min en 30sec (km/mijl wordt automatisch
+    gekozen op basis van watch instellingen</string>
+  <string id="PARAM_PACE_RANGE">Pace Bereik (+/- in seconden)</string>
+  <string id="PARAM_DESC_PACE_RANGE">Gebruik om snelheid/pace in kleur weer te geven als buiten
+    bereik</string>
+
+  <string id="PARAM_LAP_DISTANCE">Lap Afstand (in meters)</string>
+  <string id="PARAM_DESC_LAP_DISTANCE">Auto correctie afstand als lap knop wordt ingedrukt
+    (0=uitschakelen,
+    1000=1km, 1609=1mijl)</string>
+
+  <string id="PARAM_HEADER_HEIGHT">Header Hoogte (%)</string>
+  <string id="PARAM_DESC_HEADER_HEIGHT">0 om headers te verbergen</string>
+
+  <string id="PARAM_ROW_HEIGHT_RATIO">Rij Hoogte Verhouding</string>
+  <string id="PARAM_DESC_ROW_HEIGHT_RATIO">Voorbeeld: 4,7,7,3,3 betekent rij #1 gebruikt 4/24 van
+    het scherm,
+    rij #2 en #3 gebruiken 7/24, etc.</string>
+
+  <string id="PARAM_COLUMN_WIDTH_RATIO_1">Kolom Breedte Verhouding voor tweede rij</string>
+  <string id="PARAM_DESC_COLUMN_WIDTH_RATIO_1">Voorbeeld: 1,2,1 betekent middelste kolom 2 keer
+    groter dan kolom 1 en 3</string>
+  <string id="PARAM_COLUMN_WIDTH_RATIO_2">Kolom Breedte Verhouding voor derde rij</string>
+
+  <string id="PARAM_SINGLE_BACKGROUND_COLOR">Uniforme Achtergrond Kleur</string>
+  <string id="PARAM_DESC_SINGLE_BACKGROUND_COLOR">Als waar, rijen 4/5 hebben dezelfde kleur als
+    rijen 1/2/3</string>
+
+  <string id="PARAM_DISABLE_COLOR">Uitschakelen</string>
+  <string id="PARAM_ALL_BACKGROUND_COLOR">Achtergrond (Alle velden)</string>
+  <string id="PARAM_TOP_BOTTOM_BACKGROUND_COLOR">Achtergrond op rij 1, 4 en 5 alleen</string>
+  <string id="PARAM_MIDDLE_BACKGROUND_COLOR">Achtergrond op rij 2 en 3 alleen</string>
+  <string id="PARAM_ALL_FOREGROUND_COLOR">Voorgrond (Alle velden)</string>
+  <string id="PARAM_TOP_BOTTOM_FOREGROUND_COLOR">Voorgrond op rij 1, 4 en 5 alleen</string>
+  <string id="PARAM_MIDDLE_FOREGROUND_COLOR">Voorgrond op rij 2 en 3 alleen</string>
+
+  <string id="PARAM_HEADER_BACKGROUND_COLOR">Dynamische Header Achtergrond Kleur</string>
+  <string id="PARAM_DATA_BACKGROUND_COLOR">Dynamische Data Achtergrond Kleur</string>
+  <string id="PARAM_DATA_FOREGROUND_COLOR">Dynamische Data Voorgrond Kleur</string>
+
+  <string id="PARAM_AREA1">Veld 1</string>
+  <string id="PARAM_AREA2">Veld 2A</string>
+  <string id="PARAM_AREA3">Veld 2B</string>
+  <string id="PARAM_AREA4">Veld 2C</string>
+  <string id="PARAM_AREA5">Veld 3A</string>
+  <string id="PARAM_AREA6">Veld 3B</string>
+  <string id="PARAM_AREA7">Veld 3C</string>
+
+  <string id="PARAM_AREA8">Veld 4A</string>
+  <string id="PARAM_AREA9">Veld 4B</string>
+  <string id="PARAM_AREA10">Veld 5</string>
+
+  <string id="F00">Leeg</string>
+  <string id="F01">Tijd</string>
+  <string id="F02">Timer</string>
+  <string id="F05">Afstand</string>
+  <string id="F06">Huidige hartslag</string>
+  <string id="F07">Huidig tempo</string>
+  <string id="F08">Huidige snelheid</string>
+  <string id="F09">Gemiddelde hartslag</string>
+  <string id="F10">Gemiddeld tempo</string>
+  <string id="F12">Gemiddelde snelheid</string>
+  <string id="F13">Calorieën</string>
+  <string id="F14">Huidige cadans</string>
+  <string id="F15">Hoogte</string>
+  <string id="F16">Totale stijging</string>
+  <string id="F17">Totale daling</string>
+  <string id="F18">Batterij-icoon</string>
+  <string id="F19">GPS-icoon</string>
+  <string id="F20">GPS-icoon en batterij-icoon</string>
+  <string id="F21">Huidige vermogen</string>
+  <string id="F22">Gemiddeld vermogen</string>
+  <string id="F25">Rondetijd</string>
+  <string id="F26">Rondedistance</string>
+  <string id="F27">Rondetempo</string>
+  <string id="F28">Trainingseffect</string>
+  <string id="F30">Vorige rondetijd</string>
+  <string id="F23">Vorige rondedistance</string>
+  <string id="F24">Vorige rondetempo</string>
+  <string id="F31">ETA Ronde</string>
+  <string id="F32">Rondeteller</string>
+  <string id="F33">Gemiddelde cadans</string>
+  <string id="F34">Tijd voor/achter</string>
+  <string id="F35">HR-zone</string>
+  <string id="F50">ETA 5K</string>
+  <string id="F51">ETA 10K</string>
+  <string id="F52">ETA Halve marathon (21.0975 km)</string>
+  <string id="F53">ETA Marathon (42.195 km)</string>
+  <string id="F54">ETA 50K</string>
+  <string id="F55">ETA 100K</string>
+  <string id="F56">Vereist tempo 5K</string>
+  <string id="F57">Vereist tempo 10K</string>
+  <string id="F58">Vereist tempo Halve marathon (21.0975 km)</string>
+  <string id="F59">Vereist tempo Marathon (42.195 km)</string>
+  <string id="F60">Vereist tempo 50K</string>
+  <string id="F61">Vereist tempo 100K</string>
+</strings>
