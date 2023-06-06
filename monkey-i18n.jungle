@@ -33,6 +33,9 @@ venu2plus.sourcePath = source;source-highmem;source-highmem-venu2plus
 
 marq2.sourcePath = source;source-highmem;source-highmem-marq2
 marq2aviator.sourcePath = source;source-highmem;source-highmem-marq2
+epix2pro51mm.sourcePath = source;source-highmem;source-highmem-fr965
+epix2pro47mm.sourcePath = source;source-highmem;source-highmem-epix2
+epix2pro42mm.sourcePath = source;source-highmem;source-highmem-marq2
 
 # High Memory (124.7 KB)
 approachs62.sourcePath = source;source-highmem;source-highmem-approachs62
@@ -100,6 +103,9 @@ fr965.resourcePath = resources;resources-highmem;resources-highmem-power-te;reso
 fr265.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
 fr265s.resourcePath = resources;resources-highmem;resources-highmem-power-te
 
+epix2pro51mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
+epix2pro47mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
+epix2pro42mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-390x390
 
 
 fenix7x.resourcePath = resources;resources-highmem;resources-highmem-power-te
