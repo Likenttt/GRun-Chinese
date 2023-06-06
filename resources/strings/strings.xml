@@ -140,4 +140,7 @@
   <string id="OPTION_REQUIRED_PACE_MARATHON">全马配速</string>
   <string id="OPTION_REQUIRED_PACE_50K">50K配速</string>
   <string id="OPTION_REQUIRED_PACE_100K">100K配速</string>
+  <string id="OPTION_PREVIOUS_LAP_DISTANCE">上圈距离</string>
+  <string id="OPTION_PREVIOUS_LAP_PACE">上圈配速</string>
+
 </strings>

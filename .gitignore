@@ -3,3 +3,4 @@ bin/*
 .idea
 translate.py
 convert_xml.py
+dist/*

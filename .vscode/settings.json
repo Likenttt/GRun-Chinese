@@ -2,5 +2,9 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
-  "python.formatting.provider": "none"
+  "python.formatting.provider": "none",
+  // "monkeyC.jungleFiles": "monkey.jungle",
+  // "monkeyC.manifestFile": "manifest.xml"
+  "monkeyC.jungleFiles": "monkey-i18n.jungle",
+  "monkeyC.manifestFile": "manifest-i18n.xml"
 }
