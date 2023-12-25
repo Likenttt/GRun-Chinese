@@ -42,8 +42,10 @@ epix2pro42mm.sourcePath = source;source-highmem;source-highmem-marq2
 approachs7042mm.sourcePath = source;source-highmem;source-highmem-marq2
 approachs7047mm.sourcePath = source;source-highmem;source-highmem-fr965
 fenix7pro.sourcePath = source;source-highmem;source-highmem-fenix7
+fenix7pronowifi.sourcePath = source;source-highmem;source-highmem-fenix7
 fenix7spro.sourcePath = source;source-highmem;source-highmem-fenix7s
 fenix7xpro.sourcePath = source;source-highmem;source-highmem-fenix7x
+fenix7xpronowifi.sourcePath = source;source-highmem;source-highmem-fenix7x
 
 # High Memory (124.7 KB)
 approachs62.sourcePath = source;source-highmem;source-highmem-approachs62
@@ -121,6 +123,14 @@ vivoactive4s.sourcePath = source;source-lowmem-vivoactive4s
 venu2.sourcePath = source;source-lowmem-venu2
 venu2s.sourcePath = source;source-lowmem-venu2
 
+venu3.sourcePath = source;source-highmem;source-highmem-fr965
+venu3s.sourcePath = source;source-highmem;source-highmem-marq2
+
+descentmk351mm.sourcePath = source;source-highmem;source-highmem-fr965
+descentmk343mm.sourcePath = source;source-highmem;source-highmem-marq2
+vivoactive5.sourcePath = source;source-highmem;source-highmem-marq2
+
+
 # Resource Files
 #######################################################
 base.resourcePath = resources
@@ -144,13 +154,21 @@ epix2pro51mm.resourcePath = resources;resources-highmem;resources-highmem-power-
 epix2pro47mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
 epix2pro42mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-390x390
 
+venu3.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
+venu3s.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-390x390
+
+descentmk351mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
+descentmk343mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-390x390
+vivoactive5.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-390x390
 
 approachs7047mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
 approachs7042mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-390x390
 
 fenix7spro.resourcePath = resources;resources-highmem;resources-highmem-power-te
 fenix7pro.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fenix7pronowifi.resourcePath = resources;resources-highmem;resources-highmem-power-te
 fenix7xpro.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fenix7xpronowifi.resourcePath = resources;resources-highmem;resources-highmem-power-te
 
 fenix7x.resourcePath = resources;resources-highmem;resources-highmem-power-te
 venu2plus.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416

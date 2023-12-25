@@ -39,10 +39,19 @@ epix2pro42mm.sourcePath = source;source-highmem;source-highmem-marq2
 
 approachs7042mm.sourcePath = source;source-highmem;source-highmem-marq2
 approachs7047mm.sourcePath = source;source-highmem;source-highmem-fr965
+
 fenix7pro.sourcePath = source;source-highmem;source-highmem-fenix7
+fenix7pronowifi.sourcePath = source;source-highmem;source-highmem-fenix7
 fenix7spro.sourcePath = source;source-highmem;source-highmem-fenix7s
 fenix7xpro.sourcePath = source;source-highmem;source-highmem-fenix7x
+fenix7xpronowifi.sourcePath = source;source-highmem;source-highmem-fenix7x
 
+venu3.sourcePath = source;source-highmem;source-highmem-fr965
+venu3s.sourcePath = source;source-highmem;source-highmem-marq2
+
+descentmk351mm.sourcePath = source;source-highmem;source-highmem-fr965
+descentmk343mm.sourcePath = source;source-highmem;source-highmem-marq2
+vivoactive5.sourcePath = source;source-highmem;source-highmem-marq2
 
 # High Memory (124.7 KB)
 approachs62.sourcePath = source;source-highmem;source-highmem-approachs62
@@ -93,119 +102,128 @@ fr745.sourcePath = source;source-highmem;source-highmem-fr945
 
 # Resource Files
 #######################################################
-base.resourcePath = resources
+base.resourcePath = resources-i18n
 
 # High Memory (252.6 KB) with "Power" and "Training Effect" support
-d2airx10.resourcePath = resources;resources-highmem;resources-highmem-power-te
-epix2.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
-fenix7.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fenix7s.resourcePath = resources;resources-highmem;resources-highmem-power-te
+d2airx10.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+epix2.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-416x416
+fenix7.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fenix7s.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
 
-fr255.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fr255s.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fr255m.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fr255sm.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fr955.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fr965.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
-fr265.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
-fr265s.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fr255.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fr255s.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fr255m.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fr255sm.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fr955.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fr965.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-454x454
+fr265.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-416x416
+fr265s.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
 
-epix2pro51mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
-epix2pro47mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
-epix2pro42mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-390x390
+epix2pro51mm.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-454x454
+epix2pro47mm.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-416x416
+epix2pro42mm.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-390x390
 
-approachs7047mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
-approachs7042mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-390x390
+approachs7047mm.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-454x454
+approachs7042mm.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-390x390
 
-fenix7spro.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fenix7pro.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fenix7xpro.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fenix7spro.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fenix7pro.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fenix7pronowifi.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fenix7xpro.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fenix7xpronowifi.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
 
-fenix7x.resourcePath = resources;resources-highmem;resources-highmem-power-te
-venu2plus.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
-marq2.resourcePath = resources;resources-highmem;resources-highmem-power-te
-marq2aviator.resourcePath = resources;resources-highmem;resources-highmem-power-te
+venu3.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-454x454
+venu3s.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-390x390
+descentmk351mm.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-454x454
+descentmk343mm.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-390x390
+vivoactive5.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-390x390
+
+
+fenix7x.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+venu2plus.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-416x416
+marq2.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+marq2aviator.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
 
 # High Memory (124.7 KB) with no specific feature
-approachs62.resourcePath = resources;resources-highmem;resources-highmem-basic
-edgeexplore.resourcePath = resources;resources-highmem;resources-highmem-basic
-oregon7xx.resourcePath = resources;resources-highmem;resources-highmem-basic
-rino7xx.resourcePath = resources;resources-highmem;resources-highmem-basic
+approachs62.resourcePath = resources-i18n;resources-highmem;resources-highmem-basic
+edgeexplore.resourcePath = resources-i18n;resources-highmem;resources-highmem-basic
+oregon7xx.resourcePath = resources-i18n;resources-highmem;resources-highmem-basic
+rino7xx.resourcePath = resources-i18n;resources-highmem;resources-highmem-basic
 
 # High Memory (124.7 KB) with "Power" support
-d2charlie.resourcePath = resources;resources-highmem;resources-highmem-power
-d2delta.resourcePath = resources;resources-highmem;resources-highmem-power
-d2deltapx.resourcePath = resources;resources-highmem;resources-highmem-power
-d2deltas.resourcePath = resources;resources-highmem;resources-highmem-power
-edge820.resourcePath = resources;resources-highmem;resources-highmem-power
-fenix5plus.resourcePath = resources;resources-highmem;resources-highmem-power
-fenix5splus.resourcePath = resources;resources-highmem;resources-highmem-power
+d2charlie.resourcePath = resources-i18n;resources-highmem;resources-highmem-power
+d2delta.resourcePath = resources-i18n;resources-highmem;resources-highmem-power
+d2deltapx.resourcePath = resources-i18n;resources-highmem;resources-highmem-power
+d2deltas.resourcePath = resources-i18n;resources-highmem;resources-highmem-power
+edge820.resourcePath = resources-i18n;resources-highmem;resources-highmem-power
+fenix5plus.resourcePath = resources-i18n;resources-highmem;resources-highmem-power
+fenix5splus.resourcePath = resources-i18n;resources-highmem;resources-highmem-power
 
 # High Memory (60.7 KB) with "Training Effect" support
-fr245m.resourcePath = resources;resources-highmem;resources-highmem-te
-fr645m.resourcePath = resources;resources-highmem;resources-highmem-te
+fr245m.resourcePath = resources-i18n;resources-highmem;resources-highmem-te
+fr645m.resourcePath = resources-i18n;resources-highmem;resources-highmem-te
 
 # High Memory (124.7 KB) with "Power" and "Training Effect" support
-descentmk1.resourcePath = resources;resources-highmem;resources-highmem-power-te
-descentmk2.resourcePath = resources;resources-highmem;resources-highmem-power-te
-descentmk2s.resourcePath = resources;resources-highmem;resources-highmem-power-te
-edge1030.resourcePath = resources;resources-highmem;resources-highmem-power-te
-edge1030plus.resourcePath = resources;resources-highmem;resources-highmem-power-te
-edge1030bontrager.resourcePath = resources;resources-highmem;resources-highmem-power-te
-edge520plus.resourcePath = resources;resources-highmem;resources-highmem-power-te
-edge530.resourcePath = resources;resources-highmem;resources-highmem-power-te
-edge830.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fenix5x.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fenix5xplus.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fenix6pro.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fenix6spro.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fenix6xpro.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fr745.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fr945.resourcePath = resources;resources-highmem;resources-highmem-power-te
-fr945lte.resourcePath = resources;resources-highmem;resources-highmem-power-te
-marqadventurer.resourcePath = resources;resources-highmem;resources-highmem-power-te
-marqathlete.resourcePath = resources;resources-highmem;resources-highmem-power-te
-marqaviator.resourcePath = resources;resources-highmem;resources-highmem-power-te
-marqcaptain.resourcePath = resources;resources-highmem;resources-highmem-power-te
-marqcommander.resourcePath = resources;resources-highmem;resources-highmem-power-te
-marqdriver.resourcePath = resources;resources-highmem;resources-highmem-power-te
-marqexpedition.resourcePath = resources;resources-highmem;resources-highmem-power-te
-marqgolfer.resourcePath = resources;resources-highmem;resources-highmem-power-te
+descentmk1.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+descentmk2.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+descentmk2s.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+edge1030.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+edge1030plus.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+edge1030bontrager.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+edge520plus.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+edge530.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+edge830.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fenix5x.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fenix5xplus.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fenix6pro.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fenix6spro.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fenix6xpro.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fr745.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fr945.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+fr945lte.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+marqadventurer.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+marqathlete.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+marqaviator.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+marqcaptain.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+marqcommander.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+marqdriver.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+marqexpedition.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+marqgolfer.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
 
 # Low Memory (28.7 KB) with no specific feature
-d2air.resourcePath = resources;resources-lowmem-basic
-fr55.resourcePath = resources;resources-lowmem-basic
-vivoactive3.resourcePath = resources;resources-lowmem-basic
-vivoactive3d.resourcePath = resources;resources-lowmem-basic
-vivoactive3m.resourcePath = resources;resources-lowmem-basic
-vivoactive3mlte.resourcePath = resources;resources-lowmem-basic
-legacyherocaptainmarvel.resourcePath = resources;resources-lowmem-basic
-legacyherofirstavenger.resourcePath = resources;resources-lowmem-basic
-legacysagadarthvader.resourcePath = resources;resources-lowmem-basic
-legacysagarey.resourcePath = resources;resources-lowmem-basic
-venu.resourcePath = resources;resources-lowmem-basic
-venu2.resourcePath = resources;resources-lowmem-basic;resources-416x416
-venu2s.resourcePath = resources;resources-lowmem-basic
-venud.resourcePath = resources;resources-lowmem-basic
-vivoactive4.resourcePath = resources;resources-lowmem-basic
-vivoactive4s.resourcePath = resources;resources-lowmem-basic
+d2air.resourcePath = resources-i18n;resources-lowmem-basic
+fr55.resourcePath = resources-i18n;resources-lowmem-basic
+vivoactive3.resourcePath = resources-i18n;resources-lowmem-basic
+vivoactive3d.resourcePath = resources-i18n;resources-lowmem-basic
+vivoactive3m.resourcePath = resources-i18n;resources-lowmem-basic
+vivoactive3mlte.resourcePath = resources-i18n;resources-lowmem-basic
+legacyherocaptainmarvel.resourcePath = resources-i18n;resources-lowmem-basic
+legacyherofirstavenger.resourcePath = resources-i18n;resources-lowmem-basic
+legacysagadarthvader.resourcePath = resources-i18n;resources-lowmem-basic
+legacysagarey.resourcePath = resources-i18n;resources-lowmem-basic
+venu.resourcePath = resources-i18n;resources-lowmem-basic
+venu2.resourcePath = resources-i18n;resources-lowmem-basic;resources-416x416
+venu2s.resourcePath = resources-i18n;resources-lowmem-basic
+venud.resourcePath = resources-i18n;resources-lowmem-basic
+vivoactive4.resourcePath = resources-i18n;resources-lowmem-basic
+vivoactive4s.resourcePath = resources-i18n;resources-lowmem-basic
 
 # Low Memory (28.7 KB) with "Power" support
-edge130.resourcePath = resources;resources-lowmem-power
-edge130plus.resourcePath = resources;resources-lowmem-power
+edge130.resourcePath = resources-i18n;resources-lowmem-power
+edge130plus.resourcePath = resources-i18n;resources-lowmem-power
 
 # Low Memory (28.7 KB) with "Training Effect" support
-fr245.resourcePath = resources;resources-lowmem-te
-fr645.resourcePath = resources;resources-lowmem-te
+fr245.resourcePath = resources-i18n;resources-lowmem-te
+fr645.resourcePath = resources-i18n;resources-lowmem-te
 
 # Low Memory (28.7 KB)  with "Power" and "Training Effect" support
-enduro.resourcePath = resources;resources-lowmem-power-te
-fenix5.resourcePath = resources;resources-lowmem-power-te
-fenix5s.resourcePath = resources;resources-lowmem-power-te
-fenix6.resourcePath = resources;resources-lowmem-power-te
-fenix6s.resourcePath = resources;resources-lowmem-power-te
-fenixchronos.resourcePath = resources;resources-lowmem-power-te
-fr935.resourcePath = resources;resources-lowmem-power-te
+enduro.resourcePath = resources-i18n;resources-lowmem-power-te
+fenix5.resourcePath = resources-i18n;resources-lowmem-power-te
+fenix5s.resourcePath = resources-i18n;resources-lowmem-power-te
+fenix6.resourcePath = resources-i18n;resources-lowmem-power-te
+fenix6s.resourcePath = resources-i18n;resources-lowmem-power-te
+fenixchronos.resourcePath = resources-i18n;resources-lowmem-power-te
+fr935.resourcePath = resources-i18n;resources-lowmem-power-te
 
 
 base.lang.ara = resources-ara

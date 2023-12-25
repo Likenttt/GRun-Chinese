@@ -98,6 +98,7 @@ class GRunView extends WatchUi.DataField {
   protected var fontIcons = WatchUi.loadResource(Rez.Fonts.Icons);
   protected var fontHeader = Graphics.FONT_LARGE;
   protected var initCompleted = 6;
+  protected var hrIconWidth;
 
   // GPS Image to display
   protected var imgGPS = WatchUi.loadResource(Rez.Drawables.GPS0);
@@ -1126,10 +1127,10 @@ class GRunView extends WatchUi.DataField {
         hasHeader == false
       ) {
         displayIcon = true;
-
+        var hrIconWidth = dc.getTextWidthInPixels("0", fontIcons);
         //areaX += 30;     // 24 (iconWidth) + 6 (padding)
-        areaWidth -= 30; // 24 (iconWidth) + 6 (padding)
-        areaXcenter += 15; // (24 (iconWidth) + 6 (padding)) / 2
+        areaWidth -= (hrIconWidth + 6) * 1.5; // 24 (iconWidth) + 6 (padding)
+        areaXcenter += (hrIconWidth + 6) / 2; // (24 (iconWidth) + 6 (padding)) / 2
       }
 
       var formattedValue = getFormattedValue(id, type, value);
@@ -1586,7 +1587,7 @@ class GRunView extends WatchUi.DataField {
     // Render battery
     dc.setColor(grayColor, -1 /* Gfx.COLOR_TRANSPARENT */);
     dc.fillRoundedRectangle(
-      x - batteryTextDimensions[0] * 1.2 * 0.5,
+      x - batteryTextDimensions[0] * 0.6,
       y,
       batteryTextDimensions[0] * 1.2,
       batteryHeight,
@@ -1597,13 +1598,13 @@ class GRunView extends WatchUi.DataField {
     // dc.setColor(0xffff00, -1 /* Gfx.COLOR_TRANSPARENT */);
 
     //BATTERY HEADER
-    dc.fillRoundedRectangle(
-      x + batteryTextDimensions[0] * 0.6,
-      y + roundWithDefault(batteryHeight * 0.25, 2),
-      roundWithDefault(batteryTextDimensions[0] * 0.2, 4),
-      roundWithDefault(batteryHeight * 0.5, 4),
-      2
-    );
+    // dc.fillRoundedRectangle(
+    //   x + batteryTextDimensions[0] * 0.6,
+    //   y + roundWithDefault(batteryHeight * 0.25, 2),
+    //   roundWithDefault(batteryTextDimensions[0] * 0.2, 4),
+    //   roundWithDefault(batteryHeight * 0.5, 4),
+    //   2
+    // );
     dc.setColor(Graphics.COLOR_BLACK, -1 /* Gfx.COLOR_TRANSPARENT */);
     dc.drawText(x, y + batteryHeight * 0.5, 0, batteryText + "%", 5);
   }

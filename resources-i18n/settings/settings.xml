@@ -1,0 +1,61 @@
+<settings>
+  <setting propertyKey="@Properties.AV" title="@Strings.PARAM_APP_VERSION">
+    <settingConfig type="alphaNumeric" readonly="true" />
+  </setting>
+
+  <setting propertyKey="@Properties.TargetPace" title="@Strings.PARAM_TARGET_PACE" prompt="@Strings.PARAM_DESC_TARGET_PACE">
+    <settingConfig type="numeric" min="0" />
+  </setting>
+
+  <setting propertyKey="@Properties.PaceRange" title="@Strings.PARAM_PACE_RANGE"  prompt="@Strings.PARAM_DESC_PACE_RANGE">
+    <settingConfig type="numeric" min="0" />
+  </setting>
+
+  <setting propertyKey="@Properties.LapDistance" title="@Strings.PARAM_LAP_DISTANCE" prompt="@Strings.PARAM_DESC_LAP_DISTANCE">
+    <settingConfig type="numeric" min="0" />
+  </setting>
+
+  <setting propertyKey="@Properties.HeaderHeight" title="@Strings.PARAM_HEADER_HEIGHT" prompt="@Strings.PARAM_DESC_HEADER_HEIGHT">
+    <settingConfig type="numeric" min="0" max="100" />
+  </setting>
+  
+  <setting propertyKey="@Properties.RowHeightRatio" title="@Strings.PARAM_ROW_HEIGHT_RATIO" prompt="@Strings.PARAM_DESC_ROW_HEIGHT_RATIO">
+    <settingConfig type="alphaNumeric" />
+  </setting>
+  
+  <setting propertyKey="@Properties.ColumnWidthRatio1" title="@Strings.PARAM_COLUMN_WIDTH_RATIO_1" prompt="@Strings.PARAM_DESC_COLUMN_WIDTH_RATIO_1">
+    <settingConfig type="alphaNumeric" />
+  </setting>
+  
+  <setting propertyKey="@Properties.ColumnWidthRatio2" title="@Strings.PARAM_COLUMN_WIDTH_RATIO_2">
+    <settingConfig type="alphaNumeric" />
+  </setting>
+  
+  <setting propertyKey="@Properties.SingleBackgroundColor" title="@Strings.PARAM_SINGLE_BACKGROUND_COLOR"  prompt="@Strings.PARAM_DESC_SINGLE_BACKGROUND_COLOR">
+    <settingConfig type="boolean" />
+  </setting>
+
+  <setting propertyKey="@Properties.HeaderBackgroundColor" title="@Strings.PARAM_HEADER_BACKGROUND_COLOR">
+    <settingConfig type="boolean" />
+  </setting>
+  
+  <setting propertyKey="@Properties.DataBackgroundColor" title="@Strings.PARAM_DATA_BACKGROUND_COLOR">
+    <settingConfig type="list">
+      <listEntry value="0">@Strings.PARAM_DISABLE_COLOR</listEntry>
+      <listEntry value="4">@Strings.PARAM_ALL_BACKGROUND_COLOR</listEntry>
+      <listEntry value="1">@Strings.PARAM_TOP_BOTTOM_BACKGROUND_COLOR</listEntry>
+      <listEntry value="2">@Strings.PARAM_MIDDLE_BACKGROUND_COLOR</listEntry>
+    </settingConfig>
+  </setting>
+  
+
+  <setting propertyKey="@Properties.DataForegroundColor" title="@Strings.PARAM_DATA_FOREGROUND_COLOR">
+    <settingConfig type="list">
+      <listEntry value="0">@Strings.PARAM_DISABLE_COLOR</listEntry>
+      <listEntry value="4">@Strings.PARAM_ALL_FOREGROUND_COLOR</listEntry>
+      <listEntry value="1">@Strings.PARAM_TOP_BOTTOM_FOREGROUND_COLOR</listEntry>
+      <listEntry value="2">@Strings.PARAM_MIDDLE_FOREGROUND_COLOR</listEntry>
+    </settingConfig>
+  </setting>
+
+</settings>

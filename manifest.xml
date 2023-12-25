@@ -15,6 +15,8 @@
       <iq:product id="descentmk1"/>
       <iq:product id="descentmk2"/>
       <iq:product id="descentmk2s"/>
+      <iq:product id="descentmk343mm"/>
+      <iq:product id="descentmk351mm"/>
       <iq:product id="edge1030"/>
       <iq:product id="edge1030bontrager"/>
       <iq:product id="edge1030plus"/>
@@ -43,10 +45,12 @@
       <iq:product id="fenix6xpro"/>
       <iq:product id="fenix7"/>
       <iq:product id="fenix7pro"/>
+      <iq:product id="fenix7pronowifi"/>
       <iq:product id="fenix7s"/>
       <iq:product id="fenix7spro"/>
       <iq:product id="fenix7x"/>
       <iq:product id="fenix7xpro"/>
+      <iq:product id="fenix7xpronowifi"/>
       <iq:product id="fenixchronos"/>
       <iq:product id="fr245"/>
       <iq:product id="fr245m"/>
@@ -81,10 +85,11 @@
       <iq:product id="marqgolfer"/>
       <iq:product id="oregon7xx"/>
       <iq:product id="rino7xx"/>
-      <iq:product id="venu"/>
       <iq:product id="venu2"/>
       <iq:product id="venu2plus"/>
       <iq:product id="venu2s"/>
+      <iq:product id="venu3"/>
+      <iq:product id="venu3s"/>
       <iq:product id="venud"/>
       <iq:product id="vivoactive3"/>
       <iq:product id="vivoactive3d"/>
@@ -92,6 +97,7 @@
       <iq:product id="vivoactive3mlte"/>
       <iq:product id="vivoactive4"/>
       <iq:product id="vivoactive4s"/>
+      <iq:product id="vivoactive5"/>
     </iq:products>
     <iq:permissions>
       <iq:uses-permission id="Positioning"/>

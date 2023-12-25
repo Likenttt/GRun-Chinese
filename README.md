@@ -323,6 +323,10 @@ Calculate the vertical speed in meter/min or feet/min depending on the watch set
 
 ## Release Notes
 
+### Version 1.42 (by @Likenttt)
+
+Add support for Descent mk3/F7(x)pronowifi/venu3(s)/vivoactive5;Optimize the size of heart rate under the top arc.
+
 ### Version 1.36 (by @Likenttt)
 
 Add support for MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer/ Aviator. They all have a high and sufficient memory 256kB.
