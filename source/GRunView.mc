@@ -1361,7 +1361,7 @@ class GRunView extends WatchUi.DataField {
         System.getDeviceSettings().is24Hour || value.hour <= 12
           ? value.hour
           : value.hour - 12;
-      return hour + ":" + value.min.format("%02d");
+      return hour + ":" + value.min + ":" + value.sec;
     }
 
     if (

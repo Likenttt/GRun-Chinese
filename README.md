@@ -323,6 +323,10 @@ Calculate the vertical speed in meter/min or feet/min depending on the watch set
 
 ## Release Notes
 
+### Version 1.43
+
+Add second for current time.
+
 ### Version 1.42 (by @Likenttt)
 
 Add support for Descent mk3/F7(x)pronowifi/venu3(s)/vivoactive5;Optimize the size of heart rate under the top arc.
