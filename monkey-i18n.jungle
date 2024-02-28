@@ -46,6 +46,9 @@ fenix7spro.sourcePath = source;source-highmem;source-highmem-fenix7s
 fenix7xpro.sourcePath = source;source-highmem;source-highmem-fenix7x
 fenix7xpronowifi.sourcePath = source;source-highmem;source-highmem-fenix7x
 
+fr165.sourcePath = source;source-highmem;source-highmem-marq2
+fr165m.sourcePath = source;source-highmem;source-highmem-marq2
+
 venu3.sourcePath = source;source-highmem;source-highmem-fr965
 venu3s.sourcePath = source;source-highmem;source-highmem-marq2
 
@@ -131,6 +134,10 @@ fenix7pro.resourcePath = resources-i18n;resources-highmem;resources-highmem-powe
 fenix7pronowifi.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
 fenix7xpro.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
 fenix7xpronowifi.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
+
+fr165.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-390x390
+fr165m.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-390x390
+
 
 venu3.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-454x454
 venu3s.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te;resources-390x390

@@ -1,3 +1,4 @@
 <fonts>
-	<font id="Icons" filename="hr.fnt" antialias="true" filter="0"/>
+	<font id="Icons" filename="hr.fnt" antialias="true" filter="0" />
+	<font id="Roboto_20_Bold" filename="Roboto_20_Bold.fnt" antialias="true" />
 </fonts>
