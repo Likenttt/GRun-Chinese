@@ -1098,15 +1098,24 @@ class GRunView extends WatchUi.DataField {
         if (type == 18 /* OPTION_CURRENT_BATTERY */) {
           drawBattery(dc, id, areaXcenter, areaYcenter);
         } else if (type == 19 /* OPTION_CURRENT_LOCATION_ACCURACY */) {
-          dc.drawBitmap(areaXcenter - 14, areaYcenter - 11, imgGPS);
+          dc.drawBitmap(
+            areaXcenter - imgGPS.getWidth() / 2,
+            areaYcenter - imgGPS.getHeight() / 2,
+            imgGPS
+          );
         } else if (
           type == 20 /* OPTION_CURRENT_LOCATION_ACCURACY_AND_BATTERY */
         ) {
-          dc.drawBitmap(areaXcenter - 43, areaYcenter - 11, imgGPS);
+          var params = getBatteryParams();
+          dc.drawBitmap(
+            areaXcenter - imgGPS.getWidth() - 15,
+            areaYcenter - imgGPS.getHeight() / 2,
+            imgGPS
+          );
           drawBattery(
             dc,
             id,
-            areaXcenter + 17 /*(gpsLength / 2)*/,
+            areaXcenter + imgGPS.getWidth() / 2 + 10 /*(gpsLength / 2)*/,
             areaYcenter
           );
         }
@@ -1356,7 +1365,7 @@ class GRunView extends WatchUi.DataField {
         System.getDeviceSettings().is24Hour || value.hour <= 12
           ? value.hour
           : value.hour - 12;
-      return hour + ":" + value.min + ":" + value.sec;
+      return hour.format("%02d") + ":" + value.min.format("%02d"); //+ ":" + value.sec;
     }
 
     if (
