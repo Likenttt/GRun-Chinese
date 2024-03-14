@@ -1570,21 +1570,45 @@ class GRunView extends WatchUi.DataField {
       id >= 8 && singleBackgroundColor == false
         ? headerBackgroundColor
         : ~headerBackgroundColor & 0xffffff;
+    var params = getBatteryParams();
 
-    dc.setClip(x + 26, y - 10, 2, 20);
+    dc.setClip(
+      x + params[4] + params[2] * 2,
+      y - params[5] - params[2],
+      params[2] * 2,
+      params[1] + params[2] * 2
+    );
     dc.setColor(grayColor, Graphics.COLOR_TRANSPARENT);
-    dc.fillCircle(x + 25, y, 3);
+    dc.fillCircle(x + params[4] + params[2], y, params[3]);
     dc.clearClip();
 
     dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-    dc.fillRectangle(x - 24, y - 9, 48, 18);
-    dc.drawRoundedRectangle(x - 24, y - 9, 48, 18, 3);
+    dc.fillRectangle(x - params[4], y - params[5], params[0], params[1]);
+    dc.drawRoundedRectangle(
+      x - params[4],
+      y - params[5],
+      params[0],
+      params[1],
+      params[3]
+    );
 
     dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-    dc.fillRoundedRectangle(x - 23, y - 8, 46, 16, 3);
+    dc.fillRoundedRectangle(
+      x - params[4] + params[2],
+      y - params[5] + params[2],
+      params[0] - params[2] * 2,
+      params[1] - params[2] * 2,
+      params[3]
+    );
 
     dc.setColor(grayColor, Graphics.COLOR_TRANSPARENT);
-    dc.drawRoundedRectangle(x - 25, y - 10, 50, 20, 3);
+    dc.drawRoundedRectangle(
+      x - params[4] - params[2],
+      y - params[5] - params[2],
+      params[0] + params[2] * 2,
+      params[1] + params[2] * 2,
+      params[3]
+    );
 
     dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
     dc.drawText(

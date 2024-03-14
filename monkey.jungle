@@ -4,6 +4,7 @@ project.manifest = manifest.xml
 #######################################################
 # Default used low memory
 base.sourcePath = source
+base.excludeAnnotations = base
 
 # High Memory (252.6 KB)
 d2airx10.sourcePath = source;source-highmem;source-highmem-venu2plus

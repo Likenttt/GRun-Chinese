@@ -4,3 +4,4 @@ bin/*
 translate.py
 convert_xml.py
 dist/*
+fix-jungle.py
