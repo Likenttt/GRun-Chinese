@@ -1106,9 +1106,8 @@ class GRunView extends WatchUi.DataField {
         } else if (
           type == 20 /* OPTION_CURRENT_LOCATION_ACCURACY_AND_BATTERY */
         ) {
-          var params = getBatteryParams();
           dc.drawBitmap(
-            areaXcenter - imgGPS.getWidth() - 15,
+            areaXcenter - imgGPS.getWidth() - 10,
             areaYcenter - imgGPS.getHeight() / 2,
             imgGPS
           );
