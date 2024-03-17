@@ -508,17 +508,6 @@ class GRunView extends WatchUi.DataField {
         value == 14 /* OPTION_CURRENT_CADENCE */ &&
         info.currentCadence != null
       ) {
-        var mySettings = System.getDeviceSettings();
-        var version = mySettings.monkeyVersion;
-        var firmwareVersion = mySettings.firmwareVersion;
-        if (
-          firmwareVersion[0] == 19 &&
-          (firmwareVersion[1] == 20 || firmwareVersion[1] == 40)
-        ) {
-          if (version[0] == 3 && version[1] == 2 && version[2] == 6) {
-            return info.currentCadence * 2;
-          }
-        }
         return info.currentCadence;
       }
 
