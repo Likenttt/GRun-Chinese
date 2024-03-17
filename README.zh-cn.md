@@ -366,9 +366,26 @@ ETA（预计完成时间） 字段有助于根据你的平均速度/配速确定
 
 ## 更新日志
 
+### Version 1.45
+
+优化了高分辨率机型上的电量和 GPS 图标
+
+### Version 1.44
+
+增加了 165（m）的支持
+
+### Version 1.43
+
+当前时间增加了秒
+
+### Version 1.42 (by @Likenttt)
+
+增加了对 Descent mk3/F7(x)pronowifi/venu3(s)/vivoactive5 机型支持;优化了心率字体大小
+
 ### Version 1.38
 
 增加了 fr965,fr265,265s 几款机型的支持
+
 ### Version 1.37
 
 增加了 MARQ® (Gen 2) Athlete / Adventurer / Captain / Golfer/ Aviator 几款机型的支持

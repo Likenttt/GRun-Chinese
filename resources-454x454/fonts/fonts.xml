@@ -1,3 +1,5 @@
 <fonts>
-	<font id="Icons" filename="hr.fnt" antialias="true" filter="0"/>
+	<font id="Icons" filename="hr.fnt" antialias="true" filter="0" />
+	<font id="Roboto"
+		filename="Roboto_26_Bold.fnt" antialias="true" />
 </fonts>

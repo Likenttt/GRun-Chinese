@@ -96,7 +96,7 @@ class GRunView extends WatchUi.DataField {
   //  - FONT_NUMBER_HOT:      FNT_NOTO_SANS_BOLD_NMBR_76PX
   //  - FONT_NUMBER_THAI_HOT: FNT_NOTO_SANS_BOLD_NMBR_94PX
   protected var fontIcons = WatchUi.loadResource(Rez.Fonts.Icons);
-  protected var fontTiny = WatchUi.loadResource(Rez.Fonts.Roboto_20_Bold);
+  protected var fontTiny = WatchUi.loadResource(Rez.Fonts.Roboto);
   protected var fontHeader = Graphics.FONT_LARGE;
   protected var initCompleted = 6;
   protected var hrIconWidth;
