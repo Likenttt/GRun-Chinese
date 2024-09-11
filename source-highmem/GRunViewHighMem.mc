@@ -547,7 +547,7 @@ class GRunViewHighMem extends GRunView {
       );
 
       // Convert to km/h or mph
-      return 60 / requiredPace;
+      return 60 / (requiredPace == 0 ? 0.01 : requiredPace);
     }
 
     if (

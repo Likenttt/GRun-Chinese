@@ -135,6 +135,14 @@ descentmk351mm.sourcePath = source;source-resolution-high;source-highmem;source-
 descentmk343mm.sourcePath = source;source-resolution-high;source-highmem;source-highmem-marq2
 vivoactive5.sourcePath = source;source-resolution-high;source-highmem;source-highmem-marq2
 
+fenix843mm.sourcePath = source;source-resolution-high;source-highmem;source-highmem-fenixe
+fenixe.sourcePath = source;source-resolution-high;source-highmem;source-highmem-fenixe
+
+fenix847mm.sourcePath = source;source-resolution-high;source-highmem;source-highmem-fr965
+
+fenix8solar47mm.sourcePath = source;source-resolution-low;source-highmem;source-highmem-fenix7
+fenix8solar51mm.sourcePath = source;source-resolution-low;source-highmem;source-highmem-fenix7x
+enduro3.sourcePath = source;source-resolution-low;source-highmem;source-highmem-fenix7x
 
 # Resource Files
 #######################################################
@@ -183,6 +191,14 @@ fenix7x.resourcePath = resources;resources-highmem;resources-highmem-power-te
 venu2plus.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
 marq2.resourcePath = resources;resources-highmem;resources-highmem-power-te
 marq2aviator.resourcePath = resources;resources-highmem;resources-highmem-power-te
+
+fenixe.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
+fenix843mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
+fenix847mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
+fenix8solar47mm.resourcePath = resources;resources-highmem;resources-highmem-power-te
+fenix8solar51mm.resourcePath = resources;resources-highmem;resources-highmem-power-te
+enduro3.resourcePath = resources;resources-highmem;resources-highmem-power-te
+
 
 # High Memory (124.7 KB) with no specific feature
 approachs62.resourcePath = resources;resources-highmem;resources-highmem-basic
@@ -264,3 +280,4 @@ fenix6.resourcePath = resources;resources-lowmem-power-te
 fenix6s.resourcePath = resources;resources-lowmem-power-te
 fenixchronos.resourcePath = resources;resources-lowmem-power-te
 fr935.resourcePath = resources;resources-lowmem-power-te
+

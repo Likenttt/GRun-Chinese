@@ -384,7 +384,9 @@ class GRunView extends WatchUi.DataField {
 
     var info = Activity.getActivityInfo();
     startTimerCurrentLap = info.timerTime / 1000.0;
-    var distanceMetric = info.elapsedDistance + distanceOffset;
+    var elapsedDistance = info.elapsedDistance;
+    var distanceMetric =
+      (elapsedDistance == null ? 0 : elapsedDistance) + distanceOffset;
 
     if (lapDistance > 0) {
       var diff = distanceMetric.toNumber() % lapDistance;
