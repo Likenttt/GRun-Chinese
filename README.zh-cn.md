@@ -366,6 +366,10 @@ ETA（预计完成时间） 字段有助于根据你的平均速度/配速确定
 
 ## 更新日志
 
+### Version 1.48
+
+1. 增加了 approachs50/tactix8/instinct3/vivoactive6 的支持
+
 ### Version 1.46
 
 删除了 Fenix6 某个固件版本的兼容方案；优化了高分辨率电池电量图标字体

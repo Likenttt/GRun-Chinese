@@ -92,6 +92,8 @@ fenix6spro.sourcePath = source;source-resolution-low;source-highmem;source-highm
 fenix6xpro.sourcePath = source;source-resolution-low;source-highmem;source-highmem-fenix6xpro
 
 fr245m.sourcePath = source;source-resolution-low;source-highmem;source-highmem-fr245m
+instinct3amoled45mm.sourcePath = source;source-resolution-high;source-highmem;source-highmem-instinct3amoled45mm
+instinct3amoled50mm.sourcePath = source;source-resolution-high;source-highmem;source-highmem-instinct3amoled50mm
 
 # High Memory (60.7 KB)
 fr645m.sourcePath = source;source-resolution-low;source-highmem;source-highmem-fr645m
@@ -143,6 +145,8 @@ fenix847mm.sourcePath = source;source-resolution-high;source-highmem;source-high
 fenix8solar47mm.sourcePath = source;source-resolution-low;source-highmem;source-highmem-fenix7
 fenix8solar51mm.sourcePath = source;source-resolution-low;source-highmem;source-highmem-fenix7x
 enduro3.sourcePath = source;source-resolution-low;source-highmem;source-highmem-fenix7x
+approachs50.sourcePath = source;source-resolution-high;source-highmem;source-highmem-approachs50
+vivoactive6.sourcePath = source;source-resolution-high;source-highmem;source-highmem-vivoactive6
 
 # Resource Files
 #######################################################
@@ -245,6 +249,11 @@ marqcommander.resourcePath = resources;resources-highmem;resources-highmem-power
 marqdriver.resourcePath = resources;resources-highmem;resources-highmem-power-te
 marqexpedition.resourcePath = resources;resources-highmem;resources-highmem-power-te
 marqgolfer.resourcePath = resources;resources-highmem;resources-highmem-power-te
+
+instinct3amoled45mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-390x390
+instinct3amoled50mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
+approachs50.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-390x390
+vivoactive6.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-390x390
 
 # Low Memory (28.7 KB) with no specific feature
 d2air.resourcePath = resources;resources-lowmem-basic

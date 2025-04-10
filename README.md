@@ -323,6 +323,9 @@ Calculate the vertical speed in meter/min or feet/min depending on the watch set
 
 ## Release Notes
 
+### Version 1.48
+1. Add support for approachs50/tactix8/instinct3/vivoactive6
+
 ### Version 1.44
 
 Add support for fr165(m) which has enough memory for a datafield again. Hooray! Reverse the design of the battery and GPS alignment.
