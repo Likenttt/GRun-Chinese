@@ -4,7 +4,8 @@
   },
   "python.formatting.provider": "none",
   "monkeyC.jungleFiles": "monkey.jungle",
-  "monkeyC.manifestFile": "manifest.xml"
+  "monkeyC.manifestFile": "manifest.xml",
+  "windsurfPyright.disableLanguageServices": true
   // "monkeyC.jungleFiles": "monkey-i18n.jungle",
   // "monkeyC.manifestFile": "manifest-i18n.xml"
 }

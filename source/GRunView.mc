@@ -402,7 +402,9 @@ class GRunView extends WatchUi.DataField {
 
     var startDistancePreviousLap = startDistanceCurrentLap;
     startDistanceCurrentLap = convertUnitIfRequired(
-      (info.elapsedDistance + distanceOffset) / 1000.0,
+      ((info.elapsedDistance == null ? 0 : info.elapsedDistance) +
+        distanceOffset) /
+        1000.0,
       0.62137119 /* CONVERSION_KM_TO_MILE */,
       isDistanceUnitsImperial
     );
