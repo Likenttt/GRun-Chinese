@@ -28,6 +28,9 @@ fr255sm.sourcePath = source;source-resolution-low;source-highmem;source-highmem-
 fr955.sourcePath = source;source-resolution-low;source-highmem;source-highmem-fenix7
 
 fr965.sourcePath = source;source-resolution-high;source-highmem;source-highmem-fr965
+fr970.sourcePath = source;source-resolution-high;source-highmem;source-highmem-fr970
+fr57047mm.sourcePath = source;source-resolution-high;source-highmem;source-highmem-fr57047mm
+fr57042mm.sourcePath = source;source-resolution-high;source-highmem;source-highmem-fr57042mm
 fr265.sourcePath = source;source-resolution-high;source-highmem;source-highmem-epix2
 fr265s.sourcePath = source;source-resolution-high;source-highmem;source-highmem-fr265s
 venu2plus.sourcePath = source;source-resolution-high;source-highmem;source-highmem-venu2plus
@@ -164,6 +167,9 @@ fr255m.resourcePath = resources;resources-highmem;resources-highmem-power-te
 fr255sm.resourcePath = resources;resources-highmem;resources-highmem-power-te
 fr955.resourcePath = resources;resources-highmem;resources-highmem-power-te
 fr965.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
+fr970.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
+fr57047mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
+fr57042mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
 fr265.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
 fr265s.resourcePath = resources;resources-highmem;resources-highmem-power-te
 
