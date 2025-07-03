@@ -2,7 +2,7 @@ import os
 from PIL import Image
 
 src_dir_path = "resources/drawables/"
-dst_dir_path = "resources-390x390/drawables/"
+dst_dir_path = "resources-486x486/drawables/"
 
 os.makedirs(dst_dir_path, exist_ok=True)
 
