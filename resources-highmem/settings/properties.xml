@@ -1,6 +1,9 @@
 <properties>
-  <property id="AvgSpeedTime" type="number">15</property>
-  <property id="AvgVerticalSpeedTime" type="number">60</property>
-  <property id="TargetCadence" type="number">180</property>
-  <property id="CadenceRange" type="number">5</property>
+	<property id="AvgSpeedTime" type="number">15</property>
+	<property id="AvgVerticalSpeedTime" type="number">60</property>
+	<property id="TargetCadence" type="number">180</property>
+	<property id="CadenceRange" type="number">5</property>
+	<property id="style" type="string"></property>
+	<property id="olderStyle" type="string"></property>
+
 </properties>

@@ -228,6 +228,25 @@ marqexpedition.resourcePath = resources-i18n;resources-highmem;resources-highmem
 marqgolfer.resourcePath = resources-i18n;resources-highmem;resources-highmem-power-te
 
 # Low Memory (28.7 KB) with no specific feature
+# sourcePath for low memory devices
+d2air.sourcePath = source;source-resolution-high;source-lowmem-fenix5
+fr55.sourcePath = source;source-resolution-low;source-lowmem-fr55
+vivoactive3.sourcePath = source;source-resolution-low;source-lowmem-vivoactive3
+vivoactive3d.sourcePath = source;source-resolution-low;source-lowmem-vivoactive3
+vivoactive3m.sourcePath = source;source-resolution-low;source-lowmem-vivoactive3
+vivoactive3mlte.sourcePath = source;source-resolution-low;source-lowmem-vivoactive3
+legacyherocaptainmarvel.sourcePath = source;source-resolution-low;source-lowmem-marvel
+legacyherofirstavenger.sourcePath = source;source-resolution-low;source-lowmem-avenger
+legacysagadarthvader.sourcePath = source;source-resolution-low;source-lowmem-avenger
+legacysagarey.sourcePath = source;source-resolution-low;source-lowmem-marvel
+venu.sourcePath = source;source-lowmem-venu
+venu2.sourcePath = source;source-resolution-high;source-lowmem-venu2
+venu2s.sourcePath = source;source-resolution-high;source-lowmem-venu2
+venud.sourcePath = source;source-resolution-high;source-lowmem-venu
+vivoactive4.sourcePath = source;source-resolution-low;source-lowmem-vivoactive4
+vivoactive4s.sourcePath = source;source-resolution-low;source-lowmem-vivoactive4s
+
+# resourcePath for low memory devices
 d2air.resourcePath = resources-i18n;resources-lowmem-basic
 fr55.resourcePath = resources-i18n;resources-lowmem-basic
 vivoactive3.resourcePath = resources-i18n;resources-lowmem-basic
@@ -246,14 +265,34 @@ vivoactive4.resourcePath = resources-i18n;resources-lowmem-basic
 vivoactive4s.resourcePath = resources-i18n;resources-lowmem-basic
 
 # Low Memory (28.7 KB) with "Power" support
+# sourcePath for Power support devices
+edge130.sourcePath = source;source-resolution-low;source-lowmem-edge130
+edge130plus.sourcePath = source;source-resolution-low;source-lowmem-edge130
+
+# resourcePath for Power support devices
 edge130.resourcePath = resources-i18n;resources-lowmem-power
 edge130plus.resourcePath = resources-i18n;resources-lowmem-power
 
 # Low Memory (28.7 KB) with "Training Effect" support
+# sourcePath for Training Effect support devices
+fr245.sourcePath = source;source-resolution-low;source-lowmem-fr245
+fr645.sourcePath = source;source-resolution-low;source-lowmem-fr645
+
+# resourcePath for Training Effect support devices
 fr245.resourcePath = resources-i18n;resources-lowmem-te
 fr645.resourcePath = resources-i18n;resources-lowmem-te
 
-# Low Memory (28.7 KB)  with "Power" and "Training Effect" support
+# Low Memory (28.7 KB) with "Power" and "Training Effect" support
+# sourcePath for Power and Training Effect support devices
+enduro.sourcePath = source;source-resolution-low;source-lowmem-fenix6s
+fenix5.sourcePath = source;source-resolution-low;source-lowmem-fenix5
+fenix5s.sourcePath = source;source-resolution-low;source-lowmem-fenix5s
+fenix6.sourcePath = source;source-resolution-low;source-lowmem-fenix6
+fenix6s.sourcePath = source;source-resolution-low;source-lowmem-fenix6s
+fenixchronos.sourcePath = source;source-resolution-low;source-lowmem-fenixchronos
+fr935.sourcePath = source;source-resolution-low;source-lowmem-fr645
+
+# resourcePath for Power and Training Effect support devices
 enduro.resourcePath = resources-i18n;resources-lowmem-power-te
 fenix5.resourcePath = resources-i18n;resources-lowmem-power-te
 fenix5s.resourcePath = resources-i18n;resources-lowmem-power-te

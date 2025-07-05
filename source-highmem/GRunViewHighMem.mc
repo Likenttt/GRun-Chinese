@@ -1,4 +1,5 @@
 using Toybox.WatchUi;
+using Toybox.Application.Properties;
 
 class GRunViewHighMem extends GRunView {
   // Used to determine if Activity has been paused
@@ -39,6 +40,419 @@ class GRunViewHighMem extends GRunView {
   // protected var hasTargetType = Activity.WorkoutStep has :targetType;
   // protected var hasActiveStep = Activity.WorkoutIntervalStep has :activeStep;
 
+  var charArray = [
+    'b',
+    'c',
+    'd',
+    'e',
+    'f',
+    'g',
+    'h',
+    'i',
+    'j',
+    'k',
+    'l',
+    'm',
+    'n',
+    'o',
+    'p',
+    'q',
+    'r',
+    's',
+    't',
+    'u',
+    'v',
+    'w',
+    'x',
+    'y',
+    'z',
+    'A',
+    'B',
+    'C',
+    'D',
+    'E',
+    'F',
+    'G',
+    'H',
+    'I',
+    'J',
+    'K',
+    'L',
+    'M',
+    'N',
+    'O',
+    'P',
+    'Q',
+    'R',
+    'S',
+    'T',
+    'U',
+    'V',
+    'W',
+    'X',
+    'Y',
+  ];
+
+  //0 -> 'b'
+  //25 -> 'A'
+  //49 -> 'Z'
+  //只使用纯字母
+  //number 0~49
+  function getCharByNumber(number) {
+    //25 + 25 = 50
+    if (number > 51 || number < 0) {
+      return 0;
+    }
+    return charArray[number];
+  }
+
+  function getValueFromChar(char) {
+    // if (char >= '0' && char <= '9') {
+    //   //0-9 48~57
+    //   return char.toNumber() - 48; //9 -> 57 - 48
+    // }
+    if (char >= 'b' && char <= 'z') {
+      //b-z 98~122
+      return char.toNumber() - 98; //b -> 98-98=0
+    }
+    if (char >= 'A' && char <= 'Y') {
+      //A-Y 65~89
+      return char.toNumber() - 40; //A -> 65 - 65 + 25 = 26   Y -> 89 -65 + 25 = 49
+    }
+    return 0;
+  }
+
+  function recoverStyle(style) {
+    var original = "";
+    var number = "";
+    var count = 1;
+    var styleCharArray = style.toCharArray();
+
+    for (var i = 0; i < style.length(); i++) {
+      if (styleCharArray[i] >= '0' && styleCharArray[i] <= '9') {
+        number += styleCharArray[i];
+      } else {
+        if (number.length() > 0) {
+          count = number.toNumber();
+        }
+        while (count > 0) {
+          original += styleCharArray[i];
+          count -= 1;
+        }
+        count = 1;
+        number = "";
+      }
+    }
+    return original;
+  }
+
+  //aH2cFdfceir5befgheHI2ic2bH2bhCqZ
+  function compressStyle(style) {
+    var compressedStyle = "";
+    var styleCharArray = style.toCharArray();
+    for (var i = 0; i < style.length(); i++) {
+      var count = 1; //eee 3e
+      while (
+        i < style.length() - 1 &&
+        styleCharArray[i] == styleCharArray[i + 1]
+      ) {
+        count++;
+        i++;
+      }
+      if (count >= 2) {
+        compressedStyle += count;
+        count = 1;
+      }
+      compressedStyle += styleCharArray[i];
+    }
+    return compressedStyle;
+  }
+  //MJHuu01u24137g0000004563uu00000HB3NLS
+  //to ^H2bHcebdhq6aefgd2H5aH2amlo$
+  //to aI2cIdfceir6bfghe2I5bI2bnmpZ
+  //编码为1+？？+1位字符串
+  function encodeStyle() {
+    var style = "a";
+    style += getCharByNumber(Properties.getValue("HeaderHeight")); //1
+
+    var bits = 0;
+    bits += Properties.getValue("SingleBackgroundColor") ? 1 : 0;
+    bits += Properties.getValue("HeaderBackgroundColor") ? 2 : 0;
+    style += getCharByNumber(bits); //2
+    bits = 0;
+    var value = Properties.getValue("LapDistance");
+    var low = value % 50; // 获取50进制的低位
+    var middle = Math.floor((value % 2500) / 50); // 获取50进制的中位
+    var high = Math.floor(value / 2500); // 获取50进制的高位
+
+    style += getCharByNumber(high); //3
+    style += getCharByNumber(low); //4
+
+    value = Properties.getValue("TargetPace");
+    high = value / 50;
+    low = value % 50;
+
+    style += getCharByNumber(high); //5
+    style += getCharByNumber(low); //6
+
+    style += getCharByNumber(Properties.getValue("PaceRange")); //7
+
+    var rowHeightRatio = getParameter("RowHeightRatio", "4,7,7,3,3");
+    var numberArray = splitString(rowHeightRatio, [4, 7, 7, 3, 3]b);
+    style += getCharByNumber(numberArray[0]); //8
+    style += getCharByNumber(numberArray[1]); //9
+    style += getCharByNumber(numberArray[2]); //10
+    style += getCharByNumber(numberArray[3]); //11
+    style += getCharByNumber(numberArray[4]); //12
+
+    // Column width for second row
+    var columnWidthRatio1 = getParameter("ColumnWidthRatio1", "2,1,2");
+    // Column width for third row
+    numberArray = splitString(columnWidthRatio1, [2, 1, 2]b);
+    style += getCharByNumber(numberArray[0]); //13
+    style += getCharByNumber(numberArray[1]); //14
+    style += getCharByNumber(numberArray[2]); //15
+
+    var columnWidthRatio2 = getParameter("ColumnWidthRatio2", "2,1,2");
+    numberArray = splitString(columnWidthRatio2, [2, 1, 2]b);
+    style += getCharByNumber(numberArray[0]); //16
+    style += getCharByNumber(numberArray[1]); //17
+    style += getCharByNumber(numberArray[2]); //18
+
+    style += getCharByNumber(Properties.getValue("DataBackgroundColor")); //19
+    style += getCharByNumber(Properties.getValue("DataForegroundColor")); //20
+
+    value = Properties.getValue("Area1");
+    high = value / 50;
+    low = value % 50;
+
+    style += getCharByNumber(high); //21
+    style += getCharByNumber(low); //22
+
+    value = Properties.getValue("Area2");
+    high = value / 50;
+    low = value % 50;
+
+    style += getCharByNumber(high); //23
+    style += getCharByNumber(low); //24
+
+    value = Properties.getValue("Area3");
+    high = value / 50;
+    low = value % 50;
+
+    style += getCharByNumber(high); //25
+    style += getCharByNumber(low); //26
+    value = Properties.getValue("Area4");
+    high = value / 50;
+    low = value % 50;
+
+    style += getCharByNumber(high); //27
+    style += getCharByNumber(low); //28
+    value = Properties.getValue("Area5");
+    high = value / 50;
+    low = value % 50;
+
+    style += getCharByNumber(high); //29
+    style += getCharByNumber(low); //30
+    value = Properties.getValue("Area6");
+    high = value / 50;
+    low = value % 50;
+
+    style += getCharByNumber(high); //31
+    style += getCharByNumber(low); //32
+    value = Properties.getValue("Area7");
+    high = value / 50;
+    low = value % 50;
+
+    style += getCharByNumber(high); //33
+    style += getCharByNumber(low); //34
+    value = Properties.getValue("Area8");
+    high = value / 50;
+    low = value % 50;
+
+    style += getCharByNumber(high); //35
+    style += getCharByNumber(low); //36
+    value = Properties.getValue("Area9");
+    high = value / 50;
+    low = value % 50;
+
+    style += getCharByNumber(high); //37
+    style += getCharByNumber(low); //38
+    value = Properties.getValue("Area10");
+    high = value / 50;
+    low = value % 50;
+
+    style += getCharByNumber(high); //39
+    style += getCharByNumber(low); //40
+    value = Properties.getValue("AvgSpeedTime");
+    high = value / 50;
+    low = value % 50;
+
+    style += getCharByNumber(high); //41
+    style += getCharByNumber(low); //42
+    value = Properties.getValue("AvgVerticalSpeedTime");
+    high = value / 50;
+    low = value % 50;
+
+    style += getCharByNumber(high); //43
+    style += getCharByNumber(low); //44
+
+    value = Properties.getValue("TargetCadence");
+    high = value / 50;
+    low = value % 50;
+
+    style += getCharByNumber(high); //45
+    style += getCharByNumber(low); //46
+
+    value = Properties.getValue("CadenceRange");
+    high = value / 50;
+    low = value % 50;
+
+    style += getCharByNumber(high); //47
+    style += getCharByNumber(low); //48
+    style += getCharByNumber(middle); //49
+
+    style += "Z";
+    // System.println("Style was encoded:" + style);
+    var compressedStyle = compressStyle(style);
+    // System.println("compressedStyle is:" + compressedStyle);
+    // System.println(
+    //   "recovered is true:" + recoverStyle(compressedStyle).equals(style)
+    // );
+    Properties.setValue("style", compressedStyle);
+    Properties.setValue("olderStyle", compressedStyle);
+  }
+
+  function decodeStyle(style) {
+    if (style == null) {
+      return;
+    }
+    var length = style.length();
+    var mjhIdx = style.find("a");
+    var nlsIdx = style.find("Z");
+    if (
+      !(
+        length > 0 &&
+        mjhIdx != null &&
+        mjhIdx == 0 &&
+        nlsIdx != null &&
+        nlsIdx == length - 1
+      )
+    ) {
+      return;
+    }
+
+    var originalStyle = recoverStyle(style);
+    // System.println("decoding Style:" + style);
+    // System.println("recovered Style:" + originalStyle);
+    // System.println("recovered Style size:" + originalStyle.length());
+    //aiccbdfoeirFqLjfdfgheFFigbbbFccnmpHnginZ
+    var styleCharArray = originalStyle.toCharArray();
+    //编码为1+ 32 +1=34位字符串
+    // Properties.setValue("theme_code", getValueFromChar(styleCharArray[3]));
+    //第一位也空着备用
+
+    Properties.setValue("HeaderHeight", getValueFromChar(styleCharArray[1]));
+    var value = getValueFromChar(styleCharArray[2]);
+    Properties.setValue("SingleBackgroundColor", (value & 1) == 1);
+    Properties.setValue("HeaderBackgroundColor", (value & 2) == 2);
+
+    var high = getValueFromChar(styleCharArray[3]);
+    var low = getValueFromChar(styleCharArray[4]);
+    var middle = getValueFromChar(styleCharArray[49]);
+    Properties.setValue("LapDistance", high * 2500 + middle * 50 + low);
+
+    high = getValueFromChar(styleCharArray[5]);
+    low = getValueFromChar(styleCharArray[6]);
+    Properties.setValue("TargetPace", high * 50 + low);
+
+    Properties.setValue("PaceRange", getValueFromChar(styleCharArray[7]));
+
+    var combinedString = combineArrayStr([
+      getValueFromChar(styleCharArray[8]),
+      getValueFromChar(styleCharArray[9]),
+      getValueFromChar(styleCharArray[10]),
+      getValueFromChar(styleCharArray[11]),
+      getValueFromChar(styleCharArray[12]),
+    ]);
+    Properties.setValue("RowHeightRatio", combinedString);
+
+    combinedString = combineArrayStr([
+      getValueFromChar(styleCharArray[13]),
+      getValueFromChar(styleCharArray[14]),
+      getValueFromChar(styleCharArray[15]),
+    ]);
+    Properties.setValue("ColumnWidthRatio1", combinedString);
+
+    combinedString = combineArrayStr([
+      getValueFromChar(styleCharArray[16]),
+      getValueFromChar(styleCharArray[17]),
+      getValueFromChar(styleCharArray[18]),
+    ]);
+    Properties.setValue("ColumnWidthRatio2", combinedString);
+
+    Properties.setValue(
+      "DataBackgroundColor",
+      getValueFromChar(styleCharArray[19])
+    );
+    Properties.setValue(
+      "DataForegroundColor",
+      getValueFromChar(styleCharArray[20])
+    );
+
+    high = getValueFromChar(styleCharArray[21]);
+    low = getValueFromChar(styleCharArray[22]);
+    Properties.setValue("Area1", high * 50 + low);
+    high = getValueFromChar(styleCharArray[23]);
+    low = getValueFromChar(styleCharArray[24]);
+    Properties.setValue("Area2", high * 50 + low);
+    high = getValueFromChar(styleCharArray[25]);
+    low = getValueFromChar(styleCharArray[26]);
+    Properties.setValue("Area3", high * 50 + low);
+    high = getValueFromChar(styleCharArray[27]);
+    low = getValueFromChar(styleCharArray[28]);
+    Properties.setValue("Area4", high * 50 + low);
+    high = getValueFromChar(styleCharArray[29]);
+    low = getValueFromChar(styleCharArray[30]);
+    Properties.setValue("Area5", high * 50 + low);
+    high = getValueFromChar(styleCharArray[31]);
+    low = getValueFromChar(styleCharArray[32]);
+    Properties.setValue("Area6", high * 50 + low);
+    high = getValueFromChar(styleCharArray[33]);
+    low = getValueFromChar(styleCharArray[34]);
+    Properties.setValue("Area7", high * 50 + low);
+    high = getValueFromChar(styleCharArray[35]);
+    low = getValueFromChar(styleCharArray[36]);
+    Properties.setValue("Area8", high * 50 + low);
+    high = getValueFromChar(styleCharArray[37]);
+    low = getValueFromChar(styleCharArray[38]);
+    Properties.setValue("Area9", high * 50 + low);
+    high = getValueFromChar(styleCharArray[39]);
+    low = getValueFromChar(styleCharArray[40]);
+    Properties.setValue("Area10", high * 50 + low);
+
+    high = getValueFromChar(styleCharArray[41]);
+    low = getValueFromChar(styleCharArray[42]);
+    Properties.setValue("AvgSpeedTime", high * 50 + low);
+    high = getValueFromChar(styleCharArray[43]);
+    low = getValueFromChar(styleCharArray[44]);
+    Properties.setValue("AvgVerticalSpeedTime", high * 50 + low);
+    high = getValueFromChar(styleCharArray[45]);
+    low = getValueFromChar(styleCharArray[46]);
+    Properties.setValue("TargetCadence", high * 50 + low);
+    high = getValueFromChar(styleCharArray[47]);
+    low = getValueFromChar(styleCharArray[48]);
+    Properties.setValue("CadenceRange", high * 50 + low);
+  }
+
+  function combineArrayStr(array) {
+    var str = "";
+    var size = array.size();
+    for (var i = 0; i < size; i++) {
+      str += array[i] + (i < size - 1 ? "," : "");
+    }
+    return str;
+  }
   enum {
     /*
     OPTION_EMPTY = 0,
@@ -163,6 +577,17 @@ class GRunViewHighMem extends GRunView {
   function initializeUserData() {
     distanceArrayRequired = false;
     altitudeArrayRequired = false;
+
+    var style = Properties.getValue("style");
+    if (style != null && !style.equals(Properties.getValue("olderStyle"))) {
+      try {
+        // Sys.println("going to decode style:" + style);
+        decodeStyle(style);
+        Properties.setValue("olderStyle", style);
+      } catch (e) {
+        System.println(e);
+      }
+    }
     GRunView.initializeUserData();
 
     var info = Activity.getActivityInfo();
@@ -201,6 +626,11 @@ class GRunViewHighMem extends GRunView {
     targetCadence = getParameter("TargetCadence", 180);
     cadenceRange = getParameter("CadenceRange", 5);
 
+    try {
+      encodeStyle();
+    } catch (e) {
+      System.println(e);
+    }
     // DEBUG
     //System.println("elapsedDistance,OPTION_TIMER_TIME,OPTION_TIMER_TIME,OPTION_ELAPSED_DISTANCE,OPTION_ELAPSED_DISTANCE,OPTION_CURRENT_HEART_RATE,OPTION_CURRENT_HEART_RATE,OPTION_CURRENT_PACE,OPTION_CURRENT_PACE,OPTION_CURRENT_SPEED,OPTION_CURRENT_SPEED,OPTION_AVERAGE_HEART_RATE,OPTION_AVERAGE_HEART_RATE,OPTION_AVERAGE_PACE,OPTION_AVERAGE_PACE,OPTION_AVERAGE_SPEED,OPTION_AVERAGE_SPEED,OPTION_CALORIES,OPTION_CALORIES,OPTION_CURRENT_CADENCE,OPTION_CURRENT_CADENCE,OPTION_ALTITUDE,OPTION_ALTITUDE,OPTION_TOTAL_ASCENT,OPTION_TOTAL_ASCENT,OPTION_TOTAL_DESCENT,OPTION_TOTAL_DESCENT,OPTION_CURRENT_BATTERY,OPTION_CURRENT_BATTERY,OPTION_CURRENT_LOCATION_ACCURACY,OPTION_CURRENT_LOCATION_ACCURACY,OPTION_CURRENT_LOCATION_ACCURACY_AND_BATTERY,OPTION_CURRENT_LOCATION_ACCURACY_AND_BATTERY,OPTION_PREVIOUS_LAP_DISTANCE,OPTION_PREVIOUS_LAP_DISTANCE,OPTION_PREVIOUS_LAP_PACE,OPTION_PREVIOUS_LAP_PACE,OPTION_CURRENT_LAP_TIME,OPTION_CURRENT_LAP_TIME,OPTION_CURRENT_LAP_DISTANCE,OPTION_CURRENT_LAP_DISTANCE,OPTION_CURRENT_LAP_PACE,OPTION_CURRENT_LAP_PACE,OPTION_TRAINING_EFFECT,OPTION_TRAINING_EFFECT,OPTION_PREVIOUS_LAP_TIME,OPTION_PREVIOUS_LAP_TIME,OPTION_ETA_LAP,OPTION_ETA_LAP,OPTION_LAP_COUNT,OPTION_LAP_COUNT,OPTION_AVERAGE_CADENCE,OPTION_AVERAGE_CADENCE,OPTION_TIME_OFFSET,OPTION_TIME_OFFSET,OPTION_ETA_5K,OPTION_ETA_5K,OPTION_ETA_10K,OPTION_ETA_10K,OPTION_ETA_HALF_MARATHON,OPTION_ETA_HALF_MARATHON,OPTION_ETA_MARATHON,OPTION_ETA_MARATHON,OPTION_ETA_50K,,OPTION_ETA_50K,OPTION_ETA_100K,OPTION_ETA_100K,OPTION_REQUIRED_PACE_5K,OPTION_REQUIRED_PACE_5K,OPTION_REQUIRED_PACE_10K,OPTION_REQUIRED_PACE_10K,OPTION_REQUIRED_PACE_HALF_MARATHON,OPTION_REQUIRED_PACE_HALF_MARATHON,OPTION_REQUIRED_PACE_MARATHON,OPTION_REQUIRED_PACE_MARATHON,OPTION_REQUIRED_PACE_50K,OPTION_REQUIRED_PACE_50K,OPTION_REQUIRED_PACE_100K,OPTION_REQUIRED_PACE_100K,OPTION_MAX_POWER,OPTION_MAX_POWER,OPTION_AVERAGE_PACE_CUSTOM,OPTION_AVERAGE_PACE_CUSTOM,OPTION_AVERAGE_SPEED_CUSTOM,OPTION_AVERAGE_SPEED_CUSTOM,OPTION_AVERAGE_VERTICAL_SPEED_MIN,OPTION_AVERAGE_VERTICAL_SPEED_MIN,OPTION_AVERAGE_VERTICAL_SPEED_HOUR,OPTION_AVERAGE_VERTICAL_SPEED_HOUR,OPTION_REQUIRED_SPEED_5K,OPTION_REQUIRED_SPEED_5K,OPTION_REQUIRED_SPEED_10K,OPTION_REQUIRED_SPEED_10K,OPTION_REQUIRED_SPEED_HALF_MARATHON,OPTION_REQUIRED_SPEED_HALF_MARATHON,OPTION_REQUIRED_SPEED_MARATHON,OPTION_REQUIRED_SPEED_MARATHON,OPTION_REQUIRED_SPEED_100K,OPTION_REQUIRED_SPEED_100K,OPTION_REQUIRED_PACE_LAP,OPTION_REQUIRED_PACE_LAP,OPTION_REQUIRED_SPEED_LAP,OPTION_REQUIRED_SPEED_LAP,OPTION_LAP_AVERAGE_HEART_RATE,OPTION_LAP_AVERAGE_HEART_RATE");
   }

@@ -95,6 +95,31 @@
 	<string id="F59">全马所需配速</string>
 	<string id="F60">50K所需配速</string>
 	<string id="F61">100K所需配速</string>
+	<string id="F121">最大功率</string>
+	<string id="F137">配速 (最近X秒)</string>
+	<string id="F138">速度 (最近X秒)</string>
+	<string id="F139">垂直速度 (/分钟) (最近X秒)</string>
+	<string id="F140">垂直速度 (/小时) (最近X秒)</string>
+
+	<string id="F147">5K所需速度</string>
+	<string id="F148">10K所需速度</string>
+	<string id="F149">半马所需速度 (21.0975公里)</string>
+	<string id="F150">全马所需速度 (42.195公里)</string>
+	<string id="F151">100K所需速度</string>
+
+	<string id="F152">单圈所需配速</string>
+	<string id="F153">单圈所需速度</string>
+
+	<string id="F170">单圈平均心率</string>
+
+	<string id="PARAM_AVG_SPEED_TIME">速度/配速 (最近X秒)</string>
+	<string id="PARAM_DESC_AVG_SPEED_TIME">计算速度/配速的秒数 (最近X秒)</string>
+	<string id="PARAM_AVG_VERTICAL_SPEED_TIME">垂直速度 (最近X秒)</string>
+	<string id="PARAM_DESC_AVG_VERTICAL_SPEED_TIME">计算垂直速度的秒数 (最近X秒)</string>
+
+	<string id="PARAM_TARGET_CADENCE">目标步频 (每分钟步数)</string>
+	<string id="PARAM_CADENCE_RANGE">步频范围 (每分钟步数)</string>
+	<string id="PARAM_DESC_CADENCE_RANGE">当步频不在区间内用颜色警示</string>
 
 	<string id="OPTION_CURRENT_TIME">时间</string>
 	<string id="OPTION_TIMER_TIME">计时</string>
@@ -142,5 +167,20 @@
 	<string id="OPTION_REQUIRED_PACE_100K">100K配速</string>
 	<string id="OPTION_PREVIOUS_LAP_DISTANCE">上圈距离</string>
 	<string id="OPTION_PREVIOUS_LAP_PACE">上圈配速</string>
+	<string id="OPTION_REQUIRED_SPEED_5K">5K速度</string>
+	<string id="OPTION_REQUIRED_SPEED_10K">10K速度</string>
+	<string id="OPTION_REQUIRED_SPEED_HALF_MARATHON">半马速度</string>
+	<string id="OPTION_REQUIRED_SPEED_MARATHON">全马速度</string>
+	<string id="OPTION_REQUIRED_SPEED_50K">50K速度</string>
+	<string id="OPTION_REQUIRED_SPEED_100K">100K速度</string>
+	<string id="OPTION_REQUIRED_PACE_LAP">单圈配速</string>
+	<string id="OPTION_REQUIRED_SPEED_LAP">单圈速度</string>
+	<string id="OPTION_LAP_AVERAGE_HEART_RATE">单圈心率</string>
+	<string id="OPTION_MAX_POWER">最大功率</string>
+	<string id="OPTION_PACE_LAST_X_SECONDS">近期配速</string>
+	<string id="OPTION_SPEED_LAST_X_SECONDS">近期速度</string>
+	<string id="OPTION_VERTICAL_SPEED_PER_MINUTE_LAST_X_SECONDS">垂直速度/分</string>
+	<string id="OPTION_VERTICAL_SPEED_PER_HOUR_LAST_X_SECONDS">垂直速度/时</string>
+	<string id="STYLE">配置编码</string>
 
 </strings>

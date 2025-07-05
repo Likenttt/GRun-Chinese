@@ -166,4 +166,5 @@
   <string id="OPTION_REQUIRED_PACE_MARATHON">RP 42K</string>
   <string id="OPTION_REQUIRED_PACE_50K">RP 50K</string>
   <string id="OPTION_REQUIRED_PACE_100K">RP 100K</string>
+  <string id="STYLE">Κωδικός διαμόρφωσης</string>
 </strings>
