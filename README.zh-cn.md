@@ -366,6 +366,10 @@ ETA（预计完成时间） 字段有助于根据你的平均速度/配速确定
 
 ## 更新日志
 
+### Version 1.49
+
+1. 增加了对 Venu X1、Venu 4 45mm/41mm、Fenix 8 MicroLED 的支持
+
 ### Version 1.48
 
 1. 增加了 approachs50/tactix8/instinct3/vivoactive6 的支持

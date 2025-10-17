@@ -136,6 +136,8 @@ venu2s.sourcePath = source;source-resolution-high;source-lowmem-venu2
 
 venu3.sourcePath = source;source-resolution-high;source-highmem;source-highmem-fr965
 venu3s.sourcePath = source;source-resolution-high;source-highmem;source-highmem-marq2
+venu445mm.sourcePath = source;source-resolution-high;source-highmem;source-highmem-fr965
+venu441mm.sourcePath = source;source-resolution-high;source-highmem;source-highmem-marq2
 
 descentmk351mm.sourcePath = source;source-resolution-high;source-highmem;source-highmem-fr965
 descentmk343mm.sourcePath = source;source-resolution-high;source-highmem;source-highmem-marq2
@@ -145,6 +147,7 @@ fenix843mm.sourcePath = source;source-resolution-high;source-highmem;source-high
 fenixe.sourcePath = source;source-resolution-high;source-highmem;source-highmem-fenixe
 
 fenix847mm.sourcePath = source;source-resolution-high;source-highmem;source-highmem-fr965
+fenix8pro47mm.sourcePath = source;source-resolution-high;source-highmem;source-highmem-fr965
 
 fenix8solar47mm.sourcePath = source;source-resolution-low;source-highmem;source-highmem-fenix7
 fenix8solar51mm.sourcePath = source;source-resolution-low;source-highmem;source-highmem-fenix7x
@@ -185,6 +188,8 @@ fr165m.resourcePath = resources;resources-highmem;resources-highmem-power-te;res
 
 venu3.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
 venu3s.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-390x390
+venu445mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
+venu441mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-390x390
 
 descentmk351mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
 descentmk343mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-390x390
@@ -207,6 +212,7 @@ marq2aviator.resourcePath = resources;resources-highmem;resources-highmem-power-
 fenixe.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
 fenix843mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-416x416
 fenix847mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
+fenix8pro47mm.resourcePath = resources;resources-highmem;resources-highmem-power-te;resources-454x454
 fenix8solar47mm.resourcePath = resources;resources-highmem;resources-highmem-power-te
 fenix8solar51mm.resourcePath = resources;resources-highmem;resources-highmem-power-te
 enduro3.resourcePath = resources;resources-highmem;resources-highmem-power-te
